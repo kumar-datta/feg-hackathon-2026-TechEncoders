@@ -1,0 +1,54 @@
+[
+  {
+    "document_id": "doc_help_withdrawal_guide",
+    "title": "Withdrawal guide",
+    "category": "WITHDRAWAL",
+    "sections": [
+      {
+        "section": "overview",
+        "text": "A withdrawal moves funds from your account balance to an external payment method. Requests generally pass through a review step before they are released to your provider."
+      },
+      {
+        "section": "before_you_start",
+        "text": "Before requesting a withdrawal, make sure identity verification is complete and that any active bonus conditions are resolved. These are the two most common causes of a delayed or rejected request."
+      },
+      {
+        "section": "how_to_request",
+        "text": "Open the wallet, choose withdraw, select a method, enter an amount within the displayed limits and confirm. The request then appears in your transaction history with its current status."
+      },
+      {
+        "section": "status_meanings",
+        "text": "Pending means the request is queued or under review. Processing means it has been approved and sent to the payment provider. Completed means the provider has released it. Rejected means it was not accepted, and the reason is shown against the request."
+      },
+      {
+        "section": "timeframes",
+        "text": "[REQUIRES VERIFIED SOURCE] Processing timeframes depend on the operator review process and the payment provider. Do not state a figure until the published policy is loaded."
+      }
+    ],
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "document_id": "doc_help_getting_started",
+    "title": "Getting started",
+    "category": "ACCOUNT",
+    "sections": [
+      {
+        "section": "register",
+        "text": "Registration requires your details and a contact address that can be verified. You must meet the minimum legal age for your jurisdiction."
+      },
+      {
+        "section": "secure_account",
+        "text": "Choose a password you do not use elsewhere and enable two-factor authentication if it is offered. Never share a password or one-time code — support will never ask for either."
+      },
+      {
+        "section": "verify",
+        "text": "Completing identity verification early avoids delays later, because verification is normally required before a withdrawal is released."
+      },
+      {
+        "section": "set_limits",
+        "text": "Before you start playing, consider setting a deposit limit. Decide your budget in advance rather than during a session."
+      }
+    ],
+    "data_status": "EXAMPLE_DATA"
+  }
+]

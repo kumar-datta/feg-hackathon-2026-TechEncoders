@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="hr" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Arena — listići zajednice | PSK.demo</title>
+<link rel="stylesheet" href="assets/css/main.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%230b4bd4'/><text x='16' y='22' font-size='13' font-family='sans-serif' font-weight='bold' fill='white' text-anchor='middle'>PSK</text></svg>">
+<script>window.PAGE = { nav: 'arena' };</script>
+</head>
+<body>
+<div class="page" style="max-width:1300px">
+  <div class="crumbs"><a href="index.html">Naslovna</a> › Arena</div>
+  <h1 class="page-title">🏟️ Arena</h1>
+  <p class="page-lede">
+    Prostor u kojem igrači dijele svoje listiće i prate tuđe kombinacije. Ovdje je simuliran
+    s generiranim listićima i rang listom.
+  </p>
+
+  <div class="cat-bar" style="margin:22px 0">
+    <button class="chip is-active" data-tab="listici">Podijeljeni listići</button>
+    <button class="chip" data-tab="rang">Rang lista</button>
+    <button class="chip" data-tab="inspiracija">Inspiriraj se</button>
+  </div>
+
+  <div id="arenaBody"></div>
+</div>
+
+<script src="assets/js/data.js"></script>
+<script src="assets/js/site.js"></script>
+<script src="assets/js/games.js"></script>
+<script>
+(function () {
+  const P = window.PSK, D = window.PSK_DATA;
+  const r = D.makeRng(31337);
+  const NAMES = ['tipster_hr','marko_92','arena_king','plavi_val','kombinator','zlatna_serija',
+                 'sigurica','dalmatinac','sjeverni_vjetar','kvota_lovac','hattrick','zadnji_par'];
+
+  const tickets = Array.from({ length: 14 }, (_, i) => {
+    const n = 2 + Math.floor(r() * 5);
+    const picks = Array.from({ length: n }, () => {
+      const ev = D.OFFER[Math.floor(r() * D.OFFER.length)];
+      const keys = Object.keys(ev.markets).filter(k => ev.markets[k] != null);
+      const k = keys[Math.floor(r() * keys.length)] || '1';
+      return { name: ev.name, league: ev.leagueName, flag: ev.flag, mkt: k, odd: ev.markets[k] || 1.5 };
+    });
+    const odds = picks.reduce((a, p) => a * p.odd, 1);
+    return {
+      id: 'A' + (1000 + i),
+      user: NAMES[Math.floor(r() * NAMES.length)],
+      picks, odds,
+      stake: [2, 5, 10, 20][Math.floor(r() * 4)],
+      likes: Math.floor(r() * 380),
+      status: r() < 0.32 ? 'dobitan' : r() < 0.6 ? 'u tijeku' : 'gubitan'
+    };
+  });
+
+  const board = NAMES.map((u, i) => ({
+    u, pts: Math.floor(r() * 9000) + 800,
+    hit: (35 + r() * 45).toFixed(1),
+    best: (2 + r() * 60).toFixed(2)
+  })).sort((a, b) => b.pts - a.pts);
+
+  const views = {
+    listici: () => `<div class="tile-grid" style="grid-template-columns:repeat(auto-fill,minmax(300px,1fr))">
+      ${tickets.map(t => `
+        <div class="panel">
+          <div class="panel-hd">
+            <span>@${P.esc(t.user)}</span>
+            <span style="color:${t.status === 'dobitan' ? 'var(--win)' : t.status === 'gubitan' ? 'var(--live)' : 'var(--accent)'}">
+              ${t.status}</span>
+          </div>
+          <div>${t.picks.map(p => `
+            <div class="pick">
+              <div class="pick-top"><span class="pick-mkt">${P.esc(p.mkt)}</span>
+                <span class="pick-odd">${P.num(p.odd)}</span></div>
+              <div class="pick-evt">${P.esc(p.name)}</div>
+              <div class="pick-lg">${p.flag} ${P.esc(p.league)}</div>
+            </div>`).join('')}</div>
+          <div class="slip-foot">
+            <div class="sum-row"><span>Ukupni tečaj</span><strong>${P.num(t.odds)}</strong></div>
+            <div class="sum-row"><span>Uplata</span><strong>${P.eur(t.stake)}</strong></div>
+            <div class="sum-row total"><span>Mogući dobitak</span><strong>${P.eur(t.stake * t.odds)}</strong></div>
+            <button class="btn btn-ghost btn-block" style="margin-top:10px" data-copy="${t.id}">
+              ♥ ${t.likes} · Kopiraj na moj listić</button>
+          </div>
+        </div>`).join('')}</div>`,
+
+    rang: () => `<div class="panel tbl-wrap"><table class="tbl">
+      <thead><tr><th>#</th><th>Igrač</th><th class="num">Bodovi</th><th class="num">Postotak pogodaka</th><th class="num">Najbolji tečaj</th></tr></thead>
+      <tbody>${board.map((b, i) => `<tr>
+        <td style="font-weight:800;color:${i < 3 ? 'var(--accent)' : 'inherit'}">${i + 1}</td>
+        <td>@${P.esc(b.u)}</td><td class="num">${b.pts}</td>
+        <td class="num">${b.hit}%</td><td class="num">${b.best}</td></tr>`).join('')}</tbody></table></div>`,
+
+    inspiracija: () => `<div class="prose">
+      <h2>Kako koristiti tuđe listiće</h2>
+      <p>Arena prikazuje kombinacije drugih igrača kao izvor ideja, ne kao preporuku. Tri stvari
+      koje vrijedi provjeriti prije kopiranja:</p>
+      <ul>
+        <li><strong>Uzorak</strong> — postotak pogodaka na 20 listića malo govori; tek na nekoliko stotina počinje biti informativan.</li>
+        <li><strong>Tečajni raspon</strong> — visok postotak pogodaka na niskim tečajevima ne znači profitabilnost.</li>
+        <li><strong>Vrijeme</strong> — tečaj se mijenja, pa kopirani par može imati drukčiju vrijednost.</li>
+      </ul>
+      <h3>Napomena</h3>
+      <p>Svi listići i statistike na ovoj stranici nasumično su generirani u pregledniku i ne predstavljaju
+      stvarne korisnike ni rezultate.</p>
+    </div>`
+  };
+
+  function draw(tab) {
+    document.getElementById('arenaBody').innerHTML = views[tab]();
+    P.$$('[data-copy]').forEach(b => b.onclick = () => {
+      const t = tickets.find(x => x.id === b.dataset.copy);
+      t.picks.forEach(p => {
+        const ev = D.OFFER.find(e => e.name === p.name);
+        if (ev && ev.markets[p.mkt] != null) P.slip.toggle(ev, p.mkt);
+      });
+      P.toast('Listić kopiran na tvoj listić.');
+    });
+  }
+  P.$$('[data-tab]').forEach(b => b.onclick = () => {
+    P.$$('[data-tab]').forEach(x => x.classList.remove('is-active'));
+    b.classList.add('is-active');
+    draw(b.dataset.tab);
+  });
+  draw('listici');
+})();
+</script>
+</body>
+</html>

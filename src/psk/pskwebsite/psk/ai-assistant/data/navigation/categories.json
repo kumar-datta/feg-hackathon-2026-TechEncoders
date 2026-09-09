@@ -1,0 +1,902 @@
+[
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "sport_nogomet",
+    "type": "SPORT",
+    "name": "Nogomet",
+    "aliases": [
+      "nogomet",
+      "nogomet",
+      "football",
+      "soccer",
+      "futbol",
+      "football betting",
+      "nogomet betting",
+      "nogomet dikhao"
+    ],
+    "description": "Nogomet betting markets (173 events).",
+    "category": "Sports",
+    "parent_id": "page_sportsbook",
+    "route": "/oklade?sport=nogomet",
+    "keywords": [
+      "nogomet",
+      "betting",
+      "odds"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "sport_kosarka",
+    "type": "SPORT",
+    "name": "Košarka",
+    "aliases": [
+      "kosarka",
+      "košarka",
+      "basketball",
+      "nba",
+      "basket",
+      "košarka betting",
+      "kosarka dikhao"
+    ],
+    "description": "Košarka betting markets (56 events).",
+    "category": "Sports",
+    "parent_id": "page_sportsbook",
+    "route": "/oklade?sport=kosarka",
+    "keywords": [
+      "kosarka",
+      "betting",
+      "odds"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "sport_tenis",
+    "type": "SPORT",
+    "name": "Tenis",
+    "aliases": [
+      "tenis",
+      "tenis",
+      "tennis",
+      "atp",
+      "wta",
+      "tenis betting",
+      "tenis dikhao"
+    ],
+    "description": "Tenis betting markets (43 events).",
+    "category": "Sports",
+    "parent_id": "page_sportsbook",
+    "route": "/oklade?sport=tenis",
+    "keywords": [
+      "tenis",
+      "betting",
+      "odds"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "sport_rukomet",
+    "type": "SPORT",
+    "name": "Rukomet",
+    "aliases": [
+      "rukomet",
+      "rukomet",
+      "handball",
+      "rukomet betting",
+      "rukomet dikhao"
+    ],
+    "description": "Rukomet betting markets (26 events).",
+    "category": "Sports",
+    "parent_id": "page_sportsbook",
+    "route": "/oklade?sport=rukomet",
+    "keywords": [
+      "rukomet",
+      "betting",
+      "odds"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "sport_odbojka",
+    "type": "SPORT",
+    "name": "Odbojka",
+    "aliases": [
+      "odbojka",
+      "odbojka",
+      "volleyball",
+      "odbojka betting",
+      "odbojka dikhao"
+    ],
+    "description": "Odbojka betting markets (16 events).",
+    "category": "Sports",
+    "parent_id": "page_sportsbook",
+    "route": "/oklade?sport=odbojka",
+    "keywords": [
+      "odbojka",
+      "betting",
+      "odds"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "sport_hokej",
+    "type": "SPORT",
+    "name": "Hokej na ledu",
+    "aliases": [
+      "hokej",
+      "hokej na ledu",
+      "hockey",
+      "ice hockey",
+      "nhl",
+      "hokej na ledu betting",
+      "hokej dikhao"
+    ],
+    "description": "Hokej na ledu betting markets (20 events).",
+    "category": "Sports",
+    "parent_id": "page_sportsbook",
+    "route": "/oklade?sport=hokej",
+    "keywords": [
+      "hokej",
+      "betting",
+      "odds"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "sport_stolni-tenis",
+    "type": "SPORT",
+    "name": "Stolni tenis",
+    "aliases": [
+      "stolni-tenis",
+      "stolni tenis",
+      "stolni tenis betting",
+      "stolni-tenis dikhao"
+    ],
+    "description": "Stolni tenis betting markets (7 events).",
+    "category": "Sports",
+    "parent_id": "page_sportsbook",
+    "route": "/oklade?sport=stolni-tenis",
+    "keywords": [
+      "stolni-tenis",
+      "betting",
+      "odds"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "sport_esport",
+    "type": "SPORT",
+    "name": "E-sport",
+    "aliases": [
+      "esport",
+      "e-sport",
+      "esports",
+      "e sport",
+      "gaming",
+      "cs2",
+      "lol",
+      "dota",
+      "e-sport betting",
+      "esport dikhao"
+    ],
+    "description": "E-sport betting markets (37 events).",
+    "category": "Sports",
+    "parent_id": "page_sportsbook",
+    "route": "/oklade?sport=esport",
+    "keywords": [
+      "esport",
+      "betting",
+      "odds"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "sport_boks",
+    "type": "SPORT",
+    "name": "Boks",
+    "aliases": [
+      "boks",
+      "boks",
+      "boxing",
+      "boks betting",
+      "boks dikhao"
+    ],
+    "description": "Boks betting markets (6 events).",
+    "category": "Sports",
+    "parent_id": "page_sportsbook",
+    "route": "/oklade?sport=boks",
+    "keywords": [
+      "boks",
+      "betting",
+      "odds"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "sport_mma",
+    "type": "SPORT",
+    "name": "MMA / UFC",
+    "aliases": [
+      "mma",
+      "mma / ufc",
+      "ufc",
+      "mixed martial arts",
+      "mma / ufc betting",
+      "mma dikhao"
+    ],
+    "description": "MMA / UFC betting markets (7 events).",
+    "category": "Sports",
+    "parent_id": "page_sportsbook",
+    "route": "/oklade?sport=mma",
+    "keywords": [
+      "mma",
+      "betting",
+      "odds"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "sport_formula-1",
+    "type": "SPORT",
+    "name": "Formula 1",
+    "aliases": [
+      "formula-1",
+      "formula 1",
+      "f1",
+      "formula one",
+      "racing",
+      "formula 1 betting",
+      "formula-1 dikhao"
+    ],
+    "description": "Formula 1 betting markets (3 events).",
+    "category": "Sports",
+    "parent_id": "page_sportsbook",
+    "route": "/oklade?sport=formula-1",
+    "keywords": [
+      "formula-1",
+      "betting",
+      "odds"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "sport_moto-gp",
+    "type": "SPORT",
+    "name": "Moto GP",
+    "aliases": [
+      "moto-gp",
+      "moto gp",
+      "moto gp betting",
+      "moto-gp dikhao"
+    ],
+    "description": "Moto GP betting markets (5 events).",
+    "category": "Sports",
+    "parent_id": "page_sportsbook",
+    "route": "/oklade?sport=moto-gp",
+    "keywords": [
+      "moto-gp",
+      "betting",
+      "odds"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "sport_pikado",
+    "type": "SPORT",
+    "name": "Pikado",
+    "aliases": [
+      "pikado",
+      "pikado",
+      "darts",
+      "pikado betting",
+      "pikado dikhao"
+    ],
+    "description": "Pikado betting markets (3 events).",
+    "category": "Sports",
+    "parent_id": "page_sportsbook",
+    "route": "/oklade?sport=pikado",
+    "keywords": [
+      "pikado",
+      "betting",
+      "odds"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "sport_snooker",
+    "type": "SPORT",
+    "name": "Snooker",
+    "aliases": [
+      "snooker",
+      "snooker",
+      "snooker",
+      "pool",
+      "snooker betting",
+      "snooker dikhao"
+    ],
+    "description": "Snooker betting markets (7 events).",
+    "category": "Sports",
+    "parent_id": "page_sportsbook",
+    "route": "/oklade?sport=snooker",
+    "keywords": [
+      "snooker",
+      "betting",
+      "odds"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "sport_golf",
+    "type": "SPORT",
+    "name": "Golf",
+    "aliases": [
+      "golf",
+      "golf",
+      "golf",
+      "golf betting",
+      "golf dikhao"
+    ],
+    "description": "Golf betting markets (4 events).",
+    "category": "Sports",
+    "parent_id": "page_sportsbook",
+    "route": "/oklade?sport=golf",
+    "keywords": [
+      "golf",
+      "betting",
+      "odds"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "sport_biciklizam",
+    "type": "SPORT",
+    "name": "Biciklizam",
+    "aliases": [
+      "biciklizam",
+      "biciklizam",
+      "cycling",
+      "biciklizam betting",
+      "biciklizam dikhao"
+    ],
+    "description": "Biciklizam betting markets (5 events).",
+    "category": "Sports",
+    "parent_id": "page_sportsbook",
+    "route": "/oklade?sport=biciklizam",
+    "keywords": [
+      "biciklizam",
+      "betting",
+      "odds"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "sport_ragbi",
+    "type": "SPORT",
+    "name": "Ragbi",
+    "aliases": [
+      "ragbi",
+      "ragbi",
+      "ragbi betting",
+      "ragbi dikhao"
+    ],
+    "description": "Ragbi betting markets (7 events).",
+    "category": "Sports",
+    "parent_id": "page_sportsbook",
+    "route": "/oklade?sport=ragbi",
+    "keywords": [
+      "ragbi",
+      "betting",
+      "odds"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "sport_am-nogomet",
+    "type": "SPORT",
+    "name": "Američki nogomet",
+    "aliases": [
+      "am-nogomet",
+      "američki nogomet",
+      "american football",
+      "nfl",
+      "američki nogomet betting",
+      "am-nogomet dikhao"
+    ],
+    "description": "Američki nogomet betting markets (12 events).",
+    "category": "Sports",
+    "parent_id": "page_sportsbook",
+    "route": "/oklade?sport=am-nogomet",
+    "keywords": [
+      "am-nogomet",
+      "betting",
+      "odds"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "sport_bejzbol",
+    "type": "SPORT",
+    "name": "Bejzbol",
+    "aliases": [
+      "bejzbol",
+      "bejzbol",
+      "baseball",
+      "mlb",
+      "bejzbol betting",
+      "bejzbol dikhao"
+    ],
+    "description": "Bejzbol betting markets (9 events).",
+    "category": "Sports",
+    "parent_id": "page_sportsbook",
+    "route": "/oklade?sport=bejzbol",
+    "keywords": [
+      "bejzbol",
+      "betting",
+      "odds"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "sport_vaterpolo",
+    "type": "SPORT",
+    "name": "Vaterpolo",
+    "aliases": [
+      "vaterpolo",
+      "vaterpolo",
+      "water polo",
+      "vaterpolo betting",
+      "vaterpolo dikhao"
+    ],
+    "description": "Vaterpolo betting markets (10 events).",
+    "category": "Sports",
+    "parent_id": "page_sportsbook",
+    "route": "/oklade?sport=vaterpolo",
+    "keywords": [
+      "vaterpolo",
+      "betting",
+      "odds"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "sport_atletika",
+    "type": "SPORT",
+    "name": "Atletika",
+    "aliases": [
+      "atletika",
+      "atletika",
+      "atletika betting",
+      "atletika dikhao"
+    ],
+    "description": "Atletika betting markets (5 events).",
+    "category": "Sports",
+    "parent_id": "page_sportsbook",
+    "route": "/oklade?sport=atletika",
+    "keywords": [
+      "atletika",
+      "betting",
+      "odds"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "sport_skijanje",
+    "type": "SPORT",
+    "name": "Skijanje",
+    "aliases": [
+      "skijanje",
+      "skijanje",
+      "skijanje betting",
+      "skijanje dikhao"
+    ],
+    "description": "Skijanje betting markets (5 events).",
+    "category": "Sports",
+    "parent_id": "page_sportsbook",
+    "route": "/oklade?sport=skijanje",
+    "keywords": [
+      "skijanje",
+      "betting",
+      "odds"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "sport_ski-skokovi",
+    "type": "SPORT",
+    "name": "Ski skokovi",
+    "aliases": [
+      "ski-skokovi",
+      "ski skokovi",
+      "ski skokovi betting",
+      "ski-skokovi dikhao"
+    ],
+    "description": "Ski skokovi betting markets (7 events).",
+    "category": "Sports",
+    "parent_id": "page_sportsbook",
+    "route": "/oklade?sport=ski-skokovi",
+    "keywords": [
+      "ski-skokovi",
+      "betting",
+      "odds"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "sport_biatlon",
+    "type": "SPORT",
+    "name": "Biatlon",
+    "aliases": [
+      "biatlon",
+      "biatlon",
+      "biatlon betting",
+      "biatlon dikhao"
+    ],
+    "description": "Biatlon betting markets (3 events).",
+    "category": "Sports",
+    "parent_id": "page_sportsbook",
+    "route": "/oklade?sport=biatlon",
+    "keywords": [
+      "biatlon",
+      "betting",
+      "odds"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "sport_sah",
+    "type": "SPORT",
+    "name": "Šah",
+    "aliases": [
+      "sah",
+      "šah",
+      "chess",
+      "šah betting",
+      "sah dikhao"
+    ],
+    "description": "Šah betting markets (9 events).",
+    "category": "Sports",
+    "parent_id": "page_sportsbook",
+    "route": "/oklade?sport=sah",
+    "keywords": [
+      "sah",
+      "betting",
+      "odds"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "sport_futsal",
+    "type": "SPORT",
+    "name": "Futsal",
+    "aliases": [
+      "futsal",
+      "futsal",
+      "futsal",
+      "futsal betting",
+      "futsal dikhao"
+    ],
+    "description": "Futsal betting markets (6 events).",
+    "category": "Sports",
+    "parent_id": "page_sportsbook",
+    "route": "/oklade?sport=futsal",
+    "keywords": [
+      "futsal",
+      "betting",
+      "odds"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "sport_badminton",
+    "type": "SPORT",
+    "name": "Badminton",
+    "aliases": [
+      "badminton",
+      "badminton",
+      "badminton",
+      "badminton betting",
+      "badminton dikhao"
+    ],
+    "description": "Badminton betting markets (4 events).",
+    "category": "Sports",
+    "parent_id": "page_sportsbook",
+    "route": "/oklade?sport=badminton",
+    "keywords": [
+      "badminton",
+      "betting",
+      "odds"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "sport_kuglanje",
+    "type": "SPORT",
+    "name": "Kuglanje",
+    "aliases": [
+      "kuglanje",
+      "kuglanje",
+      "kuglanje betting",
+      "kuglanje dikhao"
+    ],
+    "description": "Kuglanje betting markets (6 events).",
+    "category": "Sports",
+    "parent_id": "page_sportsbook",
+    "route": "/oklade?sport=kuglanje",
+    "keywords": [
+      "kuglanje",
+      "betting",
+      "odds"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "sport_konjicke-utrke",
+    "type": "SPORT",
+    "name": "Konjičke utrke",
+    "aliases": [
+      "konjicke-utrke",
+      "konjičke utrke",
+      "horse racing",
+      "horses",
+      "racing",
+      "ghoda race",
+      "konjičke utrke betting",
+      "konjicke-utrke dikhao"
+    ],
+    "description": "Konjičke utrke betting markets (6 events).",
+    "category": "Sports",
+    "parent_id": "page_sportsbook",
+    "route": "/oklade?sport=konjicke-utrke",
+    "keywords": [
+      "konjicke-utrke",
+      "betting",
+      "odds"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "sport_zabava",
+    "type": "SPORT",
+    "name": "Svijet zabave",
+    "aliases": [
+      "zabava",
+      "svijet zabave",
+      "svijet zabave betting",
+      "zabava dikhao"
+    ],
+    "description": "Svijet zabave betting markets (5 events).",
+    "category": "Sports",
+    "parent_id": "page_sportsbook",
+    "route": "/oklade?sport=zabava",
+    "keywords": [
+      "zabava",
+      "betting",
+      "odds"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "category_slots",
+    "type": "CATEGORY",
+    "name": "Slots",
+    "aliases": [
+      "slots",
+      "slot games",
+      "reels",
+      "slot machines",
+      "slots dikhao",
+      "slot wala game"
+    ],
+    "description": "Slots in the casino lobby.",
+    "category": "Casino",
+    "parent_id": "page_casino",
+    "route": "/casino?kategorija=slots",
+    "keywords": [
+      "slots",
+      "casino"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "category_jackpot",
+    "type": "CATEGORY",
+    "name": "Jackpot Games",
+    "aliases": [
+      "jackpot",
+      "jackpots",
+      "jackpot games"
+    ],
+    "description": "Jackpot Games in the casino lobby.",
+    "category": "Casino",
+    "parent_id": "page_casino",
+    "route": "/casino?kategorija=jackpot",
+    "keywords": [
+      "jackpot",
+      "casino"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "category_table",
+    "type": "CATEGORY",
+    "name": "Table Games",
+    "aliases": [
+      "table games",
+      "card games",
+      "tables"
+    ],
+    "description": "Table Games in the casino lobby.",
+    "category": "Casino",
+    "parent_id": "page_casino",
+    "route": "/casino?kategorija=table",
+    "keywords": [
+      "table",
+      "casino"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "category_new",
+    "type": "CATEGORY",
+    "name": "New Games",
+    "aliases": [
+      "new games",
+      "new",
+      "latest games",
+      "nove igre"
+    ],
+    "description": "New Games in the casino lobby.",
+    "category": "Casino",
+    "parent_id": "page_casino",
+    "route": "/casino?kategorija=new",
+    "keywords": [
+      "new",
+      "casino"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "category_popular",
+    "type": "CATEGORY",
+    "name": "Popular Games",
+    "aliases": [
+      "popular",
+      "popular games",
+      "top games"
+    ],
+    "description": "Popular Games in the casino lobby.",
+    "category": "Casino",
+    "parent_id": "page_casino",
+    "route": "/casino?kategorija=popular",
+    "keywords": [
+      "popular",
+      "casino"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "category_instant",
+    "type": "CATEGORY",
+    "name": "Instant Games",
+    "aliases": [
+      "instant games",
+      "instant",
+      "quick games"
+    ],
+    "description": "Instant Games in the casino lobby.",
+    "category": "Casino",
+    "parent_id": "page_casino",
+    "route": "/casino?kategorija=instant",
+    "keywords": [
+      "instant",
+      "casino"
+    ]
+  }
+]

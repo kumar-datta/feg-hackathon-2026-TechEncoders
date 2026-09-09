@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- PSK Pulse — Live Match widget (2x2 square, resizable). -->
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:initialLayout="@layout/glance_default_loading_layout"
+    android:initialKeyguardLayout="@layout/glance_default_loading_layout"
+    android:previewLayout="@layout/glance_default_loading_layout"
+    android:minWidth="110dp"
+    android:minHeight="110dp"
+    android:minResizeWidth="100dp"
+    android:minResizeHeight="80dp"
+    android:targetCellWidth="2"
+    android:targetCellHeight="2"
+    android:updatePeriodMillis="0"
+    android:resizeMode="horizontal|vertical"
+    android:widgetCategory="home_screen|keyguard"
+    android:description="@string/live_match_widget_description"
+/>
+

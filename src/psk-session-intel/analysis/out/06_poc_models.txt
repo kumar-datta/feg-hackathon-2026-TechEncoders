@@ -1,0 +1,53 @@
+  B['search_before'] = B.search_before.fillna(False).astype(int)
+=== A) Intent from first 3 events (5-fold, grouped by player so no user leaks across folds) ===
+accuracy: 0.6  balanced accuracy: 0.561  majority-class baseline: 0.242
+                 precision    recall  f1-score   support
+
+        account       0.60      0.54      0.57      1286
+         casino       0.69      0.62      0.65      1310
+         glance       0.66      0.72      0.69      3088
+    live_follow       0.55      0.51      0.53      2120
+       marathon       0.34      0.26      0.29      1882
+prematch_browse       0.60      0.45      0.51      2507
+   ticket_check       0.64      0.83      0.72      3902
+
+       accuracy                           0.60     16095
+      macro avg       0.58      0.56      0.57     16095
+   weighted avg       0.59      0.60      0.59     16095
+
+
+=== B) Abandonment at first add (SB apps, n=5568, abandon rate=0.191) ===
+gradient boosting      AUC = 0.668
+logistic (glass-box)   AUC = 0.663
+
+Top factors that LOWER abandonment (negative) and RAISE it (positive):
+cat__add_src_live_page                      -1.16
+cat__sport_odbojka                          -0.98
+cat__sport_esport counter strike            -0.96
+cat__platform_SB Android                    -0.84
+cat__add_src_sports_page_most_bet_matches   -0.57
+cat__add_src_match_page                     -0.43
+num__open_tickets_prev                      -0.30
+num__live_before                            -0.24
+cat__platform_SB iOS                         0.28
+cat__add_src_homepage_prematch_widget        0.29
+cat__sport_ekošarka                          0.30
+cat__add_src_betslip_history                 0.40
+cat__add_src_afterbet                        0.48
+cat__sport_košarka                           0.50
+cat__sport_borilački sportovi                0.59
+cat__add_src_infrequent_sklearn              0.65
+
+Risk deciles (10 = riskiest):
+        size   mean  cum_share_of_abandons
+decile                                    
+9        557  0.406                  0.212
+8        557  0.309                  0.374
+7        557  0.275                  0.518
+6        556  0.200                  0.622
+5        557  0.147                  0.699
+4        557  0.124                  0.764
+3        556  0.097                  0.815
+2        557  0.113                  0.874
+1        557  0.118                  0.936
+0        557  0.122                  1.000

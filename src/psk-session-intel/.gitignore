@@ -1,0 +1,10 @@
+# Player-level derived outputs contain hashed PlayerIDs - never commit to the submission repo
+analysis/out/sessions.csv
+analysis/out/sessions_with_cluster.csv
+analysis/out/player_day_value.csv
+analysis/out/player_harm_indicators.csv
+analysis/out/sessions_enriched.csv
+analysis/out/sessions_intent.csv
+analysis/out/player_breadth.csv
+analysis/out/population_player_breadth.csv
+analysis/out/deferred_intent_fixture.csv

@@ -1,0 +1,2672 @@
+[
+  {
+    "alias": "home",
+    "entity_id": "page_home",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "homepage",
+    "entity_id": "page_home",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "main page",
+    "entity_id": "page_home",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "naslovna",
+    "entity_id": "page_home",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "ghar",
+    "entity_id": "page_home",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "start page",
+    "entity_id": "page_home",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "sportsbook",
+    "entity_id": "page_sportsbook",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "sports",
+    "entity_id": "page_sportsbook",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "betting",
+    "entity_id": "page_sportsbook",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "oklade",
+    "entity_id": "page_sportsbook",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "ponuda",
+    "entity_id": "page_sportsbook",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "sports betting",
+    "entity_id": "page_sportsbook",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "match betting",
+    "entity_id": "page_sportsbook",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "sports dikhao",
+    "entity_id": "page_sportsbook",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "khel satta",
+    "entity_id": "page_sportsbook",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "bet on sports",
+    "entity_id": "page_sportsbook",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "live betting",
+    "entity_id": "page_live_betting",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "live",
+    "entity_id": "page_live_betting",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "in play",
+    "entity_id": "page_live_betting",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "inplay",
+    "entity_id": "page_live_betting",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "uzivo",
+    "entity_id": "page_live_betting",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "zivo",
+    "entity_id": "page_live_betting",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "live odds",
+    "entity_id": "page_live_betting",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "live matches",
+    "entity_id": "page_live_betting",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "casino",
+    "entity_id": "page_casino",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "casino lobby",
+    "entity_id": "page_casino",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "slots",
+    "entity_id": "page_casino",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "casino games",
+    "entity_id": "page_casino",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "casino kholo",
+    "entity_id": "page_casino",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "casino dikhao",
+    "entity_id": "page_casino",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "live casino",
+    "entity_id": "page_live_casino",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "live dealer",
+    "entity_id": "page_live_casino",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "live tables",
+    "entity_id": "page_live_casino",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "zivi casino",
+    "entity_id": "page_live_casino",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "real dealer",
+    "entity_id": "page_live_casino",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "providers",
+    "entity_id": "page_providers",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "provideri",
+    "entity_id": "page_providers",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "game providers",
+    "entity_id": "page_providers",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "studios",
+    "entity_id": "page_providers",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "lottery",
+    "entity_id": "page_loto",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "loto",
+    "entity_id": "page_loto",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "lotto",
+    "entity_id": "page_loto",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "numbers game",
+    "entity_id": "page_loto",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "keno",
+    "entity_id": "page_loto",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "bingo",
+    "entity_id": "page_loto",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "loto dikhao",
+    "entity_id": "page_loto",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "virtual games",
+    "entity_id": "page_virtuals",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "virtual",
+    "entity_id": "page_virtuals",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "virtuals",
+    "entity_id": "page_virtuals",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "virtualne igre",
+    "entity_id": "page_virtuals",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "simulated games",
+    "entity_id": "page_virtuals",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "swipe & bet",
+    "entity_id": "page_swipe",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "swipe",
+    "entity_id": "page_swipe",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "swipe and bet",
+    "entity_id": "page_swipe",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "swipe bet",
+    "entity_id": "page_swipe",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "quick bet",
+    "entity_id": "page_swipe",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "arena",
+    "entity_id": "page_arena",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "shared tickets",
+    "entity_id": "page_arena",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "community tickets",
+    "entity_id": "page_arena",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "psk arena",
+    "entity_id": "page_arena",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "promotions",
+    "entity_id": "page_promotions",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "promocije",
+    "entity_id": "page_promotions",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "promo",
+    "entity_id": "page_promotions",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "offers",
+    "entity_id": "page_promotions",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "deals",
+    "entity_id": "page_promotions",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "bonus",
+    "entity_id": "page_promotions",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "bonuses",
+    "entity_id": "page_promotions",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "offer dikhao",
+    "entity_id": "page_promotions",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "koi bonus hai",
+    "entity_id": "page_promotions",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "forum",
+    "entity_id": "page_forum",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "community",
+    "entity_id": "page_forum",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "discussion",
+    "entity_id": "page_forum",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "threads",
+    "entity_id": "page_forum",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "results",
+    "entity_id": "page_results",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "rezultati",
+    "entity_id": "page_results",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "scores",
+    "entity_id": "page_results",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "match results",
+    "entity_id": "page_results",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "statistics",
+    "entity_id": "page_statistics",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "statistika",
+    "entity_id": "page_statistics",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "stats",
+    "entity_id": "page_statistics",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "news",
+    "entity_id": "page_news",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "novosti",
+    "entity_id": "page_news",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "articles",
+    "entity_id": "page_news",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "analysis",
+    "entity_id": "page_news",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "shops",
+    "entity_id": "page_shops",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "poslovnice",
+    "entity_id": "page_shops",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "branches",
+    "entity_id": "page_shops",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "locations",
+    "entity_id": "page_shops",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "betting shops",
+    "entity_id": "page_shops",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "mobile app",
+    "entity_id": "page_mobile_app",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "app",
+    "entity_id": "page_mobile_app",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "download",
+    "entity_id": "page_mobile_app",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "android",
+    "entity_id": "page_mobile_app",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "ios",
+    "entity_id": "page_mobile_app",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "mobilna aplikacija",
+    "entity_id": "page_mobile_app",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "champions club",
+    "entity_id": "page_champions_club",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "klub prvaka",
+    "entity_id": "page_champions_club",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "loyalty",
+    "entity_id": "page_champions_club",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "vip",
+    "entity_id": "page_champions_club",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "tiers",
+    "entity_id": "page_champions_club",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "points",
+    "entity_id": "page_champions_club",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "search",
+    "entity_id": "page_search",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "pretraga",
+    "entity_id": "page_search",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "find",
+    "entity_id": "page_search",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "login",
+    "entity_id": "page_login",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "log in",
+    "entity_id": "page_login",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "sign in",
+    "entity_id": "page_login",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "prijava",
+    "entity_id": "page_login",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "login karo",
+    "entity_id": "page_login",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "register",
+    "entity_id": "page_register",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "sign up",
+    "entity_id": "page_register",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "registracija",
+    "entity_id": "page_register",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "create account",
+    "entity_id": "page_register",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "new account",
+    "entity_id": "page_register",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "my account",
+    "entity_id": "page_account",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "account",
+    "entity_id": "page_account",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "profile",
+    "entity_id": "page_account",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "racun",
+    "entity_id": "page_account",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "wallet",
+    "entity_id": "page_account",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "balance",
+    "entity_id": "page_account",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "my profile",
+    "entity_id": "page_account",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "account settings",
+    "entity_id": "page_account",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "profile kholo",
+    "entity_id": "page_account",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "deposit",
+    "entity_id": "page_deposit",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "add money",
+    "entity_id": "page_deposit",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "add funds",
+    "entity_id": "page_deposit",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "top up",
+    "entity_id": "page_deposit",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "topup",
+    "entity_id": "page_deposit",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "recharge",
+    "entity_id": "page_deposit",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "paisa dalo",
+    "entity_id": "page_deposit",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "deposit karo",
+    "entity_id": "page_deposit",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "paise jama karo",
+    "entity_id": "page_deposit",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "dabbu vesali",
+    "entity_id": "page_deposit",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "add credits",
+    "entity_id": "page_deposit",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "play limits",
+    "entity_id": "page_limits",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "limits",
+    "entity_id": "page_limits",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "deposit limit",
+    "entity_id": "page_limits",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "set limit",
+    "entity_id": "page_limits",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "limit set karo",
+    "entity_id": "page_limits",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "spending limit",
+    "entity_id": "page_limits",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "self-exclusion",
+    "entity_id": "page_self_exclusion",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "self exclusion",
+    "entity_id": "page_self_exclusion",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "self exclude",
+    "entity_id": "page_self_exclusion",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "block my account",
+    "entity_id": "page_self_exclusion",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "take a break",
+    "entity_id": "page_self_exclusion",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "exclude me",
+    "entity_id": "page_self_exclusion",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "gambling band karo",
+    "entity_id": "page_self_exclusion",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "my tickets",
+    "entity_id": "page_tickets",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "tickets",
+    "entity_id": "page_tickets",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "listici",
+    "entity_id": "page_tickets",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "bet history",
+    "entity_id": "page_tickets",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "my bets",
+    "entity_id": "page_tickets",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "betting history",
+    "entity_id": "page_tickets",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "past bets",
+    "entity_id": "page_tickets",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "mera bet history dikhao",
+    "entity_id": "page_tickets",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "na bets chupinchu",
+    "entity_id": "page_tickets",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "checkout",
+    "entity_id": "page_checkout",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "confirm bet",
+    "entity_id": "page_checkout",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "place bet",
+    "entity_id": "page_checkout",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "bet slip",
+    "entity_id": "page_checkout",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "help",
+    "entity_id": "page_help",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "pomoc",
+    "entity_id": "page_help",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "faq",
+    "entity_id": "page_help",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "help center",
+    "entity_id": "page_help",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "support articles",
+    "entity_id": "page_help",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "madad",
+    "entity_id": "page_help",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "sahayam",
+    "entity_id": "page_help",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "contact support",
+    "entity_id": "page_contact",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "contact",
+    "entity_id": "page_contact",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "support",
+    "entity_id": "page_contact",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "customer care",
+    "entity_id": "page_contact",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "agent",
+    "entity_id": "page_contact",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "complaint",
+    "entity_id": "page_contact",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "support se baat karao",
+    "entity_id": "page_contact",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "live chat",
+    "entity_id": "page_contact",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "about",
+    "entity_id": "page_about",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "about us",
+    "entity_id": "page_about",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "o nama",
+    "entity_id": "page_about",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "about the project",
+    "entity_id": "page_about",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "game rules",
+    "entity_id": "page_rules",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "rules",
+    "entity_id": "page_rules",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "terms",
+    "entity_id": "page_rules",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "pravila igre",
+    "entity_id": "page_rules",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "terms and conditions",
+    "entity_id": "page_rules",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "tnc",
+    "entity_id": "page_rules",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "responsible gaming",
+    "entity_id": "page_responsible_gaming",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "responsible gambling",
+    "entity_id": "page_responsible_gaming",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "odgovorno igranje",
+    "entity_id": "page_responsible_gaming",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "safer gambling",
+    "entity_id": "page_responsible_gaming",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "gambling help",
+    "entity_id": "page_responsible_gaming",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "addiction help",
+    "entity_id": "page_responsible_gaming",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "stop gambling",
+    "entity_id": "page_responsible_gaming",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "problem gambling",
+    "entity_id": "page_responsible_gaming",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "privacy policy",
+    "entity_id": "page_privacy",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "privacy",
+    "entity_id": "page_privacy",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "data policy",
+    "entity_id": "page_privacy",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "pravila privatnosti",
+    "entity_id": "page_privacy",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "gdpr",
+    "entity_id": "page_privacy",
+    "entity_type": "PAGE",
+    "match_type": "exact"
+  },
+  {
+    "alias": "nogomet",
+    "entity_id": "sport_nogomet",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "football",
+    "entity_id": "sport_nogomet",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "soccer",
+    "entity_id": "sport_nogomet",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "futbol",
+    "entity_id": "sport_nogomet",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "football betting",
+    "entity_id": "sport_nogomet",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "nogomet betting",
+    "entity_id": "sport_nogomet",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "nogomet dikhao",
+    "entity_id": "sport_nogomet",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "košarka",
+    "entity_id": "sport_kosarka",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "kosarka",
+    "entity_id": "sport_kosarka",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "basketball",
+    "entity_id": "sport_kosarka",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "nba",
+    "entity_id": "sport_kosarka",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "basket",
+    "entity_id": "sport_kosarka",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "košarka betting",
+    "entity_id": "sport_kosarka",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "kosarka dikhao",
+    "entity_id": "sport_kosarka",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "tenis",
+    "entity_id": "sport_tenis",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "tennis",
+    "entity_id": "sport_tenis",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "atp",
+    "entity_id": "sport_tenis",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "wta",
+    "entity_id": "sport_tenis",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "tenis betting",
+    "entity_id": "sport_tenis",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "tenis dikhao",
+    "entity_id": "sport_tenis",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "rukomet",
+    "entity_id": "sport_rukomet",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "handball",
+    "entity_id": "sport_rukomet",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "rukomet betting",
+    "entity_id": "sport_rukomet",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "rukomet dikhao",
+    "entity_id": "sport_rukomet",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "odbojka",
+    "entity_id": "sport_odbojka",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "volleyball",
+    "entity_id": "sport_odbojka",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "odbojka betting",
+    "entity_id": "sport_odbojka",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "odbojka dikhao",
+    "entity_id": "sport_odbojka",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "hokej na ledu",
+    "entity_id": "sport_hokej",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "hokej",
+    "entity_id": "sport_hokej",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "hockey",
+    "entity_id": "sport_hokej",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "ice hockey",
+    "entity_id": "sport_hokej",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "nhl",
+    "entity_id": "sport_hokej",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "hokej na ledu betting",
+    "entity_id": "sport_hokej",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "hokej dikhao",
+    "entity_id": "sport_hokej",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "stolni tenis",
+    "entity_id": "sport_stolni-tenis",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "stolni-tenis",
+    "entity_id": "sport_stolni-tenis",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "stolni tenis betting",
+    "entity_id": "sport_stolni-tenis",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "stolni-tenis dikhao",
+    "entity_id": "sport_stolni-tenis",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "e-sport",
+    "entity_id": "sport_esport",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "esport",
+    "entity_id": "sport_esport",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "esports",
+    "entity_id": "sport_esport",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "e sport",
+    "entity_id": "sport_esport",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "gaming",
+    "entity_id": "sport_esport",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "cs2",
+    "entity_id": "sport_esport",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "lol",
+    "entity_id": "sport_esport",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "dota",
+    "entity_id": "sport_esport",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "e-sport betting",
+    "entity_id": "sport_esport",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "esport dikhao",
+    "entity_id": "sport_esport",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "boks",
+    "entity_id": "sport_boks",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "boxing",
+    "entity_id": "sport_boks",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "boks betting",
+    "entity_id": "sport_boks",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "boks dikhao",
+    "entity_id": "sport_boks",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "mma / ufc",
+    "entity_id": "sport_mma",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "mma",
+    "entity_id": "sport_mma",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "ufc",
+    "entity_id": "sport_mma",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "mixed martial arts",
+    "entity_id": "sport_mma",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "mma / ufc betting",
+    "entity_id": "sport_mma",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "mma dikhao",
+    "entity_id": "sport_mma",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "formula 1",
+    "entity_id": "sport_formula-1",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "formula-1",
+    "entity_id": "sport_formula-1",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "f1",
+    "entity_id": "sport_formula-1",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "formula one",
+    "entity_id": "sport_formula-1",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "racing",
+    "entity_id": "sport_formula-1",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "formula 1 betting",
+    "entity_id": "sport_formula-1",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "formula-1 dikhao",
+    "entity_id": "sport_formula-1",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "moto gp",
+    "entity_id": "sport_moto-gp",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "moto-gp",
+    "entity_id": "sport_moto-gp",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "moto gp betting",
+    "entity_id": "sport_moto-gp",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "moto-gp dikhao",
+    "entity_id": "sport_moto-gp",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "pikado",
+    "entity_id": "sport_pikado",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "darts",
+    "entity_id": "sport_pikado",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "pikado betting",
+    "entity_id": "sport_pikado",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "pikado dikhao",
+    "entity_id": "sport_pikado",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "snooker",
+    "entity_id": "sport_snooker",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "pool",
+    "entity_id": "sport_snooker",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "snooker betting",
+    "entity_id": "sport_snooker",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "snooker dikhao",
+    "entity_id": "sport_snooker",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "golf",
+    "entity_id": "sport_golf",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "golf betting",
+    "entity_id": "sport_golf",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "golf dikhao",
+    "entity_id": "sport_golf",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "biciklizam",
+    "entity_id": "sport_biciklizam",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "cycling",
+    "entity_id": "sport_biciklizam",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "biciklizam betting",
+    "entity_id": "sport_biciklizam",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "biciklizam dikhao",
+    "entity_id": "sport_biciklizam",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "ragbi",
+    "entity_id": "sport_ragbi",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "ragbi betting",
+    "entity_id": "sport_ragbi",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "ragbi dikhao",
+    "entity_id": "sport_ragbi",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "američki nogomet",
+    "entity_id": "sport_am-nogomet",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "am-nogomet",
+    "entity_id": "sport_am-nogomet",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "american football",
+    "entity_id": "sport_am-nogomet",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "nfl",
+    "entity_id": "sport_am-nogomet",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "američki nogomet betting",
+    "entity_id": "sport_am-nogomet",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "am-nogomet dikhao",
+    "entity_id": "sport_am-nogomet",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "bejzbol",
+    "entity_id": "sport_bejzbol",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "baseball",
+    "entity_id": "sport_bejzbol",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "mlb",
+    "entity_id": "sport_bejzbol",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "bejzbol betting",
+    "entity_id": "sport_bejzbol",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "bejzbol dikhao",
+    "entity_id": "sport_bejzbol",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "vaterpolo",
+    "entity_id": "sport_vaterpolo",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "water polo",
+    "entity_id": "sport_vaterpolo",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "vaterpolo betting",
+    "entity_id": "sport_vaterpolo",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "vaterpolo dikhao",
+    "entity_id": "sport_vaterpolo",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "atletika",
+    "entity_id": "sport_atletika",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "atletika betting",
+    "entity_id": "sport_atletika",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "atletika dikhao",
+    "entity_id": "sport_atletika",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "skijanje",
+    "entity_id": "sport_skijanje",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "skijanje betting",
+    "entity_id": "sport_skijanje",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "skijanje dikhao",
+    "entity_id": "sport_skijanje",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "ski skokovi",
+    "entity_id": "sport_ski-skokovi",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "ski-skokovi",
+    "entity_id": "sport_ski-skokovi",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "ski skokovi betting",
+    "entity_id": "sport_ski-skokovi",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "ski-skokovi dikhao",
+    "entity_id": "sport_ski-skokovi",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "biatlon",
+    "entity_id": "sport_biatlon",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "biatlon betting",
+    "entity_id": "sport_biatlon",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "biatlon dikhao",
+    "entity_id": "sport_biatlon",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "šah",
+    "entity_id": "sport_sah",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "sah",
+    "entity_id": "sport_sah",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "chess",
+    "entity_id": "sport_sah",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "šah betting",
+    "entity_id": "sport_sah",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "sah dikhao",
+    "entity_id": "sport_sah",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "futsal",
+    "entity_id": "sport_futsal",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "futsal betting",
+    "entity_id": "sport_futsal",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "futsal dikhao",
+    "entity_id": "sport_futsal",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "badminton",
+    "entity_id": "sport_badminton",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "badminton betting",
+    "entity_id": "sport_badminton",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "badminton dikhao",
+    "entity_id": "sport_badminton",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "kuglanje",
+    "entity_id": "sport_kuglanje",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "kuglanje betting",
+    "entity_id": "sport_kuglanje",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "kuglanje dikhao",
+    "entity_id": "sport_kuglanje",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "konjičke utrke",
+    "entity_id": "sport_konjicke-utrke",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "konjicke-utrke",
+    "entity_id": "sport_konjicke-utrke",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "horse racing",
+    "entity_id": "sport_konjicke-utrke",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "horses",
+    "entity_id": "sport_konjicke-utrke",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "racing",
+    "entity_id": "sport_konjicke-utrke",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "ghoda race",
+    "entity_id": "sport_konjicke-utrke",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "konjičke utrke betting",
+    "entity_id": "sport_konjicke-utrke",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "konjicke-utrke dikhao",
+    "entity_id": "sport_konjicke-utrke",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "svijet zabave",
+    "entity_id": "sport_zabava",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "zabava",
+    "entity_id": "sport_zabava",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "svijet zabave betting",
+    "entity_id": "sport_zabava",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "zabava dikhao",
+    "entity_id": "sport_zabava",
+    "entity_type": "SPORT",
+    "match_type": "exact"
+  },
+  {
+    "alias": "rulet pro",
+    "entity_id": "game_rulet-pro",
+    "entity_type": "GAME",
+    "match_type": "exact"
+  },
+  {
+    "alias": "rulet-pro",
+    "entity_id": "game_rulet-pro",
+    "entity_type": "GAME",
+    "match_type": "exact"
+  },
+  {
+    "alias": "roulette pro",
+    "entity_id": "game_rulet-pro",
+    "entity_type": "GAME",
+    "match_type": "exact"
+  },
+  {
+    "alias": "crash royale",
+    "entity_id": "game_crash-royale",
+    "entity_type": "GAME",
+    "match_type": "exact"
+  },
+  {
+    "alias": "crash-royale",
+    "entity_id": "game_crash-royale",
+    "entity_type": "GAME",
+    "match_type": "exact"
+  },
+  {
+    "alias": "crash",
+    "entity_id": "game_crash-royale",
+    "entity_type": "GAME",
+    "match_type": "exact"
+  },
+  {
+    "alias": "crash game",
+    "entity_id": "game_crash-royale",
+    "entity_type": "GAME",
+    "match_type": "exact"
+  },
+  {
+    "alias": "rocket game",
+    "entity_id": "game_crash-royale",
+    "entity_type": "GAME",
+    "match_type": "exact"
+  },
+  {
+    "alias": "crash classic",
+    "entity_id": "game_crash-royale",
+    "entity_type": "GAME",
+    "match_type": "exact"
+  },
+  {
+    "alias": "europski rulet",
+    "entity_id": "game_europski-rulet",
+    "entity_type": "GAME",
+    "match_type": "exact"
+  },
+  {
+    "alias": "europski-rulet",
+    "entity_id": "game_europski-rulet",
+    "entity_type": "GAME",
+    "match_type": "exact"
+  },
+  {
+    "alias": "roulette",
+    "entity_id": "game_europski-rulet",
+    "entity_type": "GAME",
+    "match_type": "exact"
+  },
+  {
+    "alias": "rulet",
+    "entity_id": "game_europski-rulet",
+    "entity_type": "GAME",
+    "match_type": "exact"
+  },
+  {
+    "alias": "roulete",
+    "entity_id": "game_europski-rulet",
+    "entity_type": "GAME",
+    "match_type": "exact"
+  },
+  {
+    "alias": "european roulette",
+    "entity_id": "game_europski-rulet",
+    "entity_type": "GAME",
+    "match_type": "exact"
+  },
+  {
+    "alias": "wheel game",
+    "entity_id": "game_europski-rulet",
+    "entity_type": "GAME",
+    "match_type": "exact"
+  },
+  {
+    "alias": "chakka game",
+    "entity_id": "game_europski-rulet",
+    "entity_type": "GAME",
+    "match_type": "exact"
+  },
+  {
+    "alias": "mine hunter",
+    "entity_id": "game_mine-hunter",
+    "entity_type": "GAME",
+    "match_type": "exact"
+  },
+  {
+    "alias": "mine-hunter",
+    "entity_id": "game_mine-hunter",
+    "entity_type": "GAME",
+    "match_type": "exact"
+  },
+  {
+    "alias": "mines",
+    "entity_id": "game_mine-hunter",
+    "entity_type": "GAME",
+    "match_type": "exact"
+  },
+  {
+    "alias": "mine game",
+    "entity_id": "game_mine-hunter",
+    "entity_type": "GAME",
+    "match_type": "exact"
+  },
+  {
+    "alias": "minesweeper",
+    "entity_id": "game_mine-hunter",
+    "entity_type": "GAME",
+    "match_type": "exact"
+  },
+  {
+    "alias": "kocka duel",
+    "entity_id": "game_kocka-duel",
+    "entity_type": "GAME",
+    "match_type": "exact"
+  },
+  {
+    "alias": "kocka-duel",
+    "entity_id": "game_kocka-duel",
+    "entity_type": "GAME",
+    "match_type": "exact"
+  },
+  {
+    "alias": "dice",
+    "entity_id": "game_kocka-duel",
+    "entity_type": "GAME",
+    "match_type": "exact"
+  },
+  {
+    "alias": "dice game",
+    "entity_id": "game_kocka-duel",
+    "entity_type": "GAME",
+    "match_type": "exact"
+  },
+  {
+    "alias": "pasa",
+    "entity_id": "game_kocka-duel",
+    "entity_type": "GAME",
+    "match_type": "exact"
+  },
+  {
+    "alias": "blackjack classic",
+    "entity_id": "game_blackjack-classic",
+    "entity_type": "GAME",
+    "match_type": "exact"
+  },
+  {
+    "alias": "blackjack-classic",
+    "entity_id": "game_blackjack-classic",
+    "entity_type": "GAME",
+    "match_type": "exact"
+  },
+  {
+    "alias": "blackjack",
+    "entity_id": "game_blackjack-classic",
+    "entity_type": "GAME",
+    "match_type": "exact"
+  },
+  {
+    "alias": "black jack",
+    "entity_id": "game_blackjack-classic",
+    "entity_type": "GAME",
+    "match_type": "exact"
+  },
+  {
+    "alias": "21",
+    "entity_id": "game_blackjack-classic",
+    "entity_type": "GAME",
+    "match_type": "exact"
+  },
+  {
+    "alias": "twenty one",
+    "entity_id": "game_blackjack-classic",
+    "entity_type": "GAME",
+    "match_type": "exact"
+  },
+  {
+    "alias": "blakjack",
+    "entity_id": "game_blackjack-classic",
+    "entity_type": "GAME",
+    "match_type": "exact"
+  },
+  {
+    "alias": "bj",
+    "entity_id": "game_blackjack-classic",
+    "entity_type": "GAME",
+    "match_type": "exact"
+  },
+  {
+    "alias": "aviator rush",
+    "entity_id": "game_aviator-rush",
+    "entity_type": "GAME",
+    "match_type": "exact"
+  },
+  {
+    "alias": "aviator-rush",
+    "entity_id": "game_aviator-rush",
+    "entity_type": "GAME",
+    "match_type": "exact"
+  },
+  {
+    "alias": "aviator",
+    "entity_id": "game_aviator-rush",
+    "entity_type": "GAME",
+    "match_type": "exact"
+  },
+  {
+    "alias": "plane game",
+    "entity_id": "game_aviator-rush",
+    "entity_type": "GAME",
+    "match_type": "exact"
+  },
+  {
+    "alias": "plane wala game",
+    "entity_id": "game_aviator-rush",
+    "entity_type": "GAME",
+    "match_type": "exact"
+  },
+  {
+    "alias": "aviater",
+    "entity_id": "game_aviator-rush",
+    "entity_type": "GAME",
+    "match_type": "exact"
+  },
+  {
+    "alias": "avaitor",
+    "entity_id": "game_aviator-rush",
+    "entity_type": "GAME",
+    "match_type": "exact"
+  },
+  {
+    "alias": "udne wala game",
+    "entity_id": "game_aviator-rush",
+    "entity_type": "GAME",
+    "match_type": "exact"
+  },
+  {
+    "alias": "vimanam game",
+    "entity_id": "game_aviator-rush",
+    "entity_type": "GAME",
+    "match_type": "exact"
+  },
+  {
+    "alias": "crash plane",
+    "entity_id": "game_aviator-rush",
+    "entity_type": "GAME",
+    "match_type": "exact"
+  },
+  {
+    "alias": "the plane one",
+    "entity_id": "game_aviator-rush",
+    "entity_type": "GAME",
+    "match_type": "exact"
+  },
+  {
+    "alias": "sic bo live",
+    "entity_id": "game_sic-bo-live",
+    "entity_type": "GAME",
+    "match_type": "exact"
+  },
+  {
+    "alias": "sic-bo-live",
+    "entity_id": "game_sic-bo-live",
+    "entity_type": "GAME",
+    "match_type": "exact"
+  },
+  {
+    "alias": "mega kotač live",
+    "entity_id": "game_mega-kotac-live",
+    "entity_type": "GAME",
+    "match_type": "exact"
+  },
+  {
+    "alias": "mega-kotac-live",
+    "entity_id": "game_mega-kotac-live",
+    "entity_type": "GAME",
+    "match_type": "exact"
+  },
+  {
+    "alias": "live blackjack a",
+    "entity_id": "game_live-blackjack-a",
+    "entity_type": "GAME",
+    "match_type": "exact"
+  },
+  {
+    "alias": "live-blackjack-a",
+    "entity_id": "game_live-blackjack-a",
+    "entity_type": "GAME",
+    "match_type": "exact"
+  },
+  {
+    "alias": "live poker hold’em",
+    "entity_id": "game_live-poker-hold-em",
+    "entity_type": "GAME",
+    "match_type": "exact"
+  },
+  {
+    "alias": "live-poker-hold-em",
+    "entity_id": "game_live-poker-hold-em",
+    "entity_type": "GAME",
+    "match_type": "exact"
+  },
+  {
+    "alias": "auto rulet speed",
+    "entity_id": "game_auto-rulet-speed",
+    "entity_type": "GAME",
+    "match_type": "exact"
+  },
+  {
+    "alias": "auto-rulet-speed",
+    "entity_id": "game_auto-rulet-speed",
+    "entity_type": "GAME",
+    "match_type": "exact"
+  },
+  {
+    "alias": "craps live",
+    "entity_id": "game_craps-live",
+    "entity_type": "GAME",
+    "match_type": "exact"
+  },
+  {
+    "alias": "craps-live",
+    "entity_id": "game_craps-live",
+    "entity_type": "GAME",
+    "match_type": "exact"
+  },
+  {
+    "alias": "kolo sreće",
+    "entity_id": "game_kolo-srece",
+    "entity_type": "GAME",
+    "match_type": "exact"
+  },
+  {
+    "alias": "kolo-srece",
+    "entity_id": "game_kolo-srece",
+    "entity_type": "GAME",
+    "match_type": "exact"
+  },
+  {
+    "alias": "live blackjack vip",
+    "entity_id": "game_live-blackjack-vip",
+    "entity_type": "GAME",
+    "match_type": "exact"
+  },
+  {
+    "alias": "live-blackjack-vip",
+    "entity_id": "game_live-blackjack-vip",
+    "entity_type": "GAME",
+    "match_type": "exact"
+  },
+  {
+    "alias": "live rulet hr",
+    "entity_id": "game_live-rulet-hr",
+    "entity_type": "GAME",
+    "match_type": "exact"
+  },
+  {
+    "alias": "live-rulet-hr",
+    "entity_id": "game_live-rulet-hr",
+    "entity_type": "GAME",
+    "match_type": "exact"
+  },
+  {
+    "alias": "live baccarat",
+    "entity_id": "game_live-baccarat",
+    "entity_type": "GAME",
+    "match_type": "exact"
+  },
+  {
+    "alias": "live-baccarat",
+    "entity_id": "game_live-baccarat",
+    "entity_type": "GAME",
+    "match_type": "exact"
+  },
+  {
+    "alias": "speed baccarat",
+    "entity_id": "game_speed-baccarat",
+    "entity_type": "GAME",
+    "match_type": "exact"
+  },
+  {
+    "alias": "speed-baccarat",
+    "entity_id": "game_speed-baccarat",
+    "entity_type": "GAME",
+    "match_type": "exact"
+  },
+  {
+    "alias": "dice show live",
+    "entity_id": "game_dice-show-live",
+    "entity_type": "GAME",
+    "match_type": "exact"
+  },
+  {
+    "alias": "dice-show-live",
+    "entity_id": "game_dice-show-live",
+    "entity_type": "GAME",
+    "match_type": "exact"
+  },
+  {
+    "alias": "slots",
+    "entity_id": "category_slots",
+    "entity_type": "CATEGORY",
+    "match_type": "exact"
+  },
+  {
+    "alias": "slot games",
+    "entity_id": "category_slots",
+    "entity_type": "CATEGORY",
+    "match_type": "exact"
+  },
+  {
+    "alias": "reels",
+    "entity_id": "category_slots",
+    "entity_type": "CATEGORY",
+    "match_type": "exact"
+  },
+  {
+    "alias": "slot machines",
+    "entity_id": "category_slots",
+    "entity_type": "CATEGORY",
+    "match_type": "exact"
+  },
+  {
+    "alias": "slots dikhao",
+    "entity_id": "category_slots",
+    "entity_type": "CATEGORY",
+    "match_type": "exact"
+  },
+  {
+    "alias": "slot wala game",
+    "entity_id": "category_slots",
+    "entity_type": "CATEGORY",
+    "match_type": "exact"
+  },
+  {
+    "alias": "jackpot games",
+    "entity_id": "category_jackpot",
+    "entity_type": "CATEGORY",
+    "match_type": "exact"
+  },
+  {
+    "alias": "jackpot",
+    "entity_id": "category_jackpot",
+    "entity_type": "CATEGORY",
+    "match_type": "exact"
+  },
+  {
+    "alias": "jackpots",
+    "entity_id": "category_jackpot",
+    "entity_type": "CATEGORY",
+    "match_type": "exact"
+  },
+  {
+    "alias": "table games",
+    "entity_id": "category_table",
+    "entity_type": "CATEGORY",
+    "match_type": "exact"
+  },
+  {
+    "alias": "card games",
+    "entity_id": "category_table",
+    "entity_type": "CATEGORY",
+    "match_type": "exact"
+  },
+  {
+    "alias": "tables",
+    "entity_id": "category_table",
+    "entity_type": "CATEGORY",
+    "match_type": "exact"
+  },
+  {
+    "alias": "new games",
+    "entity_id": "category_new",
+    "entity_type": "CATEGORY",
+    "match_type": "exact"
+  },
+  {
+    "alias": "new",
+    "entity_id": "category_new",
+    "entity_type": "CATEGORY",
+    "match_type": "exact"
+  },
+  {
+    "alias": "latest games",
+    "entity_id": "category_new",
+    "entity_type": "CATEGORY",
+    "match_type": "exact"
+  },
+  {
+    "alias": "nove igre",
+    "entity_id": "category_new",
+    "entity_type": "CATEGORY",
+    "match_type": "exact"
+  },
+  {
+    "alias": "popular games",
+    "entity_id": "category_popular",
+    "entity_type": "CATEGORY",
+    "match_type": "exact"
+  },
+  {
+    "alias": "popular",
+    "entity_id": "category_popular",
+    "entity_type": "CATEGORY",
+    "match_type": "exact"
+  },
+  {
+    "alias": "top games",
+    "entity_id": "category_popular",
+    "entity_type": "CATEGORY",
+    "match_type": "exact"
+  },
+  {
+    "alias": "instant games",
+    "entity_id": "category_instant",
+    "entity_type": "CATEGORY",
+    "match_type": "exact"
+  },
+  {
+    "alias": "instant",
+    "entity_id": "category_instant",
+    "entity_type": "CATEGORY",
+    "match_type": "exact"
+  },
+  {
+    "alias": "quick games",
+    "entity_id": "category_instant",
+    "entity_type": "CATEGORY",
+    "match_type": "exact"
+  },
+  {
+    "alias": "loto 7/39",
+    "entity_id": "lottery_loto-7-39",
+    "entity_type": "GAME",
+    "match_type": "exact"
+  },
+  {
+    "alias": "loto-7-39",
+    "entity_id": "lottery_loto-7-39",
+    "entity_type": "GAME",
+    "match_type": "exact"
+  },
+  {
+    "alias": "loto 7 39",
+    "entity_id": "lottery_loto-7-39",
+    "entity_type": "GAME",
+    "match_type": "exact"
+  },
+  {
+    "alias": "loto 6/45",
+    "entity_id": "lottery_loto-6-45",
+    "entity_type": "GAME",
+    "match_type": "exact"
+  },
+  {
+    "alias": "loto-6-45",
+    "entity_id": "lottery_loto-6-45",
+    "entity_type": "GAME",
+    "match_type": "exact"
+  },
+  {
+    "alias": "loto 6 45",
+    "entity_id": "lottery_loto-6-45",
+    "entity_type": "GAME",
+    "match_type": "exact"
+  },
+  {
+    "alias": "euro jackpot",
+    "entity_id": "lottery_euro-jackpot",
+    "entity_type": "GAME",
+    "match_type": "exact"
+  },
+  {
+    "alias": "euro-jackpot",
+    "entity_id": "lottery_euro-jackpot",
+    "entity_type": "GAME",
+    "match_type": "exact"
+  },
+  {
+    "alias": "keno",
+    "entity_id": "lottery_keno",
+    "entity_type": "GAME",
+    "match_type": "exact"
+  },
+  {
+    "alias": "bingo 90",
+    "entity_id": "lottery_bingo-90",
+    "entity_type": "GAME",
+    "match_type": "exact"
+  },
+  {
+    "alias": "bingo-90",
+    "entity_id": "lottery_bingo-90",
+    "entity_type": "GAME",
+    "match_type": "exact"
+  },
+  {
+    "alias": "sretni brojevi",
+    "entity_id": "lottery_sretni-brojevi",
+    "entity_type": "GAME",
+    "match_type": "exact"
+  },
+  {
+    "alias": "sretni-brojevi",
+    "entity_id": "lottery_sretni-brojevi",
+    "entity_type": "GAME",
+    "match_type": "exact"
+  }
+]

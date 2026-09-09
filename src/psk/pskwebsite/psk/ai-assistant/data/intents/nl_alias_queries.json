@@ -1,0 +1,513 @@
+[
+  {
+    "query": "open aviator",
+    "canonical_entity_id": "game_aviator",
+    "canonical_name": "Aviator",
+    "language": "en",
+    "note": ""
+  },
+  {
+    "query": "aviator kholo",
+    "canonical_entity_id": "game_aviator",
+    "canonical_name": "Aviator",
+    "language": "hinglish",
+    "note": "kholo = open"
+  },
+  {
+    "query": "aviator dikhao",
+    "canonical_entity_id": "game_aviator",
+    "canonical_name": "Aviator",
+    "language": "hinglish",
+    "note": "dikhao = show"
+  },
+  {
+    "query": "aviator ki leke jao",
+    "canonical_entity_id": "game_aviator",
+    "canonical_name": "Aviator",
+    "language": "hinglish",
+    "note": "take me to"
+  },
+  {
+    "query": "plane wala game open karo",
+    "canonical_entity_id": "game_aviator",
+    "canonical_name": "Aviator",
+    "language": "hinglish",
+    "note": "the plane one"
+  },
+  {
+    "query": "mujhe aviator khelna hai",
+    "canonical_entity_id": "game_aviator",
+    "canonical_name": "Aviator",
+    "language": "hi_latin",
+    "note": "I want to play"
+  },
+  {
+    "query": "aviator game chahiye",
+    "canonical_entity_id": "game_aviator",
+    "canonical_name": "Aviator",
+    "language": "hi_latin",
+    "note": "I want"
+  },
+  {
+    "query": "vimanam game open cheyyi",
+    "canonical_entity_id": "game_aviator",
+    "canonical_name": "Aviator",
+    "language": "te_latin",
+    "note": "vimanam = plane"
+  },
+  {
+    "query": "aviator ni open cheyyandi",
+    "canonical_entity_id": "game_aviator",
+    "canonical_name": "Aviator",
+    "language": "te_latin",
+    "note": "polite open"
+  },
+  {
+    "query": "aviator kavali",
+    "canonical_entity_id": "game_aviator",
+    "canonical_name": "Aviator",
+    "language": "te_latin",
+    "note": "kavali = I want"
+  },
+  {
+    "query": "where aviator",
+    "canonical_entity_id": "game_aviator",
+    "canonical_name": "Aviator",
+    "language": "en",
+    "note": "incomplete grammar"
+  },
+  {
+    "query": "aviater",
+    "canonical_entity_id": "game_aviator",
+    "canonical_name": "Aviator",
+    "language": "en",
+    "note": "misspelling"
+  },
+  {
+    "query": "avaitor game",
+    "canonical_entity_id": "game_aviator",
+    "canonical_name": "Aviator",
+    "language": "en",
+    "note": "misspelling"
+  },
+  {
+    "query": "avitor",
+    "canonical_entity_id": "game_aviator",
+    "canonical_name": "Aviator",
+    "language": "en",
+    "note": "misspelling"
+  },
+  {
+    "query": "the plane one",
+    "canonical_entity_id": "game_aviator",
+    "canonical_name": "Aviator",
+    "language": "en",
+    "note": "colloquial"
+  },
+  {
+    "query": "udne wala game",
+    "canonical_entity_id": "game_aviator",
+    "canonical_name": "Aviator",
+    "language": "hinglish",
+    "note": "the flying one"
+  },
+  {
+    "query": "aviator plz",
+    "canonical_entity_id": "game_aviator",
+    "canonical_name": "Aviator",
+    "language": "en",
+    "note": "abbreviation"
+  },
+  {
+    "query": "aviatr open",
+    "canonical_entity_id": "game_aviator",
+    "canonical_name": "Aviator",
+    "language": "en",
+    "note": "typo"
+  },
+  {
+    "query": "crash games dikhao",
+    "canonical_entity_id": "category_crash_games",
+    "canonical_name": "Crash Games",
+    "language": "hinglish",
+    "note": ""
+  },
+  {
+    "query": "crash wale game",
+    "canonical_entity_id": "category_crash_games",
+    "canonical_name": "Crash Games",
+    "language": "hinglish",
+    "note": ""
+  },
+  {
+    "query": "show crash games",
+    "canonical_entity_id": "category_crash_games",
+    "canonical_name": "Crash Games",
+    "language": "en",
+    "note": ""
+  },
+  {
+    "query": "crash section kholo",
+    "canonical_entity_id": "category_crash_games",
+    "canonical_name": "Crash Games",
+    "language": "hinglish",
+    "note": ""
+  },
+  {
+    "query": "crash games kavali",
+    "canonical_entity_id": "category_crash_games",
+    "canonical_name": "Crash Games",
+    "language": "te_latin",
+    "note": ""
+  },
+  {
+    "query": "cricket betting page",
+    "canonical_entity_id": "sport_cricket",
+    "canonical_name": "Cricket",
+    "language": "en",
+    "note": ""
+  },
+  {
+    "query": "cricket dikhao",
+    "canonical_entity_id": "sport_cricket",
+    "canonical_name": "Cricket",
+    "language": "hinglish",
+    "note": ""
+  },
+  {
+    "query": "cricket satta",
+    "canonical_entity_id": "sport_cricket",
+    "canonical_name": "Cricket",
+    "language": "hinglish",
+    "note": "satta = betting, informal"
+  },
+  {
+    "query": "cricket matches chahiye",
+    "canonical_entity_id": "sport_cricket",
+    "canonical_name": "Cricket",
+    "language": "hi_latin",
+    "note": ""
+  },
+  {
+    "query": "cricket ki page open cheyyi",
+    "canonical_entity_id": "sport_cricket",
+    "canonical_name": "Cricket",
+    "language": "te_latin",
+    "note": ""
+  },
+  {
+    "query": "crickt",
+    "canonical_entity_id": "sport_cricket",
+    "canonical_name": "Cricket",
+    "language": "en",
+    "note": "misspelling"
+  },
+  {
+    "query": "ipl betting kholo",
+    "canonical_entity_id": "sport_cricket",
+    "canonical_name": "Cricket",
+    "language": "hinglish",
+    "note": ""
+  },
+  {
+    "query": "mera bet history dikhao",
+    "canonical_entity_id": "page_bet_history",
+    "canonical_name": "Bet History",
+    "language": "hinglish",
+    "note": ""
+  },
+  {
+    "query": "bet history",
+    "canonical_entity_id": "page_bet_history",
+    "canonical_name": "Bet History",
+    "language": "en",
+    "note": ""
+  },
+  {
+    "query": "meri bets dikhao",
+    "canonical_entity_id": "page_bet_history",
+    "canonical_name": "Bet History",
+    "language": "hi_latin",
+    "note": ""
+  },
+  {
+    "query": "na bets chupinchu",
+    "canonical_entity_id": "page_bet_history",
+    "canonical_name": "Bet History",
+    "language": "te_latin",
+    "note": "show my bets"
+  },
+  {
+    "query": "my bets kaha hai",
+    "canonical_entity_id": "page_bet_history",
+    "canonical_name": "Bet History",
+    "language": "hinglish",
+    "note": "where are"
+  },
+  {
+    "query": "past bets",
+    "canonical_entity_id": "page_bet_history",
+    "canonical_name": "Bet History",
+    "language": "en",
+    "note": "incomplete"
+  },
+  {
+    "query": "paisa dalna hai",
+    "canonical_entity_id": "page_deposit",
+    "canonical_name": "Deposit",
+    "language": "hinglish",
+    "note": "want to put money in"
+  },
+  {
+    "query": "deposit karo",
+    "canonical_entity_id": "page_deposit",
+    "canonical_name": "Deposit",
+    "language": "hinglish",
+    "note": ""
+  },
+  {
+    "query": "add money",
+    "canonical_entity_id": "page_deposit",
+    "canonical_name": "Deposit",
+    "language": "en",
+    "note": ""
+  },
+  {
+    "query": "paise jama karne hai",
+    "canonical_entity_id": "page_deposit",
+    "canonical_name": "Deposit",
+    "language": "hi_latin",
+    "note": ""
+  },
+  {
+    "query": "dabbu vesali",
+    "canonical_entity_id": "page_deposit",
+    "canonical_name": "Deposit",
+    "language": "te_latin",
+    "note": "want to deposit"
+  },
+  {
+    "query": "top up",
+    "canonical_entity_id": "page_deposit",
+    "canonical_name": "Deposit",
+    "language": "en",
+    "note": "abbreviation"
+  },
+  {
+    "query": "recharge karna hai",
+    "canonical_entity_id": "page_deposit",
+    "canonical_name": "Deposit",
+    "language": "hinglish",
+    "note": ""
+  },
+  {
+    "query": "paisa nikalna hai",
+    "canonical_entity_id": "page_withdraw",
+    "canonical_name": "Withdraw",
+    "language": "hinglish",
+    "note": "want to take money out"
+  },
+  {
+    "query": "withdraw karo",
+    "canonical_entity_id": "page_withdraw",
+    "canonical_name": "Withdraw",
+    "language": "hinglish",
+    "note": ""
+  },
+  {
+    "query": "cash out",
+    "canonical_entity_id": "page_withdraw",
+    "canonical_name": "Withdraw",
+    "language": "en",
+    "note": ""
+  },
+  {
+    "query": "mera paisa nikalo",
+    "canonical_entity_id": "page_withdraw",
+    "canonical_name": "Withdraw",
+    "language": "hi_latin",
+    "note": ""
+  },
+  {
+    "query": "dabbu teesukovali",
+    "canonical_entity_id": "page_withdraw",
+    "canonical_name": "Withdraw",
+    "language": "te_latin",
+    "note": "want to withdraw"
+  },
+  {
+    "query": "withdrawl",
+    "canonical_entity_id": "page_withdraw",
+    "canonical_name": "Withdraw",
+    "language": "en",
+    "note": "misspelling"
+  },
+  {
+    "query": "kyc karna hai",
+    "canonical_entity_id": "page_kyc",
+    "canonical_name": "KYC Verification",
+    "language": "hinglish",
+    "note": ""
+  },
+  {
+    "query": "verify my account",
+    "canonical_entity_id": "page_kyc",
+    "canonical_name": "KYC Verification",
+    "language": "en",
+    "note": ""
+  },
+  {
+    "query": "kyc kaise kare",
+    "canonical_entity_id": "page_kyc",
+    "canonical_name": "KYC Verification",
+    "language": "hi_latin",
+    "note": "how to do KYC"
+  },
+  {
+    "query": "document upload cheyyali",
+    "canonical_entity_id": "page_kyc",
+    "canonical_name": "KYC Verification",
+    "language": "te_latin",
+    "note": ""
+  },
+  {
+    "query": "kyc",
+    "canonical_entity_id": "page_kyc",
+    "canonical_name": "KYC Verification",
+    "language": "en",
+    "note": "single token"
+  },
+  {
+    "query": "help chahiye",
+    "canonical_entity_id": "page_contact_support",
+    "canonical_name": "Contact Support",
+    "language": "hi_latin",
+    "note": ""
+  },
+  {
+    "query": "support se baat karao",
+    "canonical_entity_id": "page_contact_support",
+    "canonical_name": "Contact Support",
+    "language": "hinglish",
+    "note": ""
+  },
+  {
+    "query": "customer care number",
+    "canonical_entity_id": "page_contact_support",
+    "canonical_name": "Contact Support",
+    "language": "en",
+    "note": ""
+  },
+  {
+    "query": "madad karo",
+    "canonical_entity_id": "page_contact_support",
+    "canonical_name": "Contact Support",
+    "language": "hi_latin",
+    "note": "help me"
+  },
+  {
+    "query": "sahayam kavali",
+    "canonical_entity_id": "page_contact_support",
+    "canonical_name": "Contact Support",
+    "language": "te_latin",
+    "note": "need help"
+  },
+  {
+    "query": "agent se baat",
+    "canonical_entity_id": "page_contact_support",
+    "canonical_name": "Contact Support",
+    "language": "hinglish",
+    "note": ""
+  },
+  {
+    "query": "roulette kholo",
+    "canonical_entity_id": "game_roulette",
+    "canonical_name": "Roulette",
+    "language": "hinglish",
+    "note": ""
+  },
+  {
+    "query": "roulete",
+    "canonical_entity_id": "game_roulette",
+    "canonical_name": "Roulette",
+    "language": "en",
+    "note": "misspelling"
+  },
+  {
+    "query": "chakka game",
+    "canonical_entity_id": "game_roulette",
+    "canonical_name": "Roulette",
+    "language": "hinglish",
+    "note": "wheel game, colloquial"
+  },
+  {
+    "query": "roulette kavali",
+    "canonical_entity_id": "game_roulette",
+    "canonical_name": "Roulette",
+    "language": "te_latin",
+    "note": ""
+  },
+  {
+    "query": "offers dikhao",
+    "canonical_entity_id": "page_promotions",
+    "canonical_name": "Promotions",
+    "language": "hinglish",
+    "note": ""
+  },
+  {
+    "query": "koi bonus hai kya",
+    "canonical_entity_id": "page_promotions",
+    "canonical_name": "Promotions",
+    "language": "hi_latin",
+    "note": "is there any bonus"
+  },
+  {
+    "query": "promotions",
+    "canonical_entity_id": "page_promotions",
+    "canonical_name": "Promotions",
+    "language": "en",
+    "note": ""
+  },
+  {
+    "query": "offers unnaya",
+    "canonical_entity_id": "page_promotions",
+    "canonical_name": "Promotions",
+    "language": "te_latin",
+    "note": "are there offers"
+  },
+  {
+    "query": "gambling band karo",
+    "canonical_entity_id": "page_responsible_gaming",
+    "canonical_name": "Responsible Gaming",
+    "language": "hinglish",
+    "note": "stop my gambling"
+  },
+  {
+    "query": "mujhe rokna hai",
+    "canonical_entity_id": "page_responsible_gaming",
+    "canonical_name": "Responsible Gaming",
+    "language": "hi_latin",
+    "note": "I want to stop"
+  },
+  {
+    "query": "self exclusion",
+    "canonical_entity_id": "page_responsible_gaming",
+    "canonical_name": "Responsible Gaming",
+    "language": "en",
+    "note": ""
+  },
+  {
+    "query": "limit set karo",
+    "canonical_entity_id": "page_responsible_gaming",
+    "canonical_name": "Responsible Gaming",
+    "language": "hinglish",
+    "note": ""
+  },
+  {
+    "query": "aapali",
+    "canonical_entity_id": "page_responsible_gaming",
+    "canonical_name": "Responsible Gaming",
+    "language": "te_latin",
+    "note": "stop"
+  }
+]

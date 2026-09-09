@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="live_match_widget_description">PSK Pulse: live score &amp; odds for your tracked match</string>
+    <string name="bet_slip_widget_description">PSK Pulse: your open bet slip</string>
+    <string name="boost_widget_description">PSK Pulse: the current Favorit Plus boosted price</string>
+</resources>

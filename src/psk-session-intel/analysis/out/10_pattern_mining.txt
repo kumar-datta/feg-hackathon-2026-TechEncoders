@@ -1,0 +1,285 @@
+sequences: 16095  SB app sequences: 13772  median length: 10
+
+=== SB iOS 2-grams: most common in NON-converting sessions (lift_conv<0.8) ===
+Empty DataFrame
+Columns: [pattern, sessions, support, conv_rate_with, lift_conv, share_of_nonconv, share_of_conv]
+Index: []
+--- SB iOS 2-grams: strongest conversion signals (support>=3%) ---
+                        pattern  sessions  support  conv_rate_with  lift_conv  share_of_nonconv  share_of_conv
+                betslip > PLACE      2005    0.327           1.000      2.893             0.000          0.945
+             PLACE > liveDetail      1107    0.180           1.000      2.893             0.000          0.522
+PLACE > prematchMatchesOverview       405    0.066           1.000      2.893             0.000          0.191
+             PLACE > liveEvents       466    0.076           1.000      2.893             0.000          0.220
+         PLACE > prematchDetail       523    0.085           1.000      2.893             0.000          0.246
+           PLACE > ticketDetail       314    0.051           1.000      2.893             0.000          0.148
+           liveDetail > betslip       592    0.096           0.944      2.732             0.008          0.263
+           betslip > my_account       291    0.047           0.938      2.715             0.004          0.129
+
+=== SB iOS 3-grams: most common in NON-converting sessions (lift_conv<0.8) ===
+                               pattern  sessions  support  conv_rate_with  lift_conv  share_of_nonconv  share_of_conv
+webViewunknown > homepage > my_account       169    0.028           0.231      0.668             0.032          0.018
+--- SB iOS 3-grams: strongest conversion signals (support>=3%) ---
+                                  pattern  sessions  support  conv_rate_with  lift_conv  share_of_nonconv  share_of_conv
+                    ADD > betslip > PLACE      1697    0.276             1.0      2.893               0.0          0.800
+             betslip > PLACE > liveDetail      1071    0.174             1.0      2.893               0.0          0.505
+             liveDetail > betslip > PLACE       253    0.041             1.0      2.893               0.0          0.119
+     PLACE > ticketDetail > ticketHistory       218    0.036             1.0      2.893               0.0          0.103
+betslip > PLACE > prematchMatchesOverview       369    0.060             1.0      2.893               0.0          0.174
+   PLACE > prematchDetail > ticketHistory       207    0.034             1.0      2.893               0.0          0.098
+        PLACE > liveDetail > ticketDetail       204    0.033             1.0      2.893               0.0          0.096
+            PLACE > liveDetail > homepage       215    0.035             1.0      2.893               0.0          0.101
+
+=== SB Android 2-grams: most common in NON-converting sessions (lift_conv<0.8) ===
+Empty DataFrame
+Columns: [pattern, sessions, support, conv_rate_with, lift_conv, share_of_nonconv, share_of_conv]
+Index: []
+--- SB Android 2-grams: strongest conversion signals (support>=3%) ---
+               pattern  sessions  support  conv_rate_with  lift_conv  share_of_nonconv  share_of_conv
+         PLACE > other      1974    0.259           1.000      3.172             0.000          0.820
+         other > PLACE      1494    0.196           1.000      3.172             0.000          0.621
+PLACE > unnamed_screen       276    0.036           1.000      3.172             0.000          0.115
+ PLACE > ticketHistory       610    0.080           1.000      3.172             0.000          0.254
+    PLACE > liveEvents       238    0.031           1.000      3.172             0.000          0.099
+unnamed_screen > PLACE      1539    0.202           1.000      3.172             0.000          0.640
+    other > liveDetail       244    0.032           0.988      3.133             0.001          0.100
+ other > ticketHistory       644    0.084           0.967      3.069             0.004          0.259
+
+=== SB Android 3-grams: most common in NON-converting sessions (lift_conv<0.8) ===
+Empty DataFrame
+Columns: [pattern, sessions, support, conv_rate_with, lift_conv, share_of_nonconv, share_of_conv]
+Index: []
+--- SB Android 3-grams: strongest conversion signals (support>=3%) ---
+                       pattern  sessions  support  conv_rate_with  lift_conv  share_of_nonconv  share_of_conv
+           ADD > other > PLACE      1485    0.195             1.0      3.172               0.0          0.617
+PLACE > other > unnamed_screen       974    0.128             1.0      3.172               0.0          0.405
+  ADD > unnamed_screen > PLACE       918    0.120             1.0      3.172               0.0          0.382
+         other > PLACE > other      1190    0.156             1.0      3.172               0.0          0.495
+unnamed_screen > PLACE > other      1222    0.160             1.0      3.172               0.0          0.508
+ PLACE > other > ticketHistory       581    0.076             1.0      3.172               0.0          0.241
+ other > PLACE > ticketHistory       343    0.045             1.0      3.172               0.0          0.143
+           PLACE > other > ADD       359    0.047             1.0      3.172               0.0          0.149
+
+=== PrefixSpan SB iOS NON-converting: n=4018, gapped patterns len>=3, support>=5% ===
+  24.8%  homepage … ticketHistory … ticketDetail … ticketHistory
+  22.9%  ticketHistory … ticketDetail … ticketHistory … ticketDetail
+  19.4%  homepage … ticketDetail … ticketHistory … ticketDetail
+  18.7%  ticketDetail … ticketHistory … ticketDetail … ticketHistory
+  13.3%  homepage … prematchSports … prematchLeagues … prematchMatchesOverview
+  12.7%  homepage … ticketHistory … ticketDetail … homepage
+  11.4%  homepage … ticketHistory … homepage … ticketHistory
+  11.0%  prematchSports … prematchLeagues … prematchMatchesOverview … prematchLeagues
+  10.9%  ticketHistory … ticketDetail … ticketHistory … homepage
+  10.8%  homepage … prematchLeagues … prematchMatchesOverview … prematchLeagues
+  10.8%  ticketHistory … ticketDetail … homepage … ticketHistory
+  10.7%  ticketHistory … homepage … ticketHistory … ticketDetail
+
+=== PrefixSpan SB iOS converting (path before first action): n=2122, gapped patterns len>=3, support>=5% ===
+  35.3%  ADD … prematchLeagues … prematchMatchesOverview … ADD
+  34.8%  ADD … prematchMatchesOverview … prematchLeagues … prematchMatchesOverview
+  33.0%  ADD … prematchLeagues … prematchMatchesOverview … prematchLeagues
+  32.9%  ADD … liveDetail … ADD … betslip
+  32.1%  ADD … prematchMatchesOverview … ADD … prematchMatchesOverview
+  31.5%  ADD … prematchMatchesOverview … prematchLeagues … ADD
+  29.6%  ADD … prematchMatchesOverview … prematchDetail … ADD
+  29.4%  ADD … liveEvents … ADD … betslip
+  29.3%  ADD … prematchLeagues … ADD … prematchMatchesOverview
+  28.7%  ADD … prematchLeagues … prematchMatchesOverview … prematchDetail
+  28.6%  ADD … prematchMatchesOverview … ADD … betslip
+  28.4%  ADD … prematchMatchesOverview … prematchDetail … prematchMatchesOverview
+
+=== PrefixSpan SB Android NON-converting: n=5226, gapped patterns len>=3, support>=5% ===
+  24.9%  unnamed_screen … ticketHistory … ticketDetail … ticketHistory
+  18.4%  unnamed_screen … ticketDetail … ticketHistory … ticketDetail
+  18.4%  unnamed_screen … ticketHistory … ticketDetail … unnamed_screen
+  17.7%  ticketHistory … ticketDetail … ticketHistory … ticketDetail
+  14.7%  ticketDetail … ticketHistory … ticketDetail … ticketHistory
+  14.6%  unnamed_screen … ticketDetail … ticketHistory … unnamed_screen
+  14.0%  ticketHistory … ticketDetail … ticketHistory … unnamed_screen
+  13.0%  unnamed_screen … ticketHistory … unnamed_screen … ticketHistory
+  12.2%  unnamed_screen … ticketHistory … unnamed_screen … ticketDetail
+  12.0%  unnamed_screen … ticketDetail … unnamed_screen … ticketHistory
+  11.6%  unnamed_screen … ticketDetail … unnamed_screen … ticketDetail
+  11.4%  ticketHistory … ticketDetail … unnamed_screen … ticketHistory
+
+=== PrefixSpan SB Android converting (path before first action): n=2406, gapped patterns len>=3, support>=5% ===
+  42.7%  unnamed_screen … prematchLeagues … competition_detail … ADD
+  41.0%  unnamed_screen … liveEvents … liveDetail … ADD
+  40.1%  unnamed_screen … prematchLeagues … competition_detail … prematchLeagues
+  39.9%  unnamed_screen … competition_detail … prematchLeagues … competition_detail
+  38.7%  unnamed_screen … competition_detail … ADD … competition_detail
+  38.6%  unnamed_screen … ADD … competition_detail … ADD
+  38.6%  unnamed_screen … prematchLeagues … ADD … competition_detail
+  38.3%  unnamed_screen … competition_detail … prematchLeagues … ADD
+  37.4%  unnamed_screen … ADD … prematchLeagues … competition_detail
+  36.9%  unnamed_screen … prematchSports … prematchLeagues … competition_detail
+  36.3%  unnamed_screen … prematchSports … prematchLeagues … ADD
+  36.2%  unnamed_screen … prematchLeagues … ADD … prematchLeagues
+
+=== Absorbing Markov chain SB_iOS: P(reach action before leaving) from each screen ===
+                  state  visits  p_reach_action  p_exit  expected_steps_left  direct_exit_rate  direct_action_rate  next_step_entropy_bits
+                betslip    7336           0.540   0.456               20.122             0.018               0.261                   3.106
+                    ADD   11699           0.448   0.546               26.188             0.004               0.000                   2.575
+         prematchDetail   10295           0.428   0.566               27.450             0.011               0.000                   2.112
+prematchMatchesOverview   21283           0.420   0.574               28.732             0.006               0.000                   2.061
+        prematchLeagues   15776           0.416   0.577               29.201             0.006               0.000                   1.173
+         prematchSports    5089           0.402   0.591               28.963             0.014               0.000                   1.370
+                 search     368           0.394   0.598               27.697             0.011               0.003                   2.637
+             liveDetail   18530           0.383   0.612               26.661             0.011               0.000                   2.458
+             liveEvents   15244           0.373   0.622               26.500             0.031               0.000                   1.987
+           ticketDetail   16195           0.344   0.651               25.502             0.055               0.000                   2.357
+             my_account    4092           0.342   0.655               21.393             0.054               0.017                   2.138
+         webViewunknown    2858           0.338   0.659               20.238             0.116               0.045                   2.370
+               homepage    9805           0.338   0.658               24.858             0.062               0.000                   2.692
+          ticketHistory   15130           0.336   0.660               25.509             0.042               0.000                   1.571
+                   menu     193           0.316   0.680               22.759             0.093               0.000                   2.933
+                  other     293           0.296   0.700               20.991             0.222               0.003                   3.224
+
+=== Absorbing Markov chain SB_Android: P(reach action before leaving) from each screen ===
+                  state  visits  p_reach_action  p_exit  expected_steps_left  direct_exit_rate  direct_action_rate  next_step_entropy_bits
+                  other    3762           0.537   0.460               15.012             0.014               0.292                   2.743
+                 ticket     543           0.395   0.602               19.672             0.024               0.076                   2.576
+                    ADD   11988           0.390   0.606               21.733             0.003               0.000                   2.657
+         prematchDetail    9194           0.390   0.607               22.619             0.003               0.000                   1.827
+     competition_detail   22115           0.373   0.623               23.822             0.004               0.000                   1.882
+        prematchLeagues   15750           0.365   0.631               24.167             0.009               0.000                   0.923
+prematchMatchesOverview      67           0.362   0.605               23.352             0.000               0.000                   1.868
+         prematchSports    3154           0.343   0.654               23.055             0.034               0.000                   1.421
+                 search      95           0.336   0.661               20.450             0.011               0.021                   2.344
+             liveDetail    8320           0.328   0.669               20.721             0.013               0.000                   2.208
+         unnamed_screen   19515           0.313   0.684               16.713             0.115               0.063                   3.504
+             liveEvents    8230           0.311   0.686               19.968             0.047               0.000                   1.771
+               homepage     721           0.297   0.700               18.712             0.101               0.000                   3.496
+      accounts_web_view    2943           0.290   0.708               17.340             0.042               0.000                   1.384
+                account    1927           0.289   0.708               17.300             0.058               0.002                   1.970
+                   menu     382           0.269   0.729               15.046             0.168               0.000                   1.625
+           ticketDetail    9771           0.264   0.734               17.223             0.090               0.000                   2.274
+          ticketHistory   10207           0.257   0.740               17.120             0.077               0.000                   1.622
+
+=== Absorbing Markov chain Casino_Android: P(reach action before leaving) from each screen ===
+         state  visits  p_reach_action  p_exit  expected_steps_left  direct_exit_rate  direct_action_rate  next_step_entropy_bits
+        search     649           0.965   0.026                1.092             0.008               0.921                   0.444
+         login     127           0.719   0.257                2.073             0.039               0.157                   1.163
+unnamed_screen    2183           0.694   0.295                1.384             0.274               0.417                   1.775
+        splash     146           0.680   0.296                2.355             0.007               0.000                   0.079
+
+=== Apriori rules (SB apps): outcome base rates {'no_action': 0.594, 'abandoned_final': 0.077, 'converted': 0.329}
+
+--- strongest rules -> abandoned_final (support>=2%) ---
+                                         antecedent         outcome  sessions  support  confidence  lift
+                               adds=1 & plat=SB iOS abandoned_final       295    0.021       0.542 7.027
+                                             adds=1 abandoned_final       603    0.044       0.448 5.801
+                                   adds=1 & weekday abandoned_final       399    0.029       0.434 5.617
+                               adds=1 & used_ticket abandoned_final       364    0.026       0.396 5.125
+             adds=2-3 & plat=SB iOS & used_prematch abandoned_final       285    0.021       0.393 5.091
+                                 adds=1 & used_live abandoned_final       498    0.036       0.390 5.047
+    arch=prematch_browse & len=30s-5m & plat=SB iOS abandoned_final       297    0.022       0.387 5.017
+    adds=2-3 & arch=prematch_browse & used_prematch abandoned_final       303    0.022       0.386 5.003
+                    adds=2-3 & arch=prematch_browse abandoned_final       303    0.022       0.386 5.003
+  arch=prematch_browse & len=5-30m & opened_betslip abandoned_final       356    0.026       0.379 4.913
+arch=prematch_browse & idx=2nd-3rd & opened_betslip abandoned_final       280    0.020       0.375 4.858
+                          adds=2-3 & first=homepage abandoned_final       326    0.024       0.371 4.809
+
+--- strongest rules -> no_action (support>=2%) ---
+                                 antecedent   outcome  sessions  support  confidence  lift
+ breadth=focused & first=unnamed & len=<30s no_action       410    0.030       1.000 1.683
+          arch=account & len=<30s & weekday no_action       300    0.022       1.000 1.683
+         first=unnamed & idx=1st & len=<30s no_action       429    0.031       0.998 1.679
+                    arch=account & len=<30s no_action       403    0.029       0.998 1.679
+     arch=account & len=<30s & used_account no_action       364    0.026       0.997 1.679
+    hour=morning_06-11 & idx=1st & len=<30s no_action       325    0.024       0.997 1.678
+          len=<30s & used_account & weekday no_action       316    0.023       0.997 1.678
+breadth=mid & hour=morning_06-11 & len=<30s no_action       284    0.021       0.996 1.677
+     arch=ticket_check & idx=1st & len=<30s no_action       283    0.021       0.996 1.677
+       arch=glance & len=<30s & plat=SB iOS no_action       554    0.040       0.996 1.677
+    arch=glance & first=homepage & len=<30s no_action       535    0.039       0.996 1.677
+   arch=glance & breadth=focused & len=<30s no_action       487    0.035       0.996 1.676
+
+--- strongest rules -> converted (support>=2%) ---
+                                         antecedent   outcome  sessions  support  confidence  lift
+ arch=marathon & hour=evening_18-23 & used_prematch converted       449    0.033         1.0 3.042
+       adds=4+ & arch=marathon & hour=evening_18-23 converted       603    0.044         1.0 3.042
+ arch=marathon & breadth=broad & hour=evening_18-23 converted       376    0.027         1.0 3.042
+      arch=marathon & hour=evening_18-23 & idx=7th+ converted       283    0.021         1.0 3.042
+  arch=marathon & hour=evening_18-23 & used_account converted       348    0.025         1.0 3.042
+     arch=marathon & hour=evening_18-23 & used_live converted       570    0.041         1.0 3.042
+   arch=marathon & hour=evening_18-23 & used_ticket converted       599    0.043         1.0 3.042
+       arch=marathon & hour=evening_18-23 & weekday converted       443    0.032         1.0 3.042
+arch=marathon & hour=evening_18-23 & opened_betslip converted       303    0.022         1.0 3.042
+   arch=marathon & hour=evening_18-23 & plat=SB iOS converted       300    0.022         1.0 3.042
+         arch=marathon & idx=4th-6th & used_account converted       368    0.027         1.0 3.042
+         arch=marathon & breadth=mid & used_account converted       355    0.026         1.0 3.042
+
+=== Four-intent taxonomy (SB apps) ===
+  platform               intent  sessions  med_len  med_events  share
+SB Android converted_after_hunt      1287 2957.702       162.0  0.169
+SB Android      converted_quick      1119 1768.866       105.0  0.147
+SB Android    decided_cant_find        10  481.455        17.5  0.001
+SB Android   decided_hesitating       397  600.511        46.0  0.052
+SB Android      no_intent_today      4549   29.654         8.0  0.596
+SB Android   undecided_research       270  668.960        41.0  0.035
+    SB iOS converted_after_hunt      1269 3733.983       136.0  0.207
+    SB iOS      converted_quick       853 1633.527        77.0  0.139
+    SB iOS    decided_cant_find        15  602.911        10.0  0.002
+    SB iOS   decided_hesitating       666  855.484        35.0  0.108
+    SB iOS      no_intent_today      3096   18.862         4.0  0.504
+    SB iOS   undecided_research       241  884.269        20.0  0.039
+
+-- intent mix by breadth --
+intent      converted_after_hunt  converted_quick  decided_cant_find  decided_hesitating  no_intent_today  undecided_research
+breadth                                                                                                                      
+broad                      0.198            0.146              0.002               0.090            0.518               0.047
+focused                    0.113            0.100              0.001               0.069            0.692               0.026
+mid                        0.232            0.178              0.003               0.062            0.495               0.030
+no_sb_rows                 0.058            0.078              0.004               0.066            0.782               0.012
+
+-- intent mix by hour band --
+intent           converted_after_hunt  converted_quick  decided_cant_find  decided_hesitating  no_intent_today  undecided_research
+hour_band                                                                                                                         
+afternoon_12-17                 0.212            0.159              0.002               0.087            0.508               0.033
+evening_18-23                   0.191            0.142              0.002               0.066            0.571               0.028
+morning_06-11                   0.164            0.131              0.002               0.086            0.564               0.053
+night_00-05                     0.132            0.125              0.003               0.062            0.635               0.043
+
+screens seen before first add (SB apps): p25/50/75/90 = [4.0, 7.0, 13.0, 25.0]
+share of first adds within 3 screens: 0.202  share after 8+ screens: 0.464
+
+=== Deferred intent at fixture level (abandoned SB app sessions with a known fixture) ===
+sessions: 912  share where an abandoned fixture was later placed by the same player: 0.0
+hours until placed, p25/50/75: [nan, nan, nan]  within 24h: 0.0
+placed fixtures that were first added in an EARLIER session (multi-session research): nan of 0
+
+=== Chasing proxy: new pick added within 60 s of placing (SB apps, sessions with a placement) ===
+share of placing sessions with >=1 quick re-bet: 0.28  mean per session: 1.67
+                 sessions  share_quick  mean_quick
+archetype                                         
+account                20        0.050       0.050
+casino                  2        0.000       0.000
+glance                 25        0.040       0.040
+live_follow          1089        0.069       0.082
+marathon             1877        0.510       3.830
+prematch_browse      1420        0.162       0.204
+ticket_check           92        0.033       0.033
+by hour band:
+                 sessions  share_quick
+hour_band                             
+afternoon_12-17      1724        0.306
+evening_18-23        1503        0.249
+morning_06-11         910        0.324
+night_00-05           388        0.186
+players (>=20 placing sessions) with quick re-bet in >30% of sessions: 23 of 66
+
+=== Android placement retries ===
+sessions with a placement: 2398  with >=1 failure: 358 (14.9%)  failures never followed by an accepted ticket: 15
+failed placements per failing session p50/p90: [1.0, 6.0]  total failed events: 1103  total accepted: 8999
+typical status sequences in failing sessions:
+status
+ACC>ACC>ACC>ACC>ACC>ACC>ACC>ACC    56
+REJ>ACC                            18
+CLO>ACC                            14
+ACC>CLO>ACC                        11
+CLO>ACC>ACC                         8
+ACC>CLO>ACC>ACC>ACC>ACC>ACC>ACC     7
+ACC>ACC>CLO>ACC>ACC>ACC>ACC>ACC     7
+CLO>ACC>ACC>ACC>ACC>ACC>ACC>ACC     6
+
+done

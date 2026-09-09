@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="hr" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PSK.demo — Sport i Casino | Naslovna</title>
+<meta name="description" content="Demonstracijski klon sučelja sportske kladionice i casina. Obrazovni projekt, bez stvarnog novca.">
+<link rel="stylesheet" href="assets/css/main.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%230b4bd4'/><text x='16' y='22' font-size='13' font-family='sans-serif' font-weight='bold' fill='white' text-anchor='middle'>PSK</text></svg>">
+<script>window.PAGE = { nav: 'home', sub: 'home' };</script>
+</head>
+<body>
+
+<div class="page" style="max-width:1400px">
+
+  <!-- ============ HERO CAROUSEL ============ -->
+  <div class="carousel" id="heroCarousel">
+    <div class="carousel-track" id="heroTrack">
+
+      <div class="hero">
+        <span class="hero-eyebrow">Sportska kladionica</span>
+        <h1>Preko 30 sportova i 150 nogometnih liga u jednoj ponudi</h1>
+        <p>Prematch i klađenje uživo, BetBuilder, sistemi i kombinacije — sve na jednom mjestu.</p>
+        <div class="hero-actions">
+          <a class="btn btn-accent btn-lg" href="oklade.html">Otvori ponudu</a>
+          <a class="btn btn-ghost btn-lg" href="oklade.html?filter=live" style="color:#fff;border-color:rgba(255,255,255,.45)">Klađenje uživo</a>
+        </div>
+      </div>
+
+      <div class="hero" style="background:linear-gradient(115deg,#4a1d6e,#2a1046 45%,#140a24)">
+        <span class="hero-eyebrow">Casino</span>
+        <h1>Više od 400 igara i dnevni jackpotovi</h1>
+        <p>Slotovi, igre na stolovima, instant igre i game showovi vodećih providera.</p>
+        <div class="hero-actions">
+          <a class="btn btn-accent btn-lg" href="casino.html">Uđi u casino</a>
+          <a class="btn btn-ghost btn-lg" href="live-casino.html" style="color:#fff;border-color:rgba(255,255,255,.45)">Live Casino</a>
+        </div>
+      </div>
+
+      <div class="hero" style="background:linear-gradient(115deg,#0b5c3a,#083f28 45%,#04210f)">
+        <span class="hero-eyebrow">Loto i virtualne igre</span>
+        <h1>Izvlačenja svaki dan, kola svakih nekoliko minuta</h1>
+        <p>Loto 7/39, Euro Jackpot, keno i bingo uz virtualni sport dostupan 24/7.</p>
+        <div class="hero-actions">
+          <a class="btn btn-accent btn-lg" href="loto.html">Loto ponuda</a>
+          <a class="btn btn-ghost btn-lg" href="virtualne-igre.html" style="color:#fff;border-color:rgba(255,255,255,.45)">Virtualne igre</a>
+        </div>
+      </div>
+
+    </div>
+    <button class="carousel-arrow prev" id="heroPrev" aria-label="Prethodni">‹</button>
+    <button class="carousel-arrow next" id="heroNext" aria-label="Sljedeći">›</button>
+  </div>
+  <div class="carousel-dots" id="heroDots"></div>
+
+  <!-- ============ QUICK LINKS ============ -->
+  <section class="sec">
+    <div class="sec-hd"><h2>Brzi pristup</h2></div>
+    <div class="quick-grid">
+      <a class="quick-card" href="oklade.html"><div class="ico">🏆</div><div class="t">Sport</div><div class="s" id="qcSport">ponuda</div></a>
+      <a class="quick-card" href="oklade.html?filter=live"><div class="ico">🔴</div><div class="t">Uživo</div><div class="s" id="qcLive">događaja</div></a>
+      <a class="quick-card" href="casino.html"><div class="ico">🎰</div><div class="t">Casino</div><div class="s" id="qcGames">igara</div></a>
+      <a class="quick-card" href="live-casino.html"><div class="ico">🎥</div><div class="t">Live Casino</div><div class="s">stolovi uživo</div></a>
+      <a class="quick-card" href="loto.html"><div class="ico">🎱</div><div class="t">Loto</div><div class="s">6 igara</div></a>
+      <a class="quick-card" href="virtualne-igre.html"><div class="ico">🎮</div><div class="t">Virtualne</div><div class="s">24/7 kola</div></a>
+      <a class="quick-card" href="swipe-and-bet.html"><div class="ico">👆</div><div class="t">Swipe &amp; Bet</div><div class="s">brzi listić</div></a>
+      <a class="quick-card" href="promocije.html"><div class="ico">🎁</div><div class="t">Promo</div><div class="s">akcije</div></a>
+    </div>
+  </section>
+
+  <!-- ============ TOP OFFER ============ -->
+  <section class="sec">
+    <div class="sec-hd">
+      <h2>⭐ Izdvojeno iz ponude</h2>
+      <a class="more" href="oklade.html">Cijela ponuda →</a>
+    </div>
+    <div class="panel" id="topOffer"></div>
+  </section>
+
+  <!-- ============ LIVE NOW ============ -->
+  <section class="sec">
+    <div class="sec-hd">
+      <h2><span class="dot-live"></span> Uživo sada</h2>
+      <a class="more" href="oklade.html?filter=live">Sve uživo →</a>
+    </div>
+    <div class="panel" id="liveNow"></div>
+  </section>
+
+  <!-- ============ CASINO RAILS ============ -->
+  <div id="homeCasino"></div>
+
+  <!-- ============ PROMOS ============ -->
+  <section class="sec">
+    <div class="sec-hd">
+      <h2>🎁 Aktualne promocije</h2>
+      <a class="more" href="promocije.html">Sve promocije →</a>
+    </div>
+    <div class="tile-grid" id="homePromos"></div>
+  </section>
+
+  <!-- ============ NEWS ============ -->
+  <section class="sec">
+    <div class="sec-hd">
+      <h2>📰 Novosti i analize</h2>
+      <a class="more" href="novosti.html">Sve novosti →</a>
+    </div>
+    <div class="tile-grid" id="homeNews"></div>
+  </section>
+
+  <!-- ============ SEO TEXT ============ -->
+  <section class="sec prose">
+    <h2>O ovom projektu</h2>
+    <p>
+      Ovo je samostalno izrađena vježba izrade korisničkog sučelja koja demonstrira kako je
+      strukturirana tipična stranica sportske kladionice i online casina: navigacija po proizvodima,
+      stablo sportova, mrežа tečajeva, listić, katalog igara s filtriranjem te informativne stranice.
+    </p>
+    <h3>Što je implementirano</h3>
+    <ul>
+      <li>Ponuda s više od 30 sportova, ligama i generiranim događajima te tržištima.</li>
+      <li>Listić koji računa ukupni tečaj, odbitak i mogući dobitak, s trajnim spremanjem u pregledniku.</li>
+      <li>Casino katalog s kategorijama, providerima, pretragom i jackpot prikazom.</li>
+      <li>Osam igrivih demo igara napisanih u JavaScriptu (slot, rulet, blackjack, crash, mine, kocke, kolo sreće, baccarat).</li>
+      <li>Loto s izvlačenjem, virtualne utrke, rezultati, statistika, novosti i forum.</li>
+      <li>Svijetla i tamna tema, responzivni raspored i mobilna navigacija.</li>
+    </ul>
+    <h3>Napomena</h3>
+    <p>
+      Stranica ne prima uplate, ne omogućuje stvarno klađenje i nije povezana ni s jednim priređivačem
+      igara na sreću. Svi događaji, tečajevi, nazivi igara i iznosi nasumično su generirani u pregledniku.
+    </p>
+  </section>
+
+</div>
+
+<script src="assets/js/data.js"></script>
+<script src="assets/js/site.js"></script>
+<script src="assets/js/games.js"></script>
+<script src="assets/js/casino.js"></script>
+<script>
+(function () {
+  const P = window.PSK, D = window.PSK_DATA;
+  const $ = P.$, $$ = P.$$, esc = P.esc, num = P.num, eur = P.eur;
+
+  /* ---- carousel ---- */
+  const track = $('#heroTrack'), dots = $('#heroDots');
+  const n = track.children.length;
+  let idx = 0, timer;
+  dots.innerHTML = Array.from({length: n}, (_, i) => `<button data-d="${i}"></button>`).join('');
+  function go(i) {
+    idx = (i + n) % n;
+    track.style.transform = `translateX(-${idx * 100}%)`;
+    $$('#heroDots button').forEach((b, j) => b.classList.toggle('is-active', j === idx));
+  }
+  $$('#heroDots button').forEach(b => b.onclick = () => { go(+b.dataset.d); restart(); });
+  $('#heroNext').onclick = () => { go(idx + 1); restart(); };
+  $('#heroPrev').onclick = () => { go(idx - 1); restart(); };
+  function restart() { clearInterval(timer); timer = setInterval(() => go(idx + 1), 6000); }
+  go(0); restart();
+
+  /* ---- quick card counts ---- */
+  $('#qcSport').textContent = D.OFFER.length + ' događaja';
+  $('#qcLive').textContent  = D.LIVE_COUNT + ' događaja';
+  $('#qcGames').textContent = D.ALL_GAMES.length + ' igara';
+
+  /* ---- offer rows ---- */
+  function row(ev) {
+    const cols = D.MARKET_SETS[(D.SPORTS.find(s => s.id === ev.sportId) || {}).cols || '1x2'].slice(0, 3);
+    const d = new Date(ev.start);
+    const t = ev.live ? `<span class="evt-live-min">${ev.minute}'</span>`
+                      : String(d.getHours()).padStart(2,'0') + ':' + String(d.getMinutes()).padStart(2,'0');
+    return `
+      <div class="evt" style="--cols:3">
+        <div class="evt-main">
+          <div class="evt-time">${t}</div>
+          <div class="evt-teams">
+            <div class="evt-team">${esc(ev.name)}</div>
+            <div class="evt-meta"><span>${ev.flag} ${esc(ev.leagueName)}</span>
+              ${ev.live ? `<span style="color:var(--live);font-weight:700">${ev.score}</span>` : `<span>#${ev.code}</span>`}
+            </div>
+          </div>
+        </div>
+        ${cols.map(c => ev.markets[c] == null
+          ? `<button class="odd is-empty" disabled>–</button>`
+          : `<button class="odd" data-ev="${ev.id}" data-mkt="${c}">${num(ev.markets[c])}</button>`).join('')}
+        <span></span>
+      </div>`;
+  }
+
+  const top = D.OFFER.filter(e => !e.live && ['ucl','eng-pl','hr-1hnl','esp-la','nba','euroliga'].includes(e.leagueId)).slice(0, 10);
+  $('#topOffer').innerHTML = top.map(row).join('');
+
+  const live = D.OFFER.filter(e => e.live).slice(0, 10);
+  $('#liveNow').innerHTML = live.length ? live.map(row).join('')
+    : '<div class="slip-empty">Trenutno nema događaja uživo.</div>';
+
+  function bindOdds() {
+    $$('.odd[data-ev]').forEach(b => b.onclick = () => {
+      const ev = D.OFFER.find(e => e.id === b.dataset.ev);
+      if (!ev) return;
+      P.slip.toggle(ev, b.dataset.mkt);
+      P.toast(P.slip.has(ev.id, b.dataset.mkt) ? 'Dodano na listić.' : 'Uklonjeno s listića.', 'info');
+    });
+  }
+  bindOdds();
+
+  /* ---- casino rails ---- */
+  const C = window.PSK_CASINO;
+  $('#homeCasino').innerHTML =
+    C.rail('Popularne casino igre', '🔥', D.ALL_GAMES.filter(g => g.cats.includes('popular')), 'casino.html?kategorija=popular') +
+    C.rail('Nove igre', '✨', D.ALL_GAMES.filter(g => g.cats.includes('new')), 'casino.html?kategorija=new') +
+    C.rail('Igre na stolovima', '🃏', D.TABLE_GAMES, 'casino.html?kategorija=table');
+  C.bindTiles($('#homeCasino'));
+
+  /* ---- promos ---- */
+  $('#homePromos').innerHTML = D.PROMOS.slice(0, 4).map(p => `
+    <a class="panel" href="promocije.html#${p.id}" style="display:block">
+      <div style="height:96px;background:linear-gradient(140deg,hsl(${p.h1} 70% 44%),hsl(${p.h2} 65% 24%));
+                  display:grid;place-items:center;font-size:30px">🎁</div>
+      <div class="panel-bd">
+        <span class="tag-new">${esc(p.tag)}</span>
+        <div style="font-weight:700;margin:8px 0 4px;font-size:14px">${esc(p.title)}</div>
+        <div style="font-size:12.5px;color:var(--txt-mute)">${esc(p.text.slice(0, 90))}…</div>
+      </div>
+    </a>`).join('');
+
+  /* ---- news ---- */
+  $('#homeNews').innerHTML = D.NEWS.slice(0, 4).map(a => `
+    <a class="panel" href="novosti.html#${a.id}" style="display:block">
+      <div class="panel-bd">
+        <div style="font-size:11px;color:var(--accent);font-weight:700">${esc(a.cat)} · ${esc(a.date)}</div>
+        <div style="font-weight:700;margin:6px 0 4px;font-size:14px">${esc(a.title)}</div>
+        <div style="font-size:12.5px;color:var(--txt-mute)">${esc(a.text)}</div>
+      </div>
+    </a>`).join('');
+})();
+</script>
+</body>
+</html>

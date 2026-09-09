@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="hr" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Swipe &amp; Bet — brzo slaganje listića | PSK.demo</title>
+<link rel="stylesheet" href="assets/css/main.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%230b4bd4'/><text x='16' y='22' font-size='13' font-family='sans-serif' font-weight='bold' fill='white' text-anchor='middle'>PSK</text></svg>">
+<script>window.PAGE = { nav: 'swipe' };</script>
+<style>
+  .sw-stack { position: relative; height: 380px; max-width: 380px; margin: 0 auto; }
+  .sw-card {
+    position: absolute; inset: 0; border-radius: var(--radius-lg);
+    background: var(--bg-elev); border: 1px solid var(--line);
+    box-shadow: var(--shadow); padding: 22px; display: flex; flex-direction: column;
+    transition: transform .3s, opacity .3s;
+  }
+  .sw-card.gone-left  { transform: translateX(-130%) rotate(-14deg); opacity: 0; }
+  .sw-card.gone-right { transform: translateX(130%) rotate(14deg); opacity: 0; }
+  .sw-card.gone-up    { transform: translateY(-130%); opacity: 0; }
+  .sw-actions { display: flex; gap: 12px; justify-content: center; margin-top: 22px; }
+  .sw-btn { width: 58px; height: 58px; border-radius: 50%; font-size: 22px; border: 1px solid var(--line); background: var(--bg-elev); }
+  .sw-btn:hover { transform: scale(1.08); }
+  .sw-btn.no  { color: var(--live); }
+  .sw-btn.yes { color: var(--win); }
+  .sw-btn.skip{ color: var(--txt-mute); }
+</style>
+</head>
+<body>
+<div class="page narrow">
+  <div class="crumbs"><a href="index.html">Naslovna</a> › Swipe &amp; Bet</div>
+  <h1 class="page-title">👆 Swipe &amp; Bet</h1>
+  <p class="page-lede">
+    Brzi način slaganja listića: prihvati ili odbaci ponuđeni par. Prihvaćeni parovi
+    odmah idu na listić.
+  </p>
+
+  <div class="sw-stack" id="swStack" style="margin-top:28px"></div>
+
+  <div class="sw-actions">
+    <button class="sw-btn no"   id="swNo"   title="Odbaci">✕</button>
+    <button class="sw-btn skip" id="swSkip" title="Preskoči">↷</button>
+    <button class="sw-btn yes"  id="swYes"  title="Dodaj na listić">✓</button>
+  </div>
+
+  <p style="text-align:center;color:var(--txt-mute);font-size:12.5px;margin-top:16px" id="swMsg">
+    Na listiću: 0 parova
+  </p>
+
+  <div style="text-align:center;margin-top:20px">
+    <a class="btn btn-accent btn-lg" href="oklade.html">Otvori listić u ponudi</a>
+  </div>
+
+  <section class="sec prose">
+    <h2>Kako radi</h2>
+    <p>
+      Svaka kartica prikazuje jedan događaj i jedan prijedlog tržišta s pripadajućim tečajem.
+      Potvrda dodaje par na listić koji je zajednički cijeloj stranici, pa ga možeš dovršiti
+      na stranici ponude. Odbacivanje prelazi na sljedeći prijedlog.
+    </p>
+  </section>
+</div>
+
+<script src="assets/js/data.js"></script>
+<script src="assets/js/site.js"></script>
+<script src="assets/js/games.js"></script>
+<script>
+(function () {
+  const P = window.PSK, D = window.PSK_DATA;
+  const pool = D.OFFER.filter(e => !e.outright).sort(() => Math.random() - 0.5);
+  let i = 0;
+
+  function cardFor(ev) {
+    const keys = Object.keys(ev.markets).filter(k => ev.markets[k] != null);
+    const mkt = keys[Math.floor(Math.random() * keys.length)];
+    const d = new Date(ev.start);
+    return { ev, mkt, html: `
+      <div class="sw-card" id="swCard">
+        <div style="font-size:12px;color:var(--txt-mute)">${ev.flag} ${P.esc(ev.leagueName)}</div>
+        <div style="font-size:22px;font-weight:800;margin:14px 0">${P.esc(ev.name)}</div>
+        <div style="font-size:12.5px;color:var(--txt-dim)">
+          ${ev.live ? `<span style="color:var(--live);font-weight:700">UŽIVO ${ev.minute}' · ${ev.score}</span>`
+                    : d.toLocaleString('hr-HR', { day:'2-digit', month:'2-digit', hour:'2-digit', minute:'2-digit' })}
+        </div>
+        <div style="flex:1"></div>
+        <div style="text-align:center;padding:20px;background:var(--bg-elev-2);border-radius:var(--radius)">
+          <div style="font-size:12px;color:var(--txt-mute);text-transform:uppercase;letter-spacing:.6px">
+            ${P.esc(D.MARKET_LABELS[mkt] || mkt)}</div>
+          <div style="font-size:38px;font-weight:900;color:var(--accent);margin-top:6px">
+            ${P.num(ev.markets[mkt])}</div>
+        </div>
+        <div style="font-size:11px;color:var(--txt-mute);text-align:center;margin-top:12px">
+          šifra ${ev.code} · prijedlog ${i + 1} / ${pool.length}</div>
+      </div>` };
+  }
+
+  let cur = null;
+  function next() {
+    if (i >= pool.length) {
+      document.getElementById('swStack').innerHTML =
+        `<div class="sw-card" style="align-items:center;justify-content:center;text-align:center">
+           <div style="font-size:40px">🎉</div>
+           <p style="margin-top:12px">Prošao si sve prijedloge.</p>
+           <a class="btn btn-accent" href="oklade.html">Otvori ponudu</a>
+         </div>`;
+      return;
+    }
+    cur = cardFor(pool[i]);
+    document.getElementById('swStack').innerHTML = cur.html;
+  }
+
+  function fly(dir, add) {
+    const c = document.getElementById('swCard');
+    if (!c) return;
+    c.classList.add('gone-' + dir);
+    if (add && cur) {
+      P.slip.toggle(cur.ev, cur.mkt);
+      P.toast('Dodano na listić: ' + cur.ev.name);
+    }
+    setTimeout(() => {
+      i++;
+      next();
+      document.getElementById('swMsg').textContent = 'Na listiću: ' + P.slip.picks.length + ' parova';
+    }, 280);
+  }
+
+  document.getElementById('swYes').onclick  = () => fly('right', true);
+  document.getElementById('swNo').onclick   = () => fly('left', false);
+  document.getElementById('swSkip').onclick = () => fly('up', false);
+
+  document.addEventListener('keydown', e => {
+    if (e.key === 'ArrowRight') fly('right', true);
+    if (e.key === 'ArrowLeft')  fly('left', false);
+    if (e.key === 'ArrowUp')    fly('up', false);
+  });
+
+  next();
+  document.getElementById('swMsg').textContent = 'Na listiću: ' + P.slip.picks.length + ' parova';
+})();
+</script>
+</body>
+</html>

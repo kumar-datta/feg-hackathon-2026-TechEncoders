@@ -1,0 +1,237 @@
+{
+  "actions": [
+    {
+      "action": "OPEN_GAME",
+      "requires_entity_type": "GAME",
+      "requires_auth": false,
+      "requires_kyc": false,
+      "confirm_before_execute": false,
+      "description": "Launch a specific game.",
+      "route_source": "entity_registry",
+      "llm_may_generate_url": false
+    },
+    {
+      "action": "OPEN_CATEGORY",
+      "requires_entity_type": "CATEGORY",
+      "requires_auth": false,
+      "requires_kyc": false,
+      "confirm_before_execute": false,
+      "description": "Open a game category or lobby.",
+      "route_source": "entity_registry",
+      "llm_may_generate_url": false
+    },
+    {
+      "action": "OPEN_SPORT",
+      "requires_entity_type": "SPORT",
+      "requires_auth": false,
+      "requires_kyc": false,
+      "confirm_before_execute": false,
+      "description": "Open a sport section in the sportsbook.",
+      "route_source": "entity_registry",
+      "llm_may_generate_url": false
+    },
+    {
+      "action": "OPEN_EVENT",
+      "requires_entity_type": "EVENT",
+      "requires_auth": false,
+      "requires_kyc": false,
+      "confirm_before_execute": false,
+      "description": "Open a specific sporting event.",
+      "route_source": "entity_registry",
+      "llm_may_generate_url": false
+    },
+    {
+      "action": "OPEN_DEPOSIT",
+      "requires_entity_type": "PAGE",
+      "requires_auth": true,
+      "requires_kyc": false,
+      "confirm_before_execute": true,
+      "description": "Open the deposit page. Financial — confirm first.",
+      "route_source": "entity_registry",
+      "llm_may_generate_url": false
+    },
+    {
+      "action": "OPEN_WITHDRAW",
+      "requires_entity_type": "PAGE",
+      "requires_auth": true,
+      "requires_kyc": true,
+      "confirm_before_execute": true,
+      "description": "Open the withdrawal page. Financial — confirm first.",
+      "route_source": "entity_registry",
+      "llm_may_generate_url": false
+    },
+    {
+      "action": "OPEN_WALLET",
+      "requires_entity_type": "PAGE",
+      "requires_auth": true,
+      "requires_kyc": false,
+      "confirm_before_execute": false,
+      "description": "Open the wallet overview.",
+      "route_source": "entity_registry",
+      "llm_may_generate_url": false
+    },
+    {
+      "action": "OPEN_BET_HISTORY",
+      "requires_entity_type": "PAGE",
+      "requires_auth": true,
+      "requires_kyc": false,
+      "confirm_before_execute": false,
+      "description": "Open the bet history page.",
+      "route_source": "entity_registry",
+      "llm_may_generate_url": false
+    },
+    {
+      "action": "OPEN_PROFILE",
+      "requires_entity_type": "PAGE",
+      "requires_auth": true,
+      "requires_kyc": false,
+      "confirm_before_execute": false,
+      "description": "Open the account profile.",
+      "route_source": "entity_registry",
+      "llm_may_generate_url": false
+    },
+    {
+      "action": "OPEN_KYC",
+      "requires_entity_type": "PAGE",
+      "requires_auth": true,
+      "requires_kyc": false,
+      "confirm_before_execute": false,
+      "description": "Open the identity verification page.",
+      "route_source": "entity_registry",
+      "llm_may_generate_url": false
+    },
+    {
+      "action": "OPEN_PROMOTIONS",
+      "requires_entity_type": "PAGE",
+      "requires_auth": false,
+      "requires_kyc": false,
+      "confirm_before_execute": false,
+      "description": "Open the promotions page.",
+      "route_source": "entity_registry",
+      "llm_may_generate_url": false
+    },
+    {
+      "action": "OPEN_HELP",
+      "requires_entity_type": "PAGE",
+      "requires_auth": false,
+      "requires_kyc": false,
+      "confirm_before_execute": false,
+      "description": "Open the help centre.",
+      "route_source": "entity_registry",
+      "llm_may_generate_url": false
+    },
+    {
+      "action": "OPEN_SUPPORT",
+      "requires_entity_type": "PAGE",
+      "requires_auth": false,
+      "requires_kyc": false,
+      "confirm_before_execute": false,
+      "description": "Open support contact channels.",
+      "route_source": "entity_registry",
+      "llm_may_generate_url": false
+    },
+    {
+      "action": "OPEN_RESPONSIBLE_GAMING",
+      "requires_entity_type": "PAGE",
+      "requires_auth": false,
+      "requires_kyc": false,
+      "confirm_before_execute": false,
+      "description": "Open responsible gaming tools. Always permitted, never gated.",
+      "route_source": "entity_registry",
+      "llm_may_generate_url": false
+    }
+  ],
+  "intent_action_map": [
+    {
+      "intent": "NAVIGATE",
+      "entity_type": "GAME",
+      "action": "OPEN_GAME"
+    },
+    {
+      "intent": "NAVIGATE",
+      "entity_type": "CATEGORY",
+      "action": "OPEN_CATEGORY"
+    },
+    {
+      "intent": "NAVIGATE",
+      "entity_type": "SPORT",
+      "action": "OPEN_SPORT"
+    },
+    {
+      "intent": "NAVIGATE",
+      "entity_type": "EVENT",
+      "action": "OPEN_EVENT"
+    },
+    {
+      "intent": "NAVIGATE",
+      "entity_type": "PAGE",
+      "action": "OPEN_PAGE_BY_ID"
+    },
+    {
+      "intent": "DEPOSIT",
+      "entity_type": "PAGE",
+      "action": "OPEN_DEPOSIT"
+    },
+    {
+      "intent": "WITHDRAW",
+      "entity_type": "PAGE",
+      "action": "OPEN_WITHDRAW"
+    },
+    {
+      "intent": "BET_HISTORY",
+      "entity_type": "PAGE",
+      "action": "OPEN_BET_HISTORY"
+    },
+    {
+      "intent": "ACCOUNT",
+      "entity_type": "PAGE",
+      "action": "OPEN_PROFILE"
+    },
+    {
+      "intent": "KYC",
+      "entity_type": "PAGE",
+      "action": "OPEN_KYC"
+    },
+    {
+      "intent": "PROMOTION",
+      "entity_type": "PAGE",
+      "action": "OPEN_PROMOTIONS"
+    },
+    {
+      "intent": "SUPPORT",
+      "entity_type": "PAGE",
+      "action": "OPEN_SUPPORT"
+    },
+    {
+      "intent": "RESPONSIBLE_GAMING",
+      "entity_type": "PAGE",
+      "action": "OPEN_RESPONSIBLE_GAMING"
+    },
+    {
+      "intent": "FAQ",
+      "entity_type": null,
+      "action": "ANSWER_FROM_RAG"
+    },
+    {
+      "intent": "GAME_INFO",
+      "entity_type": "GAME",
+      "action": "ANSWER_FROM_RAG"
+    },
+    {
+      "intent": "SEARCH",
+      "entity_type": null,
+      "action": "SHOW_SEARCH_RESULTS"
+    },
+    {
+      "intent": "AMBIGUOUS",
+      "entity_type": null,
+      "action": "ASK_CLARIFICATION"
+    },
+    {
+      "intent": "UNKNOWN",
+      "entity_type": null,
+      "action": "FALLBACK_TO_SUPPORT"
+    }
+  ],
+  "note": "route_source is always entity_registry. The executor accepts an entity_id and looks up the route; it has no code path that accepts a URL produced by the model."
+}

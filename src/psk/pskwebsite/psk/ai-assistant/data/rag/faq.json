@@ -1,0 +1,2164 @@
+[
+  {
+    "id": "faq_account_001",
+    "question": "How do I create an account?",
+    "answer": "Open the registration page from the sign-up button in the header, provide the required details, and confirm your email or phone number if prompted. You must be of legal gambling age in your jurisdiction to register.",
+    "category": "ACCOUNT",
+    "keywords": [
+      "register",
+      "sign up",
+      "create account",
+      "new account"
+    ],
+    "related_pages": [
+      "page_profile"
+    ],
+    "source_type": "FAQ",
+    "priority": "high",
+    "requires_verified_source": false,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_account_002",
+    "question": "How do I log in?",
+    "answer": "Use the login button in the site header and enter the username or email and password you registered with. If two-factor authentication is enabled on your account, you will also be asked for a verification code.",
+    "category": "ACCOUNT",
+    "keywords": [
+      "login",
+      "sign in",
+      "log in"
+    ],
+    "related_pages": [
+      "page_profile"
+    ],
+    "source_type": "FAQ",
+    "priority": "high",
+    "requires_verified_source": false,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_account_003",
+    "question": "I forgot my password. How do I reset it?",
+    "answer": "Use the \"forgot password\" link on the login screen. A reset link or code is sent to the email address or phone number registered to the account. If you no longer have access to that address, contact support — they will not reset a password without verifying identity.",
+    "category": "ACCOUNT",
+    "keywords": [
+      "password",
+      "forgot",
+      "reset",
+      "recover"
+    ],
+    "related_pages": [
+      "page_profile",
+      "page_contact_support"
+    ],
+    "source_type": "FAQ",
+    "priority": "high",
+    "requires_verified_source": false,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_account_004",
+    "question": "How do I change my password?",
+    "answer": "Open your profile settings and use the change-password option. You will be asked for your current password before setting a new one.",
+    "category": "ACCOUNT",
+    "keywords": [
+      "password",
+      "change",
+      "update",
+      "security"
+    ],
+    "related_pages": [
+      "page_profile"
+    ],
+    "source_type": "FAQ",
+    "priority": "medium",
+    "requires_verified_source": false,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_account_005",
+    "question": "How do I log out?",
+    "answer": "Use the logout option in the account menu. If you are on a shared or public device, log out at the end of every session and avoid saving your password in the browser.",
+    "category": "ACCOUNT",
+    "keywords": [
+      "logout",
+      "sign out",
+      "exit"
+    ],
+    "related_pages": [
+      "page_profile"
+    ],
+    "source_type": "FAQ",
+    "priority": "medium",
+    "requires_verified_source": false,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_account_006",
+    "question": "How do I update my email address or phone number?",
+    "answer": "Contact details are changed from your profile settings. Changing them may require re-verification, and some operators restrict changes while a withdrawal is in progress.",
+    "category": "ACCOUNT",
+    "keywords": [
+      "email",
+      "phone",
+      "update",
+      "contact details"
+    ],
+    "related_pages": [
+      "page_profile"
+    ],
+    "source_type": "FAQ",
+    "priority": "medium",
+    "requires_verified_source": true,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_account_007",
+    "question": "Can I change my username?",
+    "answer": "Whether a username can be changed after registration depends on the operator's account policy. The exact details are published on the official page for this topic — please check there or contact support, as this varies by operator and region.",
+    "category": "ACCOUNT",
+    "keywords": [
+      "username",
+      "change",
+      "nickname"
+    ],
+    "related_pages": [
+      "page_profile",
+      "page_contact_support"
+    ],
+    "source_type": "FAQ",
+    "priority": "low",
+    "requires_verified_source": true,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_account_008",
+    "question": "Can I have more than one account?",
+    "answer": "Operators generally permit only one account per person. Duplicate accounts are usually restricted when detected. The exact rule is set out in the terms and conditions.",
+    "category": "ACCOUNT",
+    "keywords": [
+      "multiple accounts",
+      "duplicate",
+      "second account"
+    ],
+    "related_pages": [
+      "page_terms"
+    ],
+    "source_type": "FAQ",
+    "priority": "medium",
+    "requires_verified_source": true,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_account_009",
+    "question": "Why is my account restricted?",
+    "answer": "Accounts can be restricted for several reasons, including incomplete verification, a security review, a self-exclusion or limit you set, or a terms-and-conditions issue. The specific reason for your account can only be given by support after they verify you.",
+    "category": "ACCOUNT",
+    "keywords": [
+      "restricted",
+      "blocked",
+      "suspended",
+      "locked"
+    ],
+    "related_pages": [
+      "page_contact_support",
+      "page_kyc"
+    ],
+    "source_type": "FAQ",
+    "priority": "high",
+    "requires_verified_source": false,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_account_010",
+    "question": "How do I close my account?",
+    "answer": "Account closure is requested through support or, where offered, from account settings. What happens to a remaining balance and whether closure is reversible is set out in the account closure policy. The exact details are published on the official page for this topic — please check there or contact support, as this varies by operator and region.",
+    "category": "ACCOUNT",
+    "keywords": [
+      "close",
+      "delete",
+      "deactivate",
+      "remove account"
+    ],
+    "related_pages": [
+      "page_profile",
+      "page_contact_support",
+      "page_responsible_gaming"
+    ],
+    "source_type": "FAQ",
+    "priority": "medium",
+    "requires_verified_source": true,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_account_011",
+    "question": "How do I update my account settings?",
+    "answer": "Open your profile from the account menu. Settings there typically cover contact details, communication preferences, security options and responsible gaming limits.",
+    "category": "ACCOUNT",
+    "keywords": [
+      "settings",
+      "preferences",
+      "profile"
+    ],
+    "related_pages": [
+      "page_profile"
+    ],
+    "source_type": "FAQ",
+    "priority": "medium",
+    "requires_verified_source": false,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_account_012",
+    "question": "How do I enable two-factor authentication?",
+    "answer": "If two-factor authentication is offered, it is enabled from the security section of your profile settings. Turning it on is one of the most effective steps you can take to protect an account that holds funds.",
+    "category": "ACCOUNT",
+    "keywords": [
+      "2fa",
+      "two factor",
+      "security",
+      "authentication"
+    ],
+    "related_pages": [
+      "page_profile"
+    ],
+    "source_type": "FAQ",
+    "priority": "medium",
+    "requires_verified_source": true,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_account_013",
+    "question": "Someone may have accessed my account. What should I do?",
+    "answer": "Change your password immediately, and enable two-factor authentication if it is available. Then contact support straight away so they can review account activity and secure it. Do not share your password or any verification code with anyone, including people claiming to be staff.",
+    "category": "ACCOUNT",
+    "keywords": [
+      "hacked",
+      "unauthorised",
+      "compromised",
+      "security"
+    ],
+    "related_pages": [
+      "page_profile",
+      "page_contact_support"
+    ],
+    "source_type": "FAQ",
+    "priority": "high",
+    "requires_verified_source": false,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_account_014",
+    "question": "Why do I keep getting logged out?",
+    "answer": "Sessions expire after a period of inactivity for security. Frequent unexpected logouts can also be caused by browser settings that clear cookies, private browsing mode, or switching networks. If it persists after checking those, contact support.",
+    "category": "ACCOUNT",
+    "keywords": [
+      "logged out",
+      "session",
+      "expired"
+    ],
+    "related_pages": [
+      "page_contact_support"
+    ],
+    "source_type": "FAQ",
+    "priority": "low",
+    "requires_verified_source": false,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_account_015",
+    "question": "What personal details do I need to provide?",
+    "answer": "Registration typically requires identifying details and contact information. Additional documents may be requested later for verification. Exactly what is collected and why is described in the privacy policy.",
+    "category": "ACCOUNT",
+    "keywords": [
+      "details",
+      "personal data",
+      "information"
+    ],
+    "related_pages": [
+      "page_privacy",
+      "page_kyc"
+    ],
+    "source_type": "FAQ",
+    "priority": "medium",
+    "requires_verified_source": true,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_kyc_001",
+    "question": "What is KYC?",
+    "answer": "KYC stands for \"Know Your Customer\". It is the identity verification process operators are required to carry out, confirming who you are and, in some cases, where your funds come from.",
+    "category": "KYC",
+    "keywords": [
+      "kyc",
+      "verification",
+      "identity"
+    ],
+    "related_pages": [
+      "page_kyc"
+    ],
+    "source_type": "FAQ",
+    "priority": "high",
+    "requires_verified_source": false,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_kyc_002",
+    "question": "Why do I need to complete KYC?",
+    "answer": "Licensed gambling operators are legally required to verify customer identity. Verification supports age checks, anti-money-laundering obligations and account security. It is not optional where the licence requires it.",
+    "category": "KYC",
+    "keywords": [
+      "kyc",
+      "why",
+      "required",
+      "mandatory"
+    ],
+    "related_pages": [
+      "page_kyc",
+      "page_terms"
+    ],
+    "source_type": "FAQ",
+    "priority": "high",
+    "requires_verified_source": false,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_kyc_003",
+    "question": "Which documents are accepted for verification?",
+    "answer": "Accepted document types are listed on the verification page in your account. They commonly include a government-issued photo ID and a proof of address, but the exact list depends on the operator and your jurisdiction. The exact details are published on the official page for this topic — please check there or contact support, as this varies by operator and region.",
+    "category": "KYC",
+    "keywords": [
+      "documents",
+      "id",
+      "passport",
+      "proof"
+    ],
+    "related_pages": [
+      "page_kyc"
+    ],
+    "source_type": "FAQ",
+    "priority": "high",
+    "requires_verified_source": true,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_kyc_004",
+    "question": "How do I upload my documents?",
+    "answer": "Open the verification page in your account and use the upload option for each requested document. Make sure the whole document is visible, in focus, and not cropped at the edges — unclear images are the most common reason for a rejected submission.",
+    "category": "KYC",
+    "keywords": [
+      "upload",
+      "documents",
+      "submit"
+    ],
+    "related_pages": [
+      "page_kyc"
+    ],
+    "source_type": "FAQ",
+    "priority": "high",
+    "requires_verified_source": false,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_kyc_005",
+    "question": "How long does verification take?",
+    "answer": "Review times depend on the operator and on how many submissions are in the queue. The expected timeframe is published on the verification page. The exact details are published on the official page for this topic — please check there or contact support, as this varies by operator and region.",
+    "category": "KYC",
+    "keywords": [
+      "how long",
+      "time",
+      "processing",
+      "review"
+    ],
+    "related_pages": [
+      "page_kyc",
+      "page_contact_support"
+    ],
+    "source_type": "FAQ",
+    "priority": "high",
+    "requires_verified_source": true,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_kyc_006",
+    "question": "How do I check my verification status?",
+    "answer": "Your current status is shown on the verification page in your account, along with anything still outstanding.",
+    "category": "KYC",
+    "keywords": [
+      "status",
+      "check",
+      "progress",
+      "pending"
+    ],
+    "related_pages": [
+      "page_kyc"
+    ],
+    "source_type": "FAQ",
+    "priority": "high",
+    "requires_verified_source": false,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_kyc_007",
+    "question": "My verification failed. What now?",
+    "answer": "The verification page normally states the reason. Common causes are an unclear or cropped image, an expired document, or details that do not match the account. Correct the issue and resubmit. If the reason is unclear, contact support.",
+    "category": "KYC",
+    "keywords": [
+      "failed",
+      "rejected",
+      "declined",
+      "resubmit"
+    ],
+    "related_pages": [
+      "page_kyc",
+      "page_contact_support"
+    ],
+    "source_type": "FAQ",
+    "priority": "high",
+    "requires_verified_source": false,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_kyc_008",
+    "question": "Do I have to verify before withdrawing?",
+    "answer": "Most licensed operators require completed verification before a withdrawal is released. Whether it is required before depositing or playing varies. The exact details are published on the official page for this topic — please check there or contact support, as this varies by operator and region.",
+    "category": "KYC",
+    "keywords": [
+      "withdraw",
+      "before",
+      "required"
+    ],
+    "related_pages": [
+      "page_kyc",
+      "page_withdraw"
+    ],
+    "source_type": "FAQ",
+    "priority": "high",
+    "requires_verified_source": true,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_kyc_009",
+    "question": "Is my identity document stored securely?",
+    "answer": "Handling, storage and retention of identity documents is governed by the privacy policy and applicable data protection law. The privacy policy sets out the specifics.",
+    "category": "KYC",
+    "keywords": [
+      "security",
+      "storage",
+      "data",
+      "privacy"
+    ],
+    "related_pages": [
+      "page_privacy",
+      "page_kyc"
+    ],
+    "source_type": "FAQ",
+    "priority": "medium",
+    "requires_verified_source": true,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_kyc_010",
+    "question": "Why was I asked for proof of my source of funds?",
+    "answer": "Source-of-funds checks are part of anti-money-laundering obligations and can be triggered by a range of factors. They are a standard regulatory requirement, not an accusation. The documents accepted are listed on the verification page.",
+    "category": "KYC",
+    "keywords": [
+      "source of funds",
+      "aml",
+      "proof"
+    ],
+    "related_pages": [
+      "page_kyc",
+      "page_contact_support"
+    ],
+    "source_type": "FAQ",
+    "priority": "medium",
+    "requires_verified_source": true,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_kyc_011",
+    "question": "Can someone else verify on my behalf?",
+    "answer": "No. Accounts are personal and verification must be completed by the account holder with their own documents. Using another person's documents or account is a terms breach.",
+    "category": "KYC",
+    "keywords": [
+      "someone else",
+      "behalf",
+      "third party"
+    ],
+    "related_pages": [
+      "page_kyc",
+      "page_terms"
+    ],
+    "source_type": "FAQ",
+    "priority": "medium",
+    "requires_verified_source": false,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_deposit_001",
+    "question": "How do I deposit money?",
+    "answer": "Open the deposit page from your wallet, choose a payment method, enter the amount, and follow the prompts for that method. You need to be logged in.",
+    "category": "DEPOSIT",
+    "keywords": [
+      "deposit",
+      "add money",
+      "top up",
+      "fund"
+    ],
+    "related_pages": [
+      "page_deposit",
+      "page_wallet"
+    ],
+    "source_type": "FAQ",
+    "priority": "high",
+    "requires_verified_source": false,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_deposit_002",
+    "question": "What payment methods can I use?",
+    "answer": "The methods available to you are listed on the deposit page, and depend on your region and account. The exact details are published on the official page for this topic — please check there or contact support, as this varies by operator and region.",
+    "category": "DEPOSIT",
+    "keywords": [
+      "payment methods",
+      "options",
+      "card",
+      "upi",
+      "bank"
+    ],
+    "related_pages": [
+      "page_deposit"
+    ],
+    "source_type": "FAQ",
+    "priority": "high",
+    "requires_verified_source": true,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_deposit_003",
+    "question": "What is the minimum deposit?",
+    "answer": "Minimum amounts are shown on the deposit page next to each payment method, and differ between methods. The exact details are published on the official page for this topic — please check there or contact support, as this varies by operator and region.",
+    "category": "DEPOSIT",
+    "keywords": [
+      "minimum",
+      "min",
+      "smallest",
+      "limit"
+    ],
+    "related_pages": [
+      "page_deposit"
+    ],
+    "source_type": "FAQ",
+    "priority": "high",
+    "requires_verified_source": true,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_deposit_004",
+    "question": "What is the maximum deposit?",
+    "answer": "Maximum amounts per transaction and per period are shown on the deposit page and may also be affected by any deposit limit you have set yourself. The exact details are published on the official page for this topic — please check there or contact support, as this varies by operator and region.",
+    "category": "DEPOSIT",
+    "keywords": [
+      "maximum",
+      "max",
+      "limit",
+      "cap"
+    ],
+    "related_pages": [
+      "page_deposit",
+      "page_responsible_gaming"
+    ],
+    "source_type": "FAQ",
+    "priority": "medium",
+    "requires_verified_source": true,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_deposit_005",
+    "question": "My deposit is pending. What does that mean?",
+    "answer": "A pending deposit has been initiated but not yet confirmed. Some methods settle instantly while others take longer to clear. If it stays pending beyond the timeframe shown for that method, contact support with the transaction reference.",
+    "category": "DEPOSIT",
+    "keywords": [
+      "pending",
+      "processing",
+      "not credited",
+      "waiting"
+    ],
+    "related_pages": [
+      "page_transactions",
+      "page_contact_support"
+    ],
+    "source_type": "FAQ",
+    "priority": "high",
+    "requires_verified_source": false,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_deposit_006",
+    "question": "My deposit failed but money left my account. What should I do?",
+    "answer": "Failed transactions where funds have left your account are usually reversed by the payment provider, though the timeframe is set by them rather than the operator. Keep your bank reference and contact support so they can trace it.",
+    "category": "DEPOSIT",
+    "keywords": [
+      "failed",
+      "debited",
+      "money taken",
+      "not credited"
+    ],
+    "related_pages": [
+      "page_transactions",
+      "page_contact_support"
+    ],
+    "source_type": "FAQ",
+    "priority": "high",
+    "requires_verified_source": false,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_deposit_007",
+    "question": "I was charged twice for one deposit.",
+    "answer": "Contact support with both transaction references. Duplicate charges are investigated against the payment provider's records, and any confirmed duplicate is handled under the operator's refund process.",
+    "category": "DEPOSIT",
+    "keywords": [
+      "duplicate",
+      "charged twice",
+      "double"
+    ],
+    "related_pages": [
+      "page_transactions",
+      "page_contact_support"
+    ],
+    "source_type": "FAQ",
+    "priority": "high",
+    "requires_verified_source": false,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_deposit_008",
+    "question": "Why was my deposit declined?",
+    "answer": "Declines usually come from the payment provider rather than the operator — common causes include insufficient funds, card restrictions on gambling transactions, expired card details, or a bank security block. Your bank can tell you the specific reason.",
+    "category": "DEPOSIT",
+    "keywords": [
+      "declined",
+      "rejected",
+      "failed",
+      "error"
+    ],
+    "related_pages": [
+      "page_deposit",
+      "page_contact_support"
+    ],
+    "source_type": "FAQ",
+    "priority": "high",
+    "requires_verified_source": false,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_deposit_009",
+    "question": "How long does a deposit take to appear?",
+    "answer": "Most methods credit quickly, but timing varies by method and provider. The expected time is shown next to each method on the deposit page. The exact details are published on the official page for this topic — please check there or contact support, as this varies by operator and region.",
+    "category": "DEPOSIT",
+    "keywords": [
+      "how long",
+      "time",
+      "instant",
+      "delay"
+    ],
+    "related_pages": [
+      "page_deposit"
+    ],
+    "source_type": "FAQ",
+    "priority": "medium",
+    "requires_verified_source": true,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_deposit_010",
+    "question": "Are there fees for depositing?",
+    "answer": "Any fee applied by the operator is displayed before you confirm. Your bank or payment provider may apply its own charges separately. The exact details are published on the official page for this topic — please check there or contact support, as this varies by operator and region.",
+    "category": "DEPOSIT",
+    "keywords": [
+      "fees",
+      "charges",
+      "cost"
+    ],
+    "related_pages": [
+      "page_deposit"
+    ],
+    "source_type": "FAQ",
+    "priority": "medium",
+    "requires_verified_source": true,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_deposit_011",
+    "question": "Can I deposit using someone else's card?",
+    "answer": "No. Payment methods must be in the account holder's own name. Using a third party's payment method is a terms breach and will typically block withdrawals.",
+    "category": "DEPOSIT",
+    "keywords": [
+      "someone else",
+      "third party",
+      "not my card"
+    ],
+    "related_pages": [
+      "page_terms",
+      "page_deposit"
+    ],
+    "source_type": "FAQ",
+    "priority": "high",
+    "requires_verified_source": false,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_deposit_012",
+    "question": "Can I cancel a deposit?",
+    "answer": "Once a deposit is confirmed it generally cannot be cancelled. If you deposited by mistake or feel you are spending more than you intended, contact support and consider setting a deposit limit or taking a break.",
+    "category": "DEPOSIT",
+    "keywords": [
+      "cancel",
+      "reverse",
+      "undo",
+      "mistake"
+    ],
+    "related_pages": [
+      "page_contact_support",
+      "page_responsible_gaming"
+    ],
+    "source_type": "FAQ",
+    "priority": "medium",
+    "requires_verified_source": false,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_deposit_013",
+    "question": "How do I set a deposit limit?",
+    "answer": "Deposit limits are set from the responsible gaming section of your account. Reductions usually apply immediately while increases often take effect only after a delay.",
+    "category": "DEPOSIT",
+    "keywords": [
+      "limit",
+      "deposit limit",
+      "control",
+      "cap"
+    ],
+    "related_pages": [
+      "page_responsible_gaming"
+    ],
+    "source_type": "FAQ",
+    "priority": "high",
+    "requires_verified_source": true,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_withdrawal_001",
+    "question": "How do I withdraw money?",
+    "answer": "Open the withdrawal page from your wallet, choose a method, enter the amount and confirm. Verification usually needs to be complete before a withdrawal can be released.",
+    "category": "WITHDRAWAL",
+    "keywords": [
+      "withdraw",
+      "cash out",
+      "payout",
+      "take money"
+    ],
+    "related_pages": [
+      "page_withdraw",
+      "page_wallet",
+      "page_kyc"
+    ],
+    "source_type": "FAQ",
+    "priority": "high",
+    "requires_verified_source": false,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_withdrawal_002",
+    "question": "How long does a withdrawal take?",
+    "answer": "Processing time depends on the operator's review process and on your payment provider. The published timeframe is on the withdrawal page. I can't give you a specific time — that figure has to come from the official policy. The exact details are published on the official page for this topic — please check there or contact support, as this varies by operator and region.",
+    "category": "WITHDRAWAL",
+    "keywords": [
+      "how long",
+      "time",
+      "processing",
+      "when"
+    ],
+    "related_pages": [
+      "page_withdraw",
+      "page_contact_support"
+    ],
+    "source_type": "FAQ",
+    "priority": "high",
+    "requires_verified_source": true,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_withdrawal_003",
+    "question": "Why is my withdrawal still pending?",
+    "answer": "A pending withdrawal is normally awaiting review, outstanding verification, or processing by the payment provider. Check the withdrawal page for any outstanding requirement, then contact support with the reference if it exceeds the published timeframe.",
+    "category": "WITHDRAWAL",
+    "keywords": [
+      "pending",
+      "processing",
+      "waiting",
+      "delay"
+    ],
+    "related_pages": [
+      "page_withdraw",
+      "page_kyc",
+      "page_contact_support"
+    ],
+    "source_type": "FAQ",
+    "priority": "high",
+    "requires_verified_source": false,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_withdrawal_004",
+    "question": "My withdrawal was rejected. Why?",
+    "answer": "Common reasons include incomplete verification, a mismatch between the withdrawal method and the deposit method, an unmet bonus wagering requirement, or a limit. The exact reason for your request can only be confirmed by support.",
+    "category": "WITHDRAWAL",
+    "keywords": [
+      "rejected",
+      "declined",
+      "failed",
+      "refused"
+    ],
+    "related_pages": [
+      "page_withdraw",
+      "page_kyc",
+      "page_contact_support"
+    ],
+    "source_type": "FAQ",
+    "priority": "high",
+    "requires_verified_source": false,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_withdrawal_005",
+    "question": "What is the minimum withdrawal amount?",
+    "answer": "Minimum withdrawal amounts are shown on the withdrawal page per method. The exact details are published on the official page for this topic — please check there or contact support, as this varies by operator and region.",
+    "category": "WITHDRAWAL",
+    "keywords": [
+      "minimum",
+      "min",
+      "smallest"
+    ],
+    "related_pages": [
+      "page_withdraw"
+    ],
+    "source_type": "FAQ",
+    "priority": "medium",
+    "requires_verified_source": true,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_withdrawal_006",
+    "question": "Is there a withdrawal limit?",
+    "answer": "Any limits per transaction, per day or per period are published on the withdrawal page or in the terms. The exact details are published on the official page for this topic — please check there or contact support, as this varies by operator and region.",
+    "category": "WITHDRAWAL",
+    "keywords": [
+      "limit",
+      "maximum",
+      "cap",
+      "max"
+    ],
+    "related_pages": [
+      "page_withdraw",
+      "page_terms"
+    ],
+    "source_type": "FAQ",
+    "priority": "medium",
+    "requires_verified_source": true,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_withdrawal_007",
+    "question": "Can I withdraw to a different method than I deposited with?",
+    "answer": "Operators commonly require withdrawals to return to the original payment method where possible, for anti-money-laundering reasons. The applicable rule is in the withdrawal policy. The exact details are published on the official page for this topic — please check there or contact support, as this varies by operator and region.",
+    "category": "WITHDRAWAL",
+    "keywords": [
+      "different method",
+      "another account",
+      "change method"
+    ],
+    "related_pages": [
+      "page_withdraw",
+      "page_terms"
+    ],
+    "source_type": "FAQ",
+    "priority": "medium",
+    "requires_verified_source": true,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_withdrawal_008",
+    "question": "Can I cancel a withdrawal request?",
+    "answer": "Some operators allow a pending withdrawal to be cancelled before it is processed. If that option exists it appears next to the pending request. Consider whether cancelling to keep playing is what you actually want.",
+    "category": "WITHDRAWAL",
+    "keywords": [
+      "cancel",
+      "reverse",
+      "stop"
+    ],
+    "related_pages": [
+      "page_withdraw",
+      "page_responsible_gaming"
+    ],
+    "source_type": "FAQ",
+    "priority": "medium",
+    "requires_verified_source": true,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_withdrawal_009",
+    "question": "Are there fees for withdrawing?",
+    "answer": "Any operator fee is shown before you confirm the request. Your payment provider may apply separate charges. The exact details are published on the official page for this topic — please check there or contact support, as this varies by operator and region.",
+    "category": "WITHDRAWAL",
+    "keywords": [
+      "fees",
+      "charges",
+      "deduction"
+    ],
+    "related_pages": [
+      "page_withdraw"
+    ],
+    "source_type": "FAQ",
+    "priority": "medium",
+    "requires_verified_source": true,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_withdrawal_010",
+    "question": "Why do I need to verify before withdrawing?",
+    "answer": "Identity verification before payout is a standard regulatory requirement for licensed operators. It confirms the account holder and the destination of funds.",
+    "category": "WITHDRAWAL",
+    "keywords": [
+      "verify",
+      "kyc",
+      "why",
+      "required"
+    ],
+    "related_pages": [
+      "page_kyc",
+      "page_withdraw"
+    ],
+    "source_type": "FAQ",
+    "priority": "high",
+    "requires_verified_source": false,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_withdrawal_011",
+    "question": "My withdrawal is approved but the money has not arrived.",
+    "answer": "Once approved, the funds move through your payment provider or bank, which adds its own settlement time. If it exceeds the published timeframe, contact support with the payment reference so it can be traced.",
+    "category": "WITHDRAWAL",
+    "keywords": [
+      "not received",
+      "approved",
+      "missing",
+      "not arrived"
+    ],
+    "related_pages": [
+      "page_transactions",
+      "page_contact_support"
+    ],
+    "source_type": "FAQ",
+    "priority": "high",
+    "requires_verified_source": false,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_withdrawal_012",
+    "question": "Can I withdraw bonus funds?",
+    "answer": "Bonus funds normally carry wagering requirements that must be met before any related balance can be withdrawn. The applicable terms are attached to each specific bonus.",
+    "category": "WITHDRAWAL",
+    "keywords": [
+      "bonus",
+      "wagering",
+      "withdraw bonus"
+    ],
+    "related_pages": [
+      "page_bonuses",
+      "page_withdraw"
+    ],
+    "source_type": "FAQ",
+    "priority": "high",
+    "requires_verified_source": true,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_withdrawal_013",
+    "question": "Where do I see my withdrawal history?",
+    "answer": "Withdrawals appear in your transaction history along with their current status.",
+    "category": "WITHDRAWAL",
+    "keywords": [
+      "history",
+      "past",
+      "record",
+      "status"
+    ],
+    "related_pages": [
+      "page_transactions"
+    ],
+    "source_type": "FAQ",
+    "priority": "medium",
+    "requires_verified_source": false,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_betting_001",
+    "question": "How do I place a bet?",
+    "answer": "Choose an event or market, select the outcome you want, enter a stake in the bet slip and confirm. The bet slip shows the stake and the potential return before you place it.",
+    "category": "BETTING",
+    "keywords": [
+      "place bet",
+      "bet",
+      "stake",
+      "wager"
+    ],
+    "related_pages": [
+      "page_sports",
+      "page_bet_history"
+    ],
+    "source_type": "FAQ",
+    "priority": "high",
+    "requires_verified_source": false,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_betting_002",
+    "question": "Can I cancel a bet after placing it?",
+    "answer": "Placed bets generally cannot be cancelled. Some operators offer a cash-out option on selected markets, which settles a bet early at a value they offer at that moment. Availability varies. The exact details are published on the official page for this topic — please check there or contact support, as this varies by operator and region.",
+    "category": "BETTING",
+    "keywords": [
+      "cancel",
+      "undo",
+      "remove bet",
+      "cash out"
+    ],
+    "related_pages": [
+      "page_bet_history"
+    ],
+    "source_type": "FAQ",
+    "priority": "high",
+    "requires_verified_source": true,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_betting_003",
+    "question": "Where can I see my bet history?",
+    "answer": "Your bet history is in the account section and lists placed bets with stake, selection and current status.",
+    "category": "BETTING",
+    "keywords": [
+      "bet history",
+      "my bets",
+      "past bets",
+      "record"
+    ],
+    "related_pages": [
+      "page_bet_history"
+    ],
+    "source_type": "FAQ",
+    "priority": "high",
+    "requires_verified_source": false,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_betting_004",
+    "question": "What does a pending bet mean?",
+    "answer": "A pending bet has been accepted but the event or market has not yet been settled. It moves to settled once the result is confirmed.",
+    "category": "BETTING",
+    "keywords": [
+      "pending",
+      "open",
+      "unsettled",
+      "waiting"
+    ],
+    "related_pages": [
+      "page_bet_history"
+    ],
+    "source_type": "FAQ",
+    "priority": "medium",
+    "requires_verified_source": false,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_betting_005",
+    "question": "What does a settled bet mean?",
+    "answer": "A settled bet has been resolved against the official result and any return has been applied to your balance.",
+    "category": "BETTING",
+    "keywords": [
+      "settled",
+      "resolved",
+      "closed",
+      "finished"
+    ],
+    "related_pages": [
+      "page_bet_history"
+    ],
+    "source_type": "FAQ",
+    "priority": "medium",
+    "requires_verified_source": false,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_betting_006",
+    "question": "Why was my bet rejected?",
+    "answer": "Bets are commonly rejected when odds or the market changed before the bet registered, the market closed, the stake was outside the accepted limits, or the balance was insufficient. The rejection message usually names the reason.",
+    "category": "BETTING",
+    "keywords": [
+      "rejected",
+      "declined",
+      "not accepted",
+      "failed"
+    ],
+    "related_pages": [
+      "page_bet_history",
+      "page_contact_support"
+    ],
+    "source_type": "FAQ",
+    "priority": "high",
+    "requires_verified_source": false,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_betting_007",
+    "question": "Why did the odds change before my bet was placed?",
+    "answer": "Odds move in response to market activity, and in-play odds can change very quickly. If odds change between selection and confirmation, the bet may be re-quoted or rejected depending on your accept-changes setting.",
+    "category": "BETTING",
+    "keywords": [
+      "odds changed",
+      "price",
+      "moved"
+    ],
+    "related_pages": [
+      "page_sports"
+    ],
+    "source_type": "FAQ",
+    "priority": "medium",
+    "requires_verified_source": false,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_betting_008",
+    "question": "When will my bet be settled?",
+    "answer": "Settlement follows confirmation of the official result for that event. Some markets settle immediately, others wait for an official confirmation. If a bet stays unsettled well after the event ended, contact support.",
+    "category": "BETTING",
+    "keywords": [
+      "settle",
+      "when",
+      "result",
+      "payout"
+    ],
+    "related_pages": [
+      "page_bet_history",
+      "page_contact_support"
+    ],
+    "source_type": "FAQ",
+    "priority": "medium",
+    "requires_verified_source": false,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_betting_009",
+    "question": "What happens if an event is cancelled or abandoned?",
+    "answer": "Void and abandonment rules are defined in the sports betting rules and vary by sport and market. The exact details are published on the official page for this topic — please check there or contact support, as this varies by operator and region.",
+    "category": "BETTING",
+    "keywords": [
+      "cancelled",
+      "abandoned",
+      "void",
+      "postponed"
+    ],
+    "related_pages": [
+      "page_terms",
+      "page_contact_support"
+    ],
+    "source_type": "FAQ",
+    "priority": "medium",
+    "requires_verified_source": true,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_betting_010",
+    "question": "I think my bet was settled incorrectly.",
+    "answer": "Contact support with the bet reference from your bet history. Settlement is checked against the official result source, and corrections are made where an error is confirmed.",
+    "category": "BETTING",
+    "keywords": [
+      "wrong",
+      "incorrect",
+      "dispute",
+      "error"
+    ],
+    "related_pages": [
+      "page_bet_history",
+      "page_contact_support"
+    ],
+    "source_type": "FAQ",
+    "priority": "high",
+    "requires_verified_source": false,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_betting_011",
+    "question": "What is a bet slip?",
+    "answer": "The bet slip is the panel that collects your selections before you place them. It shows each selection, lets you enter a stake, and displays the combined odds and potential return.",
+    "category": "BETTING",
+    "keywords": [
+      "bet slip",
+      "slip",
+      "selections"
+    ],
+    "related_pages": [
+      "page_sports"
+    ],
+    "source_type": "FAQ",
+    "priority": "medium",
+    "requires_verified_source": false,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_betting_012",
+    "question": "What is an accumulator?",
+    "answer": "An accumulator combines several selections into one bet. Every selection must win for the bet to return; if any one loses, the whole bet loses. Combining selections increases both the potential return and the chance of losing the bet.",
+    "category": "BETTING",
+    "keywords": [
+      "accumulator",
+      "acca",
+      "parlay",
+      "multi",
+      "combo"
+    ],
+    "related_pages": [
+      "page_sports"
+    ],
+    "source_type": "FAQ",
+    "priority": "medium",
+    "requires_verified_source": false,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_betting_013",
+    "question": "What does \"in-play\" betting mean?",
+    "answer": "In-play (or live) betting is placing bets after an event has started, with odds updating as the event progresses. Markets can suspend without warning when something significant happens.",
+    "category": "BETTING",
+    "keywords": [
+      "in play",
+      "live betting",
+      "during match"
+    ],
+    "related_pages": [
+      "page_sports"
+    ],
+    "source_type": "FAQ",
+    "priority": "medium",
+    "requires_verified_source": false,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_betting_014",
+    "question": "Is there a maximum stake?",
+    "answer": "Stake limits vary by market and are enforced when you place the bet. The applicable maximum is shown if your stake exceeds it. The exact details are published on the official page for this topic — please check there or contact support, as this varies by operator and region.",
+    "category": "BETTING",
+    "keywords": [
+      "maximum stake",
+      "limit",
+      "max bet"
+    ],
+    "related_pages": [
+      "page_sports",
+      "page_terms"
+    ],
+    "source_type": "FAQ",
+    "priority": "medium",
+    "requires_verified_source": true,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_games_001",
+    "question": "How do I find a specific game?",
+    "answer": "Use the search box in the games or casino lobby, or browse by category. You can also ask me for a game by name and I will take you to it.",
+    "category": "GAMES",
+    "keywords": [
+      "find",
+      "search",
+      "locate",
+      "game"
+    ],
+    "related_pages": [
+      "page_games",
+      "page_casino"
+    ],
+    "source_type": "FAQ",
+    "priority": "high",
+    "requires_verified_source": false,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_games_002",
+    "question": "What game categories are available?",
+    "answer": "Games are grouped into categories such as slots, table games, live casino and crash games. The lobby shows the full set of categories currently available to you.",
+    "category": "GAMES",
+    "keywords": [
+      "categories",
+      "types",
+      "sections"
+    ],
+    "related_pages": [
+      "page_games",
+      "page_casino"
+    ],
+    "source_type": "FAQ",
+    "priority": "medium",
+    "requires_verified_source": false,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_games_003",
+    "question": "Where do I find the rules for a game?",
+    "answer": "Each game has an information or paytable panel inside the game itself, which is the authoritative source for that game's rules and payouts. Summaries are also shown on the game detail page.",
+    "category": "GAMES",
+    "keywords": [
+      "rules",
+      "how to play",
+      "paytable",
+      "info"
+    ],
+    "related_pages": [
+      "page_game_detail",
+      "page_help"
+    ],
+    "source_type": "FAQ",
+    "priority": "high",
+    "requires_verified_source": false,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_games_004",
+    "question": "Can I try a game without staking money?",
+    "answer": "Where a demo or practice mode is offered, it appears as an option on the game. Availability differs by game and by jurisdiction. The exact details are published on the official page for this topic — please check there or contact support, as this varies by operator and region.",
+    "category": "GAMES",
+    "keywords": [
+      "demo",
+      "free play",
+      "practice",
+      "try"
+    ],
+    "related_pages": [
+      "page_games"
+    ],
+    "source_type": "FAQ",
+    "priority": "medium",
+    "requires_verified_source": true,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_games_005",
+    "question": "Why is a game unavailable to me?",
+    "answer": "A game can be unavailable because it is under maintenance, has been withdrawn by the provider, or is not licensed for your region. The lobby only lists games available to your account.",
+    "category": "GAMES",
+    "keywords": [
+      "unavailable",
+      "missing",
+      "not working",
+      "blocked"
+    ],
+    "related_pages": [
+      "page_games",
+      "page_contact_support"
+    ],
+    "source_type": "FAQ",
+    "priority": "medium",
+    "requires_verified_source": false,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_games_006",
+    "question": "How are game results decided?",
+    "answer": "Casino game outcomes are produced by a random number generator. Each round is independent, so previous results have no influence on the next one.",
+    "category": "GAMES",
+    "keywords": [
+      "rng",
+      "random",
+      "fair",
+      "results"
+    ],
+    "related_pages": [
+      "page_help",
+      "page_responsible_gaming"
+    ],
+    "source_type": "FAQ",
+    "priority": "high",
+    "requires_verified_source": false,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_games_007",
+    "question": "What does RTP mean?",
+    "answer": "RTP (\"return to player\") is a theoretical figure calculated by the game provider over a very large number of rounds. It describes long-run modelled behaviour of the game — it is not a prediction of any session and does not indicate what you will get back. Each game publishes its own figure in its info panel.",
+    "category": "GAMES",
+    "keywords": [
+      "rtp",
+      "return to player",
+      "percentage"
+    ],
+    "related_pages": [
+      "page_game_detail"
+    ],
+    "source_type": "FAQ",
+    "priority": "medium",
+    "requires_verified_source": false,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_games_008",
+    "question": "What does volatility mean?",
+    "answer": "Volatility is a descriptive label the provider assigns to how a game's results tend to be distributed. It is a description of the game's design, not a forecast, and it does not tell you what any individual session will do.",
+    "category": "GAMES",
+    "keywords": [
+      "volatility",
+      "variance",
+      "risk"
+    ],
+    "related_pages": [
+      "page_game_detail"
+    ],
+    "source_type": "FAQ",
+    "priority": "low",
+    "requires_verified_source": false,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_games_009",
+    "question": "My game froze or disconnected mid-round. What happens?",
+    "answer": "Most providers restore an interrupted round when you reopen the game, and unresolved rounds are settled according to the provider's rules. If a round or balance still looks wrong after reopening, contact support with the approximate time.",
+    "category": "GAMES",
+    "keywords": [
+      "froze",
+      "disconnected",
+      "crashed",
+      "stuck"
+    ],
+    "related_pages": [
+      "page_contact_support",
+      "page_help"
+    ],
+    "source_type": "FAQ",
+    "priority": "high",
+    "requires_verified_source": false,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_games_010",
+    "question": "Is there a strategy that guarantees winning?",
+    "answer": "No. Game outcomes are randomly generated and independent, so no strategy, betting pattern or system can predict or influence results, and none can guarantee a return. Treat any claim otherwise — including paid \"systems\" — as false.",
+    "category": "GAMES",
+    "keywords": [
+      "strategy",
+      "system",
+      "guaranteed",
+      "trick",
+      "hack"
+    ],
+    "related_pages": [
+      "page_responsible_gaming"
+    ],
+    "source_type": "FAQ",
+    "priority": "high",
+    "requires_verified_source": false,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_games_011",
+    "question": "What are live casino games?",
+    "answer": "Live casino games are hosted by a human dealer and streamed in real time, with bets placed through the interface. They follow the same published rules as the equivalent table game.",
+    "category": "GAMES",
+    "keywords": [
+      "live casino",
+      "live dealer",
+      "streaming"
+    ],
+    "related_pages": [
+      "page_live_casino"
+    ],
+    "source_type": "FAQ",
+    "priority": "medium",
+    "requires_verified_source": false,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_games_012",
+    "question": "How do crash games work?",
+    "answer": "In a crash game a multiplier rises during a round and stops at a randomly determined point. Cashing out before it stops settles the stake at the multiplier shown at that instant. If the round ends first, that round's stake is lost.",
+    "category": "GAMES",
+    "keywords": [
+      "crash",
+      "aviator",
+      "multiplier",
+      "cash out"
+    ],
+    "related_pages": [
+      "category_crash_games",
+      "page_game_detail"
+    ],
+    "source_type": "FAQ",
+    "priority": "high",
+    "requires_verified_source": false,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_promotions_001",
+    "question": "Where can I see current promotions?",
+    "answer": "Active promotions are listed on the promotions page, each with its own terms.",
+    "category": "PROMOTIONS",
+    "keywords": [
+      "promotions",
+      "offers",
+      "deals",
+      "current"
+    ],
+    "related_pages": [
+      "page_promotions"
+    ],
+    "source_type": "FAQ",
+    "priority": "high",
+    "requires_verified_source": false,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_promotions_002",
+    "question": "Am I eligible for a promotion?",
+    "answer": "Eligibility conditions are stated in each promotion's own terms and can depend on factors such as account status, region and previous participation. The promotion page shows whether you qualify.",
+    "category": "PROMOTIONS",
+    "keywords": [
+      "eligible",
+      "qualify",
+      "eligibility"
+    ],
+    "related_pages": [
+      "page_promotions",
+      "page_bonuses"
+    ],
+    "source_type": "FAQ",
+    "priority": "high",
+    "requires_verified_source": true,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_promotions_003",
+    "question": "What are wagering requirements?",
+    "answer": "A wagering requirement is the amount that must be staked, under the promotion's conditions, before funds connected to a bonus can be withdrawn. The multiplier, qualifying games and time limit are set out in each promotion's terms.",
+    "category": "PROMOTIONS",
+    "keywords": [
+      "wagering",
+      "playthrough",
+      "rollover",
+      "requirement"
+    ],
+    "related_pages": [
+      "page_bonuses"
+    ],
+    "source_type": "FAQ",
+    "priority": "high",
+    "requires_verified_source": true,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_promotions_004",
+    "question": "How do I claim a bonus?",
+    "answer": "Claim steps are on the promotion itself — some apply automatically, others need an opt-in or a code entered at deposit. Read the terms before claiming, since a bonus can restrict withdrawals until its conditions are met.",
+    "category": "PROMOTIONS",
+    "keywords": [
+      "claim",
+      "activate",
+      "opt in",
+      "code"
+    ],
+    "related_pages": [
+      "page_promotions",
+      "page_bonuses"
+    ],
+    "source_type": "FAQ",
+    "priority": "high",
+    "requires_verified_source": false,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_promotions_005",
+    "question": "Why did my bonus expire?",
+    "answer": "Bonuses carry a validity period stated in their terms, and expire if the conditions are not met within it. Expired bonuses generally cannot be reinstated.",
+    "category": "PROMOTIONS",
+    "keywords": [
+      "expired",
+      "ended",
+      "gone",
+      "validity"
+    ],
+    "related_pages": [
+      "page_bonuses"
+    ],
+    "source_type": "FAQ",
+    "priority": "medium",
+    "requires_verified_source": true,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_promotions_006",
+    "question": "Can I withdraw while a bonus is active?",
+    "answer": "Withdrawing with an active bonus can forfeit the bonus and anything derived from it, depending on its terms. Check the specific bonus before requesting a withdrawal.",
+    "category": "PROMOTIONS",
+    "keywords": [
+      "withdraw",
+      "active bonus",
+      "forfeit"
+    ],
+    "related_pages": [
+      "page_bonuses",
+      "page_withdraw"
+    ],
+    "source_type": "FAQ",
+    "priority": "high",
+    "requires_verified_source": true,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_promotions_007",
+    "question": "Can I cancel a bonus?",
+    "answer": "Where bonus cancellation is offered it appears in the bonuses section of your account. What happens to any balance associated with it is defined in the bonus terms.",
+    "category": "PROMOTIONS",
+    "keywords": [
+      "cancel bonus",
+      "remove",
+      "forfeit"
+    ],
+    "related_pages": [
+      "page_bonuses"
+    ],
+    "source_type": "FAQ",
+    "priority": "medium",
+    "requires_verified_source": true,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_promotions_008",
+    "question": "Do all games count towards wagering?",
+    "answer": "Games usually contribute at different rates, and some are excluded entirely. The contribution table is part of each promotion's terms.",
+    "category": "PROMOTIONS",
+    "keywords": [
+      "contribution",
+      "games count",
+      "excluded"
+    ],
+    "related_pages": [
+      "page_bonuses"
+    ],
+    "source_type": "FAQ",
+    "priority": "medium",
+    "requires_verified_source": true,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_promotions_009",
+    "question": "Where do I see my active bonuses?",
+    "answer": "Active bonuses, their remaining requirements and their expiry are shown in the bonuses section of your account.",
+    "category": "PROMOTIONS",
+    "keywords": [
+      "active",
+      "my bonus",
+      "status",
+      "progress"
+    ],
+    "related_pages": [
+      "page_bonuses"
+    ],
+    "source_type": "FAQ",
+    "priority": "medium",
+    "requires_verified_source": false,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_technical_001",
+    "question": "The page will not load. What should I do?",
+    "answer": "Refresh first, then try clearing the browser cache or opening the site in a private window to rule out a stale cached file. Switching between wifi and mobile data identifies a network issue. If it persists across devices, contact support.",
+    "category": "TECHNICAL",
+    "keywords": [
+      "not loading",
+      "blank",
+      "stuck",
+      "slow"
+    ],
+    "related_pages": [
+      "page_contact_support"
+    ],
+    "source_type": "FAQ",
+    "priority": "medium",
+    "requires_verified_source": false,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_technical_002",
+    "question": "The app keeps crashing.",
+    "answer": "Make sure the app is updated to the latest version, restart the device, and check available storage. If it continues, report it to support with your device model and OS version — that detail is what makes it reproducible.",
+    "category": "TECHNICAL",
+    "keywords": [
+      "app",
+      "crash",
+      "closing",
+      "freeze"
+    ],
+    "related_pages": [
+      "page_contact_support"
+    ],
+    "source_type": "FAQ",
+    "priority": "medium",
+    "requires_verified_source": false,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_technical_003",
+    "question": "A game will not open.",
+    "answer": "Reload the page and check whether other games open. A single game failing usually points to maintenance on that game; all games failing points to your connection or session. If it persists, contact support and name the game.",
+    "category": "TECHNICAL",
+    "keywords": [
+      "game not opening",
+      "error",
+      "blank",
+      "loading"
+    ],
+    "related_pages": [
+      "page_games",
+      "page_contact_support"
+    ],
+    "source_type": "FAQ",
+    "priority": "medium",
+    "requires_verified_source": false,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_technical_004",
+    "question": "I keep getting a payment error.",
+    "answer": "Payment errors usually originate with the payment provider. Check your card or account details are current, confirm your bank is not blocking gambling transactions, and try an alternative method. Your bank can give the specific decline reason.",
+    "category": "TECHNICAL",
+    "keywords": [
+      "payment error",
+      "declined",
+      "transaction failed"
+    ],
+    "related_pages": [
+      "page_deposit",
+      "page_contact_support"
+    ],
+    "source_type": "FAQ",
+    "priority": "high",
+    "requires_verified_source": false,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_technical_005",
+    "question": "My connection keeps dropping during play.",
+    "answer": "Try a more stable network and close bandwidth-heavy apps. Live and in-play products are the most sensitive to connection quality. If a round was interrupted, reopen the game — most providers restore it.",
+    "category": "TECHNICAL",
+    "keywords": [
+      "connection",
+      "disconnect",
+      "network",
+      "unstable"
+    ],
+    "related_pages": [
+      "page_contact_support"
+    ],
+    "source_type": "FAQ",
+    "priority": "medium",
+    "requires_verified_source": false,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_technical_006",
+    "question": "My balance looks wrong.",
+    "answer": "Refresh first, since the display can lag behind a pending transaction. Then check your transaction history for the entries you expect. If the figures still do not reconcile, contact support — I cannot see or verify account balances.",
+    "category": "TECHNICAL",
+    "keywords": [
+      "balance",
+      "wrong",
+      "missing money",
+      "incorrect"
+    ],
+    "related_pages": [
+      "page_transactions",
+      "page_contact_support"
+    ],
+    "source_type": "FAQ",
+    "priority": "high",
+    "requires_verified_source": false,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_technical_007",
+    "question": "Which browsers are supported?",
+    "answer": "The site targets current versions of the major browsers. Using an outdated browser is a frequent cause of layout and playback problems. Specific supported versions are listed in the help centre. The exact details are published on the official page for this topic — please check there or contact support, as this varies by operator and region.",
+    "category": "TECHNICAL",
+    "keywords": [
+      "browser",
+      "supported",
+      "compatibility"
+    ],
+    "related_pages": [
+      "page_help"
+    ],
+    "source_type": "FAQ",
+    "priority": "low",
+    "requires_verified_source": true,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_technical_008",
+    "question": "Is there a mobile app?",
+    "answer": "App availability differs by platform and region. The help centre lists what is available and the official download source. Only install from official sources — unofficial builds are a common vector for credential theft.",
+    "category": "TECHNICAL",
+    "keywords": [
+      "app",
+      "mobile",
+      "download",
+      "android",
+      "ios"
+    ],
+    "related_pages": [
+      "page_help"
+    ],
+    "source_type": "FAQ",
+    "priority": "medium",
+    "requires_verified_source": true,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_technical_009",
+    "question": "The site looks broken or misaligned.",
+    "answer": "Clear the cache and hard-refresh, since a partially cached stylesheet is the usual cause. Also check browser zoom and any extensions such as ad blockers, which can hide elements.",
+    "category": "TECHNICAL",
+    "keywords": [
+      "broken",
+      "layout",
+      "display",
+      "css"
+    ],
+    "related_pages": [
+      "page_contact_support"
+    ],
+    "source_type": "FAQ",
+    "priority": "low",
+    "requires_verified_source": false,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_support_001",
+    "question": "How do I contact support?",
+    "answer": "Support channels are listed on the contact page, and typically include live chat and email. I can take you there.",
+    "category": "SUPPORT",
+    "keywords": [
+      "contact",
+      "support",
+      "help",
+      "chat",
+      "agent"
+    ],
+    "related_pages": [
+      "page_contact_support"
+    ],
+    "source_type": "FAQ",
+    "priority": "high",
+    "requires_verified_source": false,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_support_002",
+    "question": "What are support hours?",
+    "answer": "Operating hours for each channel are published on the contact page. The exact details are published on the official page for this topic — please check there or contact support, as this varies by operator and region.",
+    "category": "SUPPORT",
+    "keywords": [
+      "hours",
+      "available",
+      "open",
+      "time"
+    ],
+    "related_pages": [
+      "page_contact_support"
+    ],
+    "source_type": "FAQ",
+    "priority": "medium",
+    "requires_verified_source": true,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_support_003",
+    "question": "How do I make a complaint?",
+    "answer": "Complaints are raised through the support channels and follow the published complaints procedure, which sets out how they are logged, acknowledged and escalated. The exact details are published on the official page for this topic — please check there or contact support, as this varies by operator and region.",
+    "category": "SUPPORT",
+    "keywords": [
+      "complaint",
+      "complain",
+      "unhappy",
+      "escalate"
+    ],
+    "related_pages": [
+      "page_contact_support",
+      "page_terms"
+    ],
+    "source_type": "FAQ",
+    "priority": "high",
+    "requires_verified_source": true,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_support_004",
+    "question": "What if my complaint is not resolved?",
+    "answer": "Licensed operators publish an escalation route, which commonly includes an independent dispute resolution body or the regulator. The applicable route is set out in the complaints policy. The exact details are published on the official page for this topic — please check there or contact support, as this varies by operator and region.",
+    "category": "SUPPORT",
+    "keywords": [
+      "unresolved",
+      "escalate",
+      "dispute",
+      "regulator"
+    ],
+    "related_pages": [
+      "page_terms",
+      "page_contact_support"
+    ],
+    "source_type": "FAQ",
+    "priority": "high",
+    "requires_verified_source": true,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_support_005",
+    "question": "What information should I include when contacting support?",
+    "answer": "Include your account identifier, the date and time of the issue, and any transaction or bet reference. Screenshots help. Never send your password — support will never ask for it.",
+    "category": "SUPPORT",
+    "keywords": [
+      "information",
+      "details",
+      "reference",
+      "what to send"
+    ],
+    "related_pages": [
+      "page_contact_support"
+    ],
+    "source_type": "FAQ",
+    "priority": "medium",
+    "requires_verified_source": false,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_support_006",
+    "question": "How long does support take to reply?",
+    "answer": "Response times differ by channel and are published on the contact page. The exact details are published on the official page for this topic — please check there or contact support, as this varies by operator and region.",
+    "category": "SUPPORT",
+    "keywords": [
+      "response time",
+      "how long",
+      "reply",
+      "wait"
+    ],
+    "related_pages": [
+      "page_contact_support"
+    ],
+    "source_type": "FAQ",
+    "priority": "medium",
+    "requires_verified_source": true,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_support_007",
+    "question": "Can support tell me why my account was restricted?",
+    "answer": "Yes, once they have verified your identity. I cannot access account-specific information, so restriction reasons always come from support directly.",
+    "category": "SUPPORT",
+    "keywords": [
+      "restricted",
+      "reason",
+      "why",
+      "blocked"
+    ],
+    "related_pages": [
+      "page_contact_support"
+    ],
+    "source_type": "FAQ",
+    "priority": "high",
+    "requires_verified_source": false,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_responsible_gaming_001",
+    "question": "How do I set a deposit limit?",
+    "answer": "Deposit limits are set in the responsible gaming section of your account. You can normally set daily, weekly or monthly limits. Lowering a limit typically applies straight away, while raising one takes effect only after a delay.",
+    "category": "RESPONSIBLE_GAMING",
+    "keywords": [
+      "deposit limit",
+      "limit",
+      "control",
+      "budget"
+    ],
+    "related_pages": [
+      "page_responsible_gaming"
+    ],
+    "source_type": "FAQ",
+    "priority": "high",
+    "requires_verified_source": false,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_responsible_gaming_002",
+    "question": "How do I take a break from gambling?",
+    "answer": "The responsible gaming section offers time-out and self-exclusion options. A time-out is a short cooling-off period; self-exclusion is a longer, stricter block that generally cannot be reversed before it ends.",
+    "category": "RESPONSIBLE_GAMING",
+    "keywords": [
+      "break",
+      "time out",
+      "cool off",
+      "pause",
+      "stop"
+    ],
+    "related_pages": [
+      "page_responsible_gaming"
+    ],
+    "source_type": "FAQ",
+    "priority": "high",
+    "requires_verified_source": false,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_responsible_gaming_003",
+    "question": "What is self-exclusion?",
+    "answer": "Self-exclusion blocks access to your account for a period you choose. It is designed not to be reversible during that period, which is the point of it. Details of durations and scope are on the responsible gaming page.",
+    "category": "RESPONSIBLE_GAMING",
+    "keywords": [
+      "self exclusion",
+      "exclude",
+      "block",
+      "ban"
+    ],
+    "related_pages": [
+      "page_responsible_gaming"
+    ],
+    "source_type": "FAQ",
+    "priority": "high",
+    "requires_verified_source": true,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_responsible_gaming_004",
+    "question": "How do I know if gambling is becoming a problem?",
+    "answer": "Common warning signs include spending more than you planned, chasing losses, gambling to escape stress, hiding it from people close to you, or borrowing to fund it. If any of these sound familiar, support is available — the responsible gaming page lists tools and independent organisations that help confidentially and free of charge.",
+    "category": "RESPONSIBLE_GAMING",
+    "keywords": [
+      "problem",
+      "addiction",
+      "help",
+      "signs",
+      "control"
+    ],
+    "related_pages": [
+      "page_responsible_gaming"
+    ],
+    "source_type": "FAQ",
+    "priority": "high",
+    "requires_verified_source": false,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_responsible_gaming_005",
+    "question": "Can I set a limit on how long I play?",
+    "answer": "Where session or reality-check tools are offered, they are in the responsible gaming section. A reality check interrupts play at an interval you choose to show how long you have been on.",
+    "category": "RESPONSIBLE_GAMING",
+    "keywords": [
+      "time limit",
+      "session",
+      "reality check",
+      "duration"
+    ],
+    "related_pages": [
+      "page_responsible_gaming"
+    ],
+    "source_type": "FAQ",
+    "priority": "medium",
+    "requires_verified_source": true,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_responsible_gaming_006",
+    "question": "Can I get my losses back?",
+    "answer": "No. Bets that have been settled stand, and losses cannot be reversed or refunded. If you are trying to recover losses, that is one of the clearest warning signs of harm — the responsible gaming page lists free, confidential support.",
+    "category": "RESPONSIBLE_GAMING",
+    "keywords": [
+      "losses",
+      "refund",
+      "get back",
+      "recover",
+      "chasing"
+    ],
+    "related_pages": [
+      "page_responsible_gaming",
+      "page_contact_support"
+    ],
+    "source_type": "FAQ",
+    "priority": "high",
+    "requires_verified_source": false,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_responsible_gaming_007",
+    "question": "Is gambling a way to make money?",
+    "answer": "No. Gambling is a form of paid entertainment, not a source of income. Games are designed so that outcomes are random and the operator retains a margin over time. Only ever stake money you can afford to lose.",
+    "category": "RESPONSIBLE_GAMING",
+    "keywords": [
+      "make money",
+      "income",
+      "profit",
+      "earn",
+      "job"
+    ],
+    "related_pages": [
+      "page_responsible_gaming"
+    ],
+    "source_type": "FAQ",
+    "priority": "high",
+    "requires_verified_source": false,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_responsible_gaming_008",
+    "question": "What is the minimum age to gamble?",
+    "answer": "A minimum legal age applies and is verified during registration and KYC. The exact age depends on your jurisdiction and is stated in the terms. Accounts found to belong to under-age users are closed.",
+    "category": "RESPONSIBLE_GAMING",
+    "keywords": [
+      "age",
+      "minimum age",
+      "18",
+      "underage"
+    ],
+    "related_pages": [
+      "page_terms",
+      "page_responsible_gaming"
+    ],
+    "source_type": "FAQ",
+    "priority": "high",
+    "requires_verified_source": true,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "id": "faq_responsible_gaming_009",
+    "question": "Where can I get independent help?",
+    "answer": "The responsible gaming page lists independent organisations that provide free and confidential support, separately from the operator. If you are in immediate crisis, contact your local emergency services.",
+    "category": "RESPONSIBLE_GAMING",
+    "keywords": [
+      "help",
+      "support",
+      "counselling",
+      "helpline",
+      "independent"
+    ],
+    "related_pages": [
+      "page_responsible_gaming"
+    ],
+    "source_type": "FAQ",
+    "priority": "high",
+    "requires_verified_source": false,
+    "data_status": "EXAMPLE_DATA"
+  }
+]

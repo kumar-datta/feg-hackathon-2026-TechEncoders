@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "psk-web",
+      "runtimeExecutable": "flutter",
+      "runtimeArgs": ["run", "-d", "web-server", "--web-port", "5959"],
+      "cwd": "C:/FEG/psk/psk",
+      "port": 5959
+    }
+  ]
+}

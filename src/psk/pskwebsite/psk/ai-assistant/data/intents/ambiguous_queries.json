@@ -1,0 +1,479 @@
+[
+  {
+    "query": "open the game",
+    "possible_entities": [
+      "game_aviator",
+      "game_roulette",
+      "game_blackjack",
+      "category_games"
+    ],
+    "clarification_question": "Which game would you like to open?",
+    "requires_confirmation": true,
+    "reason": "No game named; too many candidates."
+  },
+  {
+    "query": "take me there",
+    "possible_entities": [],
+    "clarification_question": "Where would you like to go? I have lost track of what \"there\" refers to.",
+    "requires_confirmation": true,
+    "reason": "Pronoun with no resolvable referent in conversation state."
+  },
+  {
+    "query": "open that one",
+    "possible_entities": [],
+    "clarification_question": "Which one did you mean?",
+    "requires_confirmation": true,
+    "reason": "Demonstrative with empty focus stack."
+  },
+  {
+    "query": "show cricket",
+    "possible_entities": [
+      "sport_cricket"
+    ],
+    "clarification_question": "Do you want cricket betting markets, or live cricket scores?",
+    "requires_confirmation": true,
+    "reason": "Entity is clear but the user goal is not."
+  },
+  {
+    "query": "show casino",
+    "possible_entities": [
+      "category_casino",
+      "category_live_casino"
+    ],
+    "clarification_question": "Do you want the main casino lobby or live dealer tables?",
+    "requires_confirmation": true,
+    "reason": "Two plausible destinations."
+  },
+  {
+    "query": "play the crash game",
+    "possible_entities": [
+      "game_aviator",
+      "game_crash_classic",
+      "category_crash_games"
+    ],
+    "clarification_question": "We have a few crash games — did you mean Aviator, Crash Classic, or the full list?",
+    "requires_confirmation": true,
+    "reason": "Several games match the description."
+  },
+  {
+    "query": "open it",
+    "possible_entities": [],
+    "clarification_question": "Open what, exactly?",
+    "requires_confirmation": true,
+    "reason": "Pronoun with no referent."
+  },
+  {
+    "query": "cards",
+    "possible_entities": [
+      "game_blackjack",
+      "game_poker",
+      "game_baccarat",
+      "category_table_games"
+    ],
+    "clarification_question": "Which card game — blackjack, poker or baccarat?",
+    "requires_confirmation": true,
+    "reason": "Category term matching several games."
+  },
+  {
+    "query": "money",
+    "possible_entities": [
+      "page_deposit",
+      "page_withdraw",
+      "page_wallet"
+    ],
+    "clarification_question": "Do you want to deposit, withdraw, or view your wallet?",
+    "requires_confirmation": true,
+    "reason": "Financial term with opposite possible meanings — never guess."
+  },
+  {
+    "query": "bonus",
+    "possible_entities": [
+      "page_promotions",
+      "page_bonuses"
+    ],
+    "clarification_question": "Do you want current promotions, or the bonuses on your account?",
+    "requires_confirmation": true,
+    "reason": "Two related pages."
+  },
+  {
+    "query": "history",
+    "possible_entities": [
+      "page_bet_history",
+      "page_transactions"
+    ],
+    "clarification_question": "Bet history or transaction history?",
+    "requires_confirmation": true,
+    "reason": "Ambiguous between two account pages."
+  },
+  {
+    "query": "limits",
+    "possible_entities": [
+      "page_responsible_gaming",
+      "page_deposit"
+    ],
+    "clarification_question": "Do you mean responsible gaming limits, or deposit limits on payment methods?",
+    "requires_confirmation": true,
+    "reason": "Term spans a safety tool and a payment constraint."
+  },
+  {
+    "query": "verify",
+    "possible_entities": [
+      "page_kyc",
+      "page_profile"
+    ],
+    "clarification_question": "Do you want to start identity verification, or check your verification status?",
+    "requires_confirmation": true,
+    "reason": "Action vs status."
+  },
+  {
+    "query": "sports",
+    "possible_entities": [
+      "category_sports",
+      "sport_cricket",
+      "sport_football"
+    ],
+    "clarification_question": "Which sport, or would you like the full sportsbook?",
+    "requires_confirmation": true,
+    "reason": "Parent vs children."
+  },
+  {
+    "query": "open live",
+    "possible_entities": [
+      "category_live_casino",
+      "category_sports"
+    ],
+    "clarification_question": "Live casino tables, or live in-play sports betting?",
+    "requires_confirmation": true,
+    "reason": "\"Live\" spans two products."
+  },
+  {
+    "query": "table",
+    "possible_entities": [
+      "category_table_games",
+      "game_roulette",
+      "game_blackjack"
+    ],
+    "clarification_question": "Which table game did you have in mind?",
+    "requires_confirmation": true,
+    "reason": "Generic term."
+  },
+  {
+    "query": "the wheel game",
+    "possible_entities": [
+      "game_roulette",
+      "game_aviator"
+    ],
+    "clarification_question": "Do you mean Roulette, or something else?",
+    "requires_confirmation": true,
+    "reason": "Descriptive phrase matching more than one."
+  },
+  {
+    "query": "start playing",
+    "possible_entities": [
+      "category_games",
+      "category_casino"
+    ],
+    "clarification_question": "What would you like to play?",
+    "requires_confirmation": true,
+    "reason": "Intent clear, target absent."
+  },
+  {
+    "query": "help",
+    "possible_entities": [
+      "page_help",
+      "page_contact_support",
+      "page_responsible_gaming"
+    ],
+    "clarification_question": "Do you want help articles, to contact support, or responsible gaming support?",
+    "requires_confirmation": true,
+    "reason": "Overloaded word — one branch is a safety route, so never guess."
+  },
+  {
+    "query": "my account",
+    "possible_entities": [
+      "page_profile",
+      "page_wallet",
+      "page_bet_history"
+    ],
+    "clarification_question": "Which part of your account — profile, wallet, or bet history?",
+    "requires_confirmation": true,
+    "reason": "Parent term."
+  },
+  {
+    "query": "show me the offers",
+    "possible_entities": [
+      "page_promotions",
+      "page_bonuses"
+    ],
+    "clarification_question": "Promotions available, or bonuses already on your account?",
+    "requires_confirmation": true,
+    "reason": "Two pages."
+  },
+  {
+    "query": "open games",
+    "possible_entities": [
+      "category_games",
+      "category_casino"
+    ],
+    "clarification_question": "The full game catalogue, or the casino lobby?",
+    "requires_confirmation": true,
+    "reason": "Overlapping destinations."
+  },
+  {
+    "query": "withdraw problem",
+    "possible_entities": [
+      "page_withdraw",
+      "page_contact_support",
+      "page_kyc"
+    ],
+    "clarification_question": "Are you trying to make a withdrawal, or do you need help with one that is stuck?",
+    "requires_confirmation": true,
+    "reason": "Could be navigation or a support issue."
+  },
+  {
+    "query": "that game with the plane",
+    "possible_entities": [
+      "game_aviator"
+    ],
+    "clarification_question": "Do you mean Aviator?",
+    "requires_confirmation": true,
+    "reason": "Single strong candidate but phrased indirectly — confirm."
+  },
+  {
+    "query": "the one i played yesterday",
+    "possible_entities": [],
+    "clarification_question": "I do not have access to your play history. Which game was it?",
+    "requires_confirmation": true,
+    "reason": "Requires per-user data the assistant must not access."
+  },
+  {
+    "query": "same as last time",
+    "possible_entities": [],
+    "clarification_question": "Could you tell me which game or page you mean?",
+    "requires_confirmation": true,
+    "reason": "Reference to prior session state."
+  },
+  {
+    "query": "open bet",
+    "possible_entities": [
+      "page_bet_history",
+      "category_sports"
+    ],
+    "clarification_question": "Do you want to place a bet, or view your existing bets?",
+    "requires_confirmation": true,
+    "reason": "Opposite intents."
+  },
+  {
+    "query": "deposit withdraw",
+    "possible_entities": [
+      "page_deposit",
+      "page_withdraw"
+    ],
+    "clarification_question": "Which one — deposit or withdraw?",
+    "requires_confirmation": true,
+    "reason": "Both financial terms present."
+  },
+  {
+    "query": "game",
+    "possible_entities": [
+      "category_games"
+    ],
+    "clarification_question": "Which game are you looking for?",
+    "requires_confirmation": true,
+    "reason": "Single generic token."
+  },
+  {
+    "query": "open",
+    "possible_entities": [],
+    "clarification_question": "What would you like me to open?",
+    "requires_confirmation": true,
+    "reason": "Verb with no object."
+  },
+  {
+    "query": "show",
+    "possible_entities": [],
+    "clarification_question": "What would you like to see?",
+    "requires_confirmation": true,
+    "reason": "Verb with no object."
+  },
+  {
+    "query": "next",
+    "possible_entities": [],
+    "clarification_question": "What would you like to do next?",
+    "requires_confirmation": true,
+    "reason": "No context."
+  },
+  {
+    "query": "go back",
+    "possible_entities": [],
+    "clarification_question": "Where would you like to go?",
+    "requires_confirmation": true,
+    "reason": "Navigation verb, no target."
+  },
+  {
+    "query": "cricket football",
+    "possible_entities": [
+      "sport_cricket",
+      "sport_football"
+    ],
+    "clarification_question": "Which one — cricket or football?",
+    "requires_confirmation": true,
+    "reason": "Two entities named."
+  },
+  {
+    "query": "slots or crash",
+    "possible_entities": [
+      "category_slots",
+      "category_crash_games"
+    ],
+    "clarification_question": "Which would you prefer — slots or crash games?",
+    "requires_confirmation": true,
+    "reason": "Explicit either/or."
+  },
+  {
+    "query": "best game",
+    "possible_entities": [
+      "category_games"
+    ],
+    "clarification_question": "I cannot recommend a game as better than another. Would you like to browse the catalogue?",
+    "requires_confirmation": true,
+    "reason": "Implies a recommendation the assistant must not make."
+  },
+  {
+    "query": "which game pays most",
+    "possible_entities": [],
+    "clarification_question": "I cannot say — outcomes are random and no game can be described as paying more. Would you like the game catalogue or the responsible gaming page?",
+    "requires_confirmation": true,
+    "reason": "Requests an unsupported financial claim; refuse and redirect."
+  },
+  {
+    "query": "open my page",
+    "possible_entities": [
+      "page_profile",
+      "page_wallet"
+    ],
+    "clarification_question": "Which page — your profile or your wallet?",
+    "requires_confirmation": true,
+    "reason": "Possessive but vague."
+  },
+  {
+    "query": "i want to play something",
+    "possible_entities": [
+      "category_games",
+      "category_casino"
+    ],
+    "clarification_question": "Any particular type — slots, table games, or crash games?",
+    "requires_confirmation": true,
+    "reason": "No target."
+  },
+  {
+    "query": "show live games",
+    "possible_entities": [
+      "category_live_casino",
+      "category_sports"
+    ],
+    "clarification_question": "Live casino tables, or live sports?",
+    "requires_confirmation": true,
+    "reason": "Ambiguous \"live\"."
+  },
+  {
+    "query": "kholo",
+    "possible_entities": [
+      "—"
+    ],
+    "clarification_question": "What would you like me to open?",
+    "requires_confirmation": true,
+    "reason": "Hinglish verb with no object."
+  },
+  {
+    "query": "dikhao",
+    "possible_entities": [
+      "—"
+    ],
+    "clarification_question": "What would you like me to show you?",
+    "requires_confirmation": true,
+    "reason": "Hinglish verb with no object."
+  },
+  {
+    "query": "wo wala",
+    "possible_entities": [],
+    "clarification_question": "Which one do you mean?",
+    "requires_confirmation": true,
+    "reason": "Hindi demonstrative with no referent."
+  },
+  {
+    "query": "adi open cheyyi",
+    "possible_entities": [],
+    "clarification_question": "Which one would you like me to open?",
+    "requires_confirmation": true,
+    "reason": "Telugu demonstrative with no referent."
+  },
+  {
+    "query": "paisa",
+    "possible_entities": [
+      "page_deposit",
+      "page_withdraw",
+      "page_wallet"
+    ],
+    "clarification_question": "Do you want to deposit, withdraw, or check your wallet?",
+    "requires_confirmation": true,
+    "reason": "Hinglish for money — ambiguous."
+  },
+  {
+    "query": "bet",
+    "possible_entities": [
+      "category_sports",
+      "page_bet_history"
+    ],
+    "clarification_question": "Do you want to place a bet or see your bet history?",
+    "requires_confirmation": true,
+    "reason": "Noun/verb ambiguity."
+  },
+  {
+    "query": "is it working",
+    "possible_entities": [],
+    "clarification_question": "Is what not working? Tell me which game or page and I can help.",
+    "requires_confirmation": true,
+    "reason": "Technical complaint with no subject."
+  },
+  {
+    "query": "this is not loading",
+    "possible_entities": [],
+    "clarification_question": "Which page or game is not loading?",
+    "requires_confirmation": true,
+    "reason": "Complaint with no subject."
+  },
+  {
+    "query": "cancel it",
+    "possible_entities": [],
+    "clarification_question": "What would you like to cancel?",
+    "requires_confirmation": true,
+    "reason": "Destructive action with no referent — must never guess."
+  },
+  {
+    "query": "how much",
+    "possible_entities": [],
+    "clarification_question": "How much of what? I cannot see account balances, but I can point you to your wallet.",
+    "requires_confirmation": true,
+    "reason": "Incomplete, and may be asking for account data the assistant cannot access."
+  },
+  {
+    "query": "when will i get it",
+    "possible_entities": [
+      "page_withdraw",
+      "page_transactions"
+    ],
+    "clarification_question": "Are you asking about a withdrawal, a deposit, or a bonus?",
+    "requires_confirmation": true,
+    "reason": "Timing question with no subject; answer would otherwise invent a policy."
+  },
+  {
+    "query": "play now",
+    "possible_entities": [
+      "category_games"
+    ],
+    "clarification_question": "What would you like to play?",
+    "requires_confirmation": true,
+    "reason": "No target."
+  }
+]

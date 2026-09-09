@@ -1,0 +1,109 @@
+C:\FEG\psk-session-intel\analysis\03_casino_funnel_value.py:40: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  print(j.groupby('sess_bin').agg(player_days=('sessions','size'),stake_per_day=('casino_stake',lambda x:(x+j.loc[x.index,'sb_stake']).mean()),vps=('value_per_session_eur','median'),conv_share=('conv_sessions',lambda c:(c/j.loc[c.index,'sessions']).mean())).round(1).to_string())
+=== Casino Android launches by discovery origin ===
+on_origin
+NaN                     4247
+search_results          3874
+grid                    1710
+top_10                   303
+pop_up                    30
+winners_widget            20
+providers_widget          13
+recent_wins_overview      11
+recent_winners             5
+jackpot_widget             4
+collection_widget          3
+most_played                2
+surprise_me_widget         2
+
+=== launches by on_route (page where launched) ===
+on_route
+my_games    4221
+search      3485
+lobby       2151
+az_games     210
+NaN          133
+bonus         24
+
+=== demo share ===
+demo
+n    0.864
+y    0.136
+
+=== on_origin_name (row/category names) top ===
+on_origin_name
+Amusnet                876
+EGT Digital            778
+Playtech               616
+Sizzling Hot Deluxe    500
+Playson                411
+Greentube              409
+PragmaticPlay          227
+Tech4Bet               192
+Boost Pots             128
+Fazi                   107
+Games Global           100
+Nove Igre               97
+Habanero                90
+PSK Favoriti            79
+Golden Coins Link       70
+
+share launches that are repeat of a game already played this month: 0.868
+distinct games per player (Casino Android):
+count     25.0
+mean      53.9
+std       83.5
+min        1.0
+25%        9.0
+50%       17.0
+75%       43.0
+max      296.0
+
+=== Casino Android sessions: search vs not ===
+             sessions  conv  med_ttfa  med_len
+used_search                                   
+False            1577  0.62     34.95   534.07
+True              760  0.98     39.71  1308.99
+
+=== TTFA by first screen (Casino Android) ===
+                 n  conv  med_ttfa
+first_screen                      
+lobby           38  1.00      0.00
+my_games       124  1.00      0.00
+screen_view   2046  0.70     44.65
+search         107  0.97      6.03
+
+=== player-day join coverage: rows 2725  with any stake: 0.701
+value per session (EUR stake) describe:
+count      2725.0
+mean       1535.7
+std        8183.1
+min           0.0
+25%           0.0
+50%          93.5
+75%         664.5
+90%        2873.1
+max      300030.0
+
+=== value per session by sessions/day bucket (does more sessions = more value?) ===
+          player_days  stake_per_day    vps  conv_share
+sess_bin                                               
+1                 274         4197.8    0.0         0.3
+2                 248         5868.9   98.3         0.3
+3-4               544         5292.9   79.9         0.4
+5-8              1111         6203.7  118.8         0.4
+9+                548         7374.2   90.5         0.4
+
+corr(log placed betslips, SB_Player no_of_bets) per player-day: 0.45
+
+=== harmful-play indicator distribution across top app users ===
+                         count    mean     std  min     50%     75%     90%     max
+sessions_per_day_p90     113.0    8.30    4.05  1.0    8.00   10.00   12.00   27.00
+share_night_sessions     113.0    0.11    0.10  0.0    0.10    0.15    0.22    0.60
+share_sessions_gt60min   113.0    0.17    0.12  0.0    0.15    0.24    0.36    0.43
+share_sessions_gt120min  113.0    0.08    0.08  0.0    0.05    0.10    0.20    0.40
+share_reopen_lt15min     113.0    0.04    0.08  0.0    0.00    0.02    0.18    0.35
+active_days              113.0   24.12    9.02  1.0   29.00   31.00   31.00   31.00
+max_placed_in_session    113.0   14.19   25.95  0.0    6.00   16.00   33.20  215.00
+sessions                 113.0  142.43  100.80  1.0  142.00  196.00  254.80  587.00
+players flagged by simple rule: 64 of 113

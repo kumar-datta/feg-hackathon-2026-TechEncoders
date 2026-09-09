@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="hr" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Promocije i akcije | PSK.demo</title>
+<link rel="stylesheet" href="assets/css/main.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%230b4bd4'/><text x='16' y='22' font-size='13' font-family='sans-serif' font-weight='bold' fill='white' text-anchor='middle'>PSK</text></svg>">
+<script>window.PAGE = { nav: 'promo' };</script>
+</head>
+<body>
+<div class="page" style="max-width:1300px">
+  <div class="crumbs"><a href="index.html">Naslovna</a> › Promocije</div>
+  <h1 class="page-title">🎁 Promocije</h1>
+  <p class="page-lede">
+    Prikaz tipičnih akcija koje kladionice nude. Svi opisi su ilustrativni — u demo verziji
+    nema stvarnih bonusa niti uvjeta prometa.
+  </p>
+
+  <div class="cat-bar" style="margin:22px 0" id="promoTabs"></div>
+  <div class="tile-grid" id="promoGrid"></div>
+
+  <section class="sec prose">
+    <h2>Kako se čitaju uvjeti bonusa</h2>
+    <p>Kod stvarnih ponuda uvijek se provjeravaju četiri stvari:</p>
+    <ul>
+      <li><strong>Uvjet prometa</strong> — koliko puta treba odigrati iznos bonusa prije isplate.</li>
+      <li><strong>Minimalni tečaj</strong> — parovi ispod zadanog tečaja često se ne broje u promet.</li>
+      <li><strong>Rok</strong> — vremenski period u kojem uvjet mora biti ispunjen.</li>
+      <li><strong>Doprinos igara</strong> — različite igre doprinose prometu različitim postotkom.</li>
+    </ul>
+    <p>Detaljna pravila nalaze se na stranici <a href="pravila-igre.html#bonusi">Opća pravila bonusa</a>.</p>
+  </section>
+</div>
+
+<script src="assets/js/data.js"></script>
+<script src="assets/js/site.js"></script>
+<script src="assets/js/games.js"></script>
+<script>
+(function () {
+  const P = window.PSK, D = window.PSK_DATA;
+  const tags = ['Sve', ...new Set(D.PROMOS.map(p => p.tag))];
+  let cur = 'Sve';
+
+  function draw() {
+    document.getElementById('promoTabs').innerHTML = tags.map(t =>
+      `<button class="chip${cur === t ? ' is-active' : ''}" data-t="${P.esc(t)}">${P.esc(t)}</button>`).join('');
+    const list = cur === 'Sve' ? D.PROMOS : D.PROMOS.filter(p => p.tag === cur);
+    document.getElementById('promoGrid').innerHTML = list.map(p => `
+      <div class="panel" id="${p.id}">
+        <div style="height:130px;background:linear-gradient(140deg,hsl(${p.h1} 70% 44%),hsl(${p.h2} 65% 24%));
+                    display:grid;place-items:center;font-size:40px">🎁</div>
+        <div class="panel-bd">
+          <span class="tag-new">${P.esc(p.tag)}</span>
+          <h3 style="margin:10px 0 6px;font-size:16px">${P.esc(p.title)}</h3>
+          <p style="font-size:13px;color:var(--txt-dim)">${P.esc(p.text)}</p>
+          <button class="btn btn-accent btn-block" data-p="${p.id}">${P.esc(p.cta)}</button>
+        </div>
+      </div>`).join('');
+
+    P.$$('[data-t]').forEach(b => b.onclick = () => { cur = b.dataset.t; draw(); });
+    P.$$('[data-p]').forEach(b => b.onclick = () => {
+      const p = D.PROMOS.find(x => x.id === b.dataset.p);
+      P.modal(P.esc(p.title), `
+        <p>${P.esc(p.text)}</p>
+        <div class="note">Ovo je demonstracijski prikaz. Akcija se ne može aktivirati jer stranica
+        ne obrađuje uplate ni korisničke račune izvan lokalnog demo stanja.</div>
+        <h3 style="font-size:14px;margin-top:18px">Ilustrativni uvjeti</h3>
+        <table class="tbl"><tbody>
+          <tr><td>Uvjet prometa</td><td class="num">5×</td></tr>
+          <tr><td>Minimalni tečaj</td><td class="num">1,50</td></tr>
+          <tr><td>Rok</td><td class="num">30 dana</td></tr>
+          <tr><td>Minimalna uplata</td><td class="num">10,00 €</td></tr>
+        </tbody></table>`,
+        `<button class="btn btn-ghost" data-close>Zatvori</button>`);
+    });
+  }
+  draw();
+})();
+</script>
+</body>
+</html>

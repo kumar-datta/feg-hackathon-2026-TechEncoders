@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="hr" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sportska kladionica — ponuda | PSK.demo</title>
+<meta name="description" content="Demo ponuda sportske kladionice: preko 30 sportova, lige, tečajevi i listić.">
+<link rel="stylesheet" href="assets/css/main.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%230b4bd4'/><text x='16' y='22' font-size='13' font-family='sans-serif' font-weight='bold' fill='white' text-anchor='middle'>PSK</text></svg>">
+<script>
+  window.PAGE = { nav: new URLSearchParams(location.search).get('filter') === 'live' ? 'live' : 'sport' };
+</script>
+</head>
+<body>
+
+<div class="layout">
+  <div class="sidebar-col" id="sidebarHost"></div>
+  <div id="offerHost"></div>
+  <div class="slip-col sticky-col" id="slipHost"></div>
+</div>
+
+<button class="slip-fab" id="slipFab" onclick="document.getElementById('slipHost').scrollIntoView({behavior:'smooth'})">🎫 Listić <span>0</span></button>
+
+<script src="assets/js/data.js"></script>
+<script src="assets/js/site.js"></script>
+<script src="assets/js/games.js"></script>
+<script>
+  (function () {
+    const P = window.PSK;
+    const active = P.qs('sport') || 'nogomet';
+    document.getElementById('sidebarHost').innerHTML = P.sidebarHTML(active);
+    P.bindSidebar();
+  })();
+</script>
+<script src="assets/js/sportsbook.js"></script>
+</body>
+</html>

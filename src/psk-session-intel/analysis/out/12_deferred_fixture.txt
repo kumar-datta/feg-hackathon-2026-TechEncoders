@@ -1,0 +1,16 @@
+add rows with fixture: 117260  placed rows with fixture: 139681
+
+=== (a) abandoned SB app sessions with a known fixture: 912
+share where an abandoned fixture was later placed by the same player: 0.348
+by platform:
+            size   mean
+platform               
+SB Android   397  0.295
+SB iOS       515  0.388
+hours until placed p25/50/75: [1.4, 3.3, 7.7]  within 1h: 0.17  within 24h: 0.943
+
+=== (b) placed fixtures (player x fixture): 26805
+share first added in an EARLIER session (multi-session research): 0.051
+research span hours p25/50/75 (those cases): [1.8, 4.1, 9.2]
+
+=== (c) share of player-fixture pairs bet on in more than one session: 0.169  mean sessions per fixture: 1.3

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="hr" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Loto i brojčane igre | PSK.demo</title>
+<meta name="description" content="Demo loto ponuda: Loto 7/39, 6/45, Euro Jackpot, keno i bingo s izvlačenjem u pregledniku.">
+<link rel="stylesheet" href="assets/css/main.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%230b4bd4'/><text x='16' y='22' font-size='13' font-family='sans-serif' font-weight='bold' fill='white' text-anchor='middle'>PSK</text></svg>">
+<script>window.PAGE = { nav: 'loto' };</script>
+</head>
+<body>
+
+<div class="page">
+  <div class="crumbs"><a href="index.html">Naslovna</a> › Loto</div>
+  <h1 class="page-title">🎱 Loto i brojčane igre</h1>
+  <p class="page-lede">
+    Šest brojčanih igara s različitim rasponima. Odaberi brojeve ručno ili nasumično,
+    pokreni izvlačenje i vidi koliko si pogodio.
+  </p>
+
+  <div style="margin-top:24px" id="lottoHost"></div>
+
+  <section class="sec">
+    <div class="sec-hd"><h2>Zadnja izvlačenja</h2></div>
+    <div class="panel tbl-wrap">
+      <table class="tbl">
+        <thead><tr><th>Igra</th><th>Kolo</th><th>Datum</th><th>Izvučeni brojevi</th><th class="num">Fond</th></tr></thead>
+        <tbody id="drawsBody"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="sec prose">
+    <h2>Kako se računa dobitak</h2>
+    <p>
+      U ovoj demonstraciji dobitak se određuje brojem pogodaka prema pojednostavljenoj tablici
+      množitelja: tri pogotka plaćaju 2×, četiri 8×, pet 40×, šest 400×, a sedam 5000× uloga.
+      Stvarni sustavi koriste fond kola i broj dobitnika po razredu, što ovdje nije modelirano.
+    </p>
+    <h3>Odgovorna igra</h3>
+    <p>
+      Brojčane igre su igre čiste sreće — nijedna kombinacija nije vjerojatnija od druge.
+      Više o postavljanju limita na stranici <a href="odgovorno-igranje.html">Odgovorno igranje</a>.
+    </p>
+  </section>
+</div>
+
+<script src="assets/js/data.js"></script>
+<script src="assets/js/site.js"></script>
+<script src="assets/js/games.js"></script>
+<script src="assets/js/casino.js"></script>
+<script>
+(function () {
+  const P = window.PSK, D = window.PSK_DATA;
+  const r = D.makeRng(5150);
+  const rows = [];
+  D.LOTTERIES.forEach(l => {
+    for (let k = 0; k < 3; k++) {
+      const nums = new Set();
+      while (nums.size < l.pick) nums.add(1 + Math.floor(r() * l.max));
+      const d = new Date(Date.now() - (k + 1) * 86400000 * 2);
+      rows.push(`<tr>
+        <td>${P.esc(l.name)}</td>
+        <td>${2026}/${String(180 - k).padStart(3,'0')}</td>
+        <td>${d.toLocaleDateString('hr-HR')}</td>
+        <td style="font-weight:700;color:var(--accent)">${[...nums].sort((a,b)=>a-b).join(' · ')}</td>
+        <td class="num">${P.eur(Math.floor(r() * l.jackpot))}</td>
+      </tr>`);
+    }
+  });
+  document.getElementById('drawsBody').innerHTML = rows.join('');
+})();
+</script>
+</body>
+</html>

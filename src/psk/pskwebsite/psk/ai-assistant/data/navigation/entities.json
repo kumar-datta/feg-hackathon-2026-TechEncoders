@@ -1,0 +1,2314 @@
+[
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "page_home",
+    "type": "PAGE",
+    "name": "Home",
+    "aliases": [
+      "home",
+      "homepage",
+      "main page",
+      "naslovna",
+      "ghar",
+      "start page"
+    ],
+    "description": "Home page of the site.",
+    "category": "Navigation",
+    "parent_id": null,
+    "route": "/",
+    "keywords": [
+      "home",
+      "landing"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "page_sportsbook",
+    "type": "PAGE",
+    "name": "Sportsbook",
+    "aliases": [
+      "sports",
+      "sportsbook",
+      "betting",
+      "oklade",
+      "ponuda",
+      "sports betting",
+      "match betting",
+      "sports dikhao",
+      "khel satta",
+      "bet on sports"
+    ],
+    "description": "Sportsbook page of the site.",
+    "category": "Sports",
+    "parent_id": "page_home",
+    "route": "/oklade",
+    "keywords": [
+      "sports",
+      "betting",
+      "odds",
+      "oklade"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "page_live_betting",
+    "type": "PAGE",
+    "name": "Live Betting",
+    "aliases": [
+      "live",
+      "live betting",
+      "in play",
+      "inplay",
+      "uzivo",
+      "zivo",
+      "live odds",
+      "live matches"
+    ],
+    "description": "Live Betting page of the site.",
+    "category": "Sports",
+    "parent_id": "page_sportsbook",
+    "route": "/oklade?filter=live",
+    "keywords": [
+      "live",
+      "in-play",
+      "uzivo"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "page_casino",
+    "type": "PAGE",
+    "name": "Casino",
+    "aliases": [
+      "casino",
+      "casino lobby",
+      "slots",
+      "casino games",
+      "casino kholo",
+      "casino dikhao"
+    ],
+    "description": "Casino page of the site.",
+    "category": "Casino",
+    "parent_id": "page_home",
+    "route": "/casino",
+    "keywords": [
+      "casino",
+      "slots",
+      "games",
+      "lobby"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "page_live_casino",
+    "type": "PAGE",
+    "name": "Live Casino",
+    "aliases": [
+      "live casino",
+      "live dealer",
+      "live tables",
+      "zivi casino",
+      "real dealer"
+    ],
+    "description": "Live Casino page of the site.",
+    "category": "Casino",
+    "parent_id": "page_casino",
+    "route": "/live-casino",
+    "keywords": [
+      "live",
+      "dealer",
+      "tables"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "page_providers",
+    "type": "PAGE",
+    "name": "Providers",
+    "aliases": [
+      "providers",
+      "provideri",
+      "game providers",
+      "studios"
+    ],
+    "description": "Providers page of the site.",
+    "category": "Casino",
+    "parent_id": "page_casino",
+    "route": "/provideri",
+    "keywords": [
+      "provider",
+      "studio"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "page_loto",
+    "type": "PAGE",
+    "name": "Lottery",
+    "aliases": [
+      "loto",
+      "lotto",
+      "lottery",
+      "numbers game",
+      "keno",
+      "bingo",
+      "loto dikhao"
+    ],
+    "description": "Lottery page of the site.",
+    "category": "Lottery",
+    "parent_id": "page_home",
+    "route": "/loto",
+    "keywords": [
+      "loto",
+      "lottery",
+      "numbers",
+      "draw"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "page_virtuals",
+    "type": "PAGE",
+    "name": "Virtual Games",
+    "aliases": [
+      "virtual",
+      "virtuals",
+      "virtual games",
+      "virtualne igre",
+      "simulated games"
+    ],
+    "description": "Virtual Games page of the site.",
+    "category": "Virtual",
+    "parent_id": "page_home",
+    "route": "/virtualne-igre",
+    "keywords": [
+      "virtual",
+      "simulated",
+      "races"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "page_swipe",
+    "type": "PAGE",
+    "name": "Swipe & Bet",
+    "aliases": [
+      "swipe",
+      "swipe and bet",
+      "swipe bet",
+      "quick bet"
+    ],
+    "description": "Swipe & Bet page of the site.",
+    "category": "Sports",
+    "parent_id": "page_home",
+    "route": "/swipe-and-bet",
+    "keywords": [
+      "swipe",
+      "quick"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "page_arena",
+    "type": "PAGE",
+    "name": "Arena",
+    "aliases": [
+      "arena",
+      "shared tickets",
+      "community tickets",
+      "psk arena"
+    ],
+    "description": "Arena page of the site.",
+    "category": "Community",
+    "parent_id": "page_home",
+    "route": "/arena",
+    "keywords": [
+      "arena",
+      "shared"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "page_promotions",
+    "type": "PAGE",
+    "name": "Promotions",
+    "aliases": [
+      "promotions",
+      "promocije",
+      "promo",
+      "offers",
+      "deals",
+      "bonus",
+      "bonuses",
+      "offer dikhao",
+      "koi bonus hai"
+    ],
+    "description": "Promotions page of the site.",
+    "category": "Promotions",
+    "parent_id": "page_home",
+    "route": "/promocije",
+    "keywords": [
+      "promotions",
+      "offers",
+      "bonus"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "page_forum",
+    "type": "PAGE",
+    "name": "Forum",
+    "aliases": [
+      "forum",
+      "community",
+      "discussion",
+      "threads"
+    ],
+    "description": "Forum page of the site.",
+    "category": "Community",
+    "parent_id": "page_home",
+    "route": "/forum",
+    "keywords": [
+      "forum",
+      "community"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "page_results",
+    "type": "PAGE",
+    "name": "Results",
+    "aliases": [
+      "results",
+      "rezultati",
+      "scores",
+      "match results"
+    ],
+    "description": "Results page of the site.",
+    "category": "Sports",
+    "parent_id": "page_home",
+    "route": "/rezultati",
+    "keywords": [
+      "results",
+      "scores"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "page_statistics",
+    "type": "PAGE",
+    "name": "Statistics",
+    "aliases": [
+      "statistics",
+      "statistika",
+      "stats"
+    ],
+    "description": "Statistics page of the site.",
+    "category": "Sports",
+    "parent_id": "page_home",
+    "route": "/statistika",
+    "keywords": [
+      "statistics",
+      "stats"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "page_news",
+    "type": "PAGE",
+    "name": "News",
+    "aliases": [
+      "news",
+      "novosti",
+      "articles",
+      "analysis"
+    ],
+    "description": "News page of the site.",
+    "category": "Content",
+    "parent_id": "page_home",
+    "route": "/novosti",
+    "keywords": [
+      "news",
+      "articles"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "page_shops",
+    "type": "PAGE",
+    "name": "Shops",
+    "aliases": [
+      "shops",
+      "poslovnice",
+      "branches",
+      "locations",
+      "betting shops"
+    ],
+    "description": "Shops page of the site.",
+    "category": "Info",
+    "parent_id": "page_home",
+    "route": "/poslovnice",
+    "keywords": [
+      "shops",
+      "locations"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "page_mobile_app",
+    "type": "PAGE",
+    "name": "Mobile App",
+    "aliases": [
+      "app",
+      "mobile app",
+      "download",
+      "android",
+      "ios",
+      "mobilna aplikacija"
+    ],
+    "description": "Mobile App page of the site.",
+    "category": "Info",
+    "parent_id": "page_home",
+    "route": "/mobilna-aplikacija",
+    "keywords": [
+      "app",
+      "mobile",
+      "download"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "page_champions_club",
+    "type": "PAGE",
+    "name": "Champions Club",
+    "aliases": [
+      "champions club",
+      "klub prvaka",
+      "loyalty",
+      "vip",
+      "tiers",
+      "points"
+    ],
+    "description": "Champions Club page of the site.",
+    "category": "Promotions",
+    "parent_id": "page_home",
+    "route": "/klub-prvaka",
+    "keywords": [
+      "loyalty",
+      "club",
+      "tiers"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "page_search",
+    "type": "PAGE",
+    "name": "Search",
+    "aliases": [
+      "search",
+      "pretraga",
+      "find"
+    ],
+    "description": "Search page of the site.",
+    "category": "Navigation",
+    "parent_id": "page_home",
+    "route": "/pretraga",
+    "keywords": [
+      "search",
+      "find"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "page_login",
+    "type": "PAGE",
+    "name": "Login",
+    "aliases": [
+      "login",
+      "log in",
+      "sign in",
+      "prijava",
+      "login karo"
+    ],
+    "description": "Login page of the site.",
+    "category": "Account",
+    "parent_id": "page_home",
+    "route": "/prijava",
+    "keywords": [
+      "login",
+      "signin"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "page_register",
+    "type": "PAGE",
+    "name": "Register",
+    "aliases": [
+      "register",
+      "sign up",
+      "registracija",
+      "create account",
+      "new account"
+    ],
+    "description": "Register page of the site.",
+    "category": "Account",
+    "parent_id": "page_home",
+    "route": "/registracija",
+    "keywords": [
+      "register",
+      "signup"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": true,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "page_account",
+    "type": "PAGE",
+    "name": "My Account",
+    "aliases": [
+      "account",
+      "my account",
+      "profile",
+      "racun",
+      "wallet",
+      "balance",
+      "my profile",
+      "account settings",
+      "profile kholo"
+    ],
+    "description": "My Account page of the site.",
+    "category": "Account",
+    "parent_id": "page_home",
+    "route": "/racun",
+    "keywords": [
+      "account",
+      "profile",
+      "wallet"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": true,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "page_deposit",
+    "type": "PAGE",
+    "name": "Deposit",
+    "aliases": [
+      "deposit",
+      "add money",
+      "add funds",
+      "top up",
+      "topup",
+      "recharge",
+      "paisa dalo",
+      "deposit karo",
+      "paise jama karo",
+      "dabbu vesali",
+      "add credits"
+    ],
+    "description": "Deposit page of the site.",
+    "category": "Account",
+    "parent_id": "page_account",
+    "route": "/racun#deposit",
+    "keywords": [
+      "deposit",
+      "add",
+      "funds"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": true,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "page_limits",
+    "type": "PAGE",
+    "name": "Play Limits",
+    "aliases": [
+      "limits",
+      "deposit limit",
+      "set limit",
+      "play limits",
+      "limit set karo",
+      "spending limit"
+    ],
+    "description": "Play Limits page of the site.",
+    "category": "Responsible",
+    "parent_id": "page_account",
+    "route": "/racun#limiti",
+    "keywords": [
+      "limits",
+      "control"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": true,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "page_self_exclusion",
+    "type": "PAGE",
+    "name": "Self-Exclusion",
+    "aliases": [
+      "self exclusion",
+      "self exclude",
+      "block my account",
+      "take a break",
+      "exclude me",
+      "gambling band karo"
+    ],
+    "description": "Self-Exclusion page of the site.",
+    "category": "Responsible",
+    "parent_id": "page_account",
+    "route": "/racun#samoiskljucenje",
+    "keywords": [
+      "self-exclusion",
+      "break",
+      "block"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": true,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "page_tickets",
+    "type": "PAGE",
+    "name": "My Tickets",
+    "aliases": [
+      "tickets",
+      "my tickets",
+      "listici",
+      "bet history",
+      "my bets",
+      "betting history",
+      "past bets",
+      "mera bet history dikhao",
+      "na bets chupinchu"
+    ],
+    "description": "My Tickets page of the site.",
+    "category": "Account",
+    "parent_id": "page_home",
+    "route": "/listici",
+    "keywords": [
+      "tickets",
+      "bets",
+      "history"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": true,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "page_checkout",
+    "type": "PAGE",
+    "name": "Checkout",
+    "aliases": [
+      "checkout",
+      "confirm bet",
+      "place bet",
+      "bet slip"
+    ],
+    "description": "Checkout page of the site.",
+    "category": "Account",
+    "parent_id": "page_home",
+    "route": "/checkout",
+    "keywords": [
+      "checkout",
+      "confirm"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "page_help",
+    "type": "PAGE",
+    "name": "Help",
+    "aliases": [
+      "help",
+      "pomoc",
+      "faq",
+      "help center",
+      "support articles",
+      "madad",
+      "sahayam"
+    ],
+    "description": "Help page of the site.",
+    "category": "Support",
+    "parent_id": "page_home",
+    "route": "/pomoc",
+    "keywords": [
+      "help",
+      "faq",
+      "support"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "page_contact",
+    "type": "PAGE",
+    "name": "Contact Support",
+    "aliases": [
+      "contact",
+      "contact support",
+      "support",
+      "customer care",
+      "agent",
+      "complaint",
+      "support se baat karao",
+      "live chat"
+    ],
+    "description": "Contact Support page of the site.",
+    "category": "Support",
+    "parent_id": "page_help",
+    "route": "/kontakt",
+    "keywords": [
+      "contact",
+      "support",
+      "agent"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "page_about",
+    "type": "PAGE",
+    "name": "About",
+    "aliases": [
+      "about",
+      "about us",
+      "o nama",
+      "about the project"
+    ],
+    "description": "About page of the site.",
+    "category": "Info",
+    "parent_id": "page_home",
+    "route": "/o-nama",
+    "keywords": [
+      "about",
+      "info"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "page_rules",
+    "type": "PAGE",
+    "name": "Game Rules",
+    "aliases": [
+      "rules",
+      "game rules",
+      "terms",
+      "pravila igre",
+      "terms and conditions",
+      "tnc"
+    ],
+    "description": "Game Rules page of the site.",
+    "category": "Policy",
+    "parent_id": "page_home",
+    "route": "/pravila-igre",
+    "keywords": [
+      "rules",
+      "terms"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "page_responsible_gaming",
+    "type": "PAGE",
+    "name": "Responsible Gaming",
+    "aliases": [
+      "responsible gaming",
+      "responsible gambling",
+      "odgovorno igranje",
+      "safer gambling",
+      "gambling help",
+      "addiction help",
+      "stop gambling",
+      "problem gambling"
+    ],
+    "description": "Responsible Gaming page of the site.",
+    "category": "Responsible",
+    "parent_id": "page_home",
+    "route": "/odgovorno-igranje",
+    "keywords": [
+      "responsible",
+      "safer",
+      "help"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "page_privacy",
+    "type": "PAGE",
+    "name": "Privacy Policy",
+    "aliases": [
+      "privacy",
+      "privacy policy",
+      "data policy",
+      "pravila privatnosti",
+      "gdpr"
+    ],
+    "description": "Privacy Policy page of the site.",
+    "category": "Policy",
+    "parent_id": "page_home",
+    "route": "/pravila-privatnosti",
+    "keywords": [
+      "privacy",
+      "data"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "sport_nogomet",
+    "type": "SPORT",
+    "name": "Nogomet",
+    "aliases": [
+      "nogomet",
+      "nogomet",
+      "football",
+      "soccer",
+      "futbol",
+      "football betting",
+      "nogomet betting",
+      "nogomet dikhao"
+    ],
+    "description": "Nogomet betting markets (173 events).",
+    "category": "Sports",
+    "parent_id": "page_sportsbook",
+    "route": "/oklade?sport=nogomet",
+    "keywords": [
+      "nogomet",
+      "betting",
+      "odds"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "sport_kosarka",
+    "type": "SPORT",
+    "name": "Košarka",
+    "aliases": [
+      "kosarka",
+      "košarka",
+      "basketball",
+      "nba",
+      "basket",
+      "košarka betting",
+      "kosarka dikhao"
+    ],
+    "description": "Košarka betting markets (56 events).",
+    "category": "Sports",
+    "parent_id": "page_sportsbook",
+    "route": "/oklade?sport=kosarka",
+    "keywords": [
+      "kosarka",
+      "betting",
+      "odds"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "sport_tenis",
+    "type": "SPORT",
+    "name": "Tenis",
+    "aliases": [
+      "tenis",
+      "tenis",
+      "tennis",
+      "atp",
+      "wta",
+      "tenis betting",
+      "tenis dikhao"
+    ],
+    "description": "Tenis betting markets (43 events).",
+    "category": "Sports",
+    "parent_id": "page_sportsbook",
+    "route": "/oklade?sport=tenis",
+    "keywords": [
+      "tenis",
+      "betting",
+      "odds"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "sport_rukomet",
+    "type": "SPORT",
+    "name": "Rukomet",
+    "aliases": [
+      "rukomet",
+      "rukomet",
+      "handball",
+      "rukomet betting",
+      "rukomet dikhao"
+    ],
+    "description": "Rukomet betting markets (26 events).",
+    "category": "Sports",
+    "parent_id": "page_sportsbook",
+    "route": "/oklade?sport=rukomet",
+    "keywords": [
+      "rukomet",
+      "betting",
+      "odds"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "sport_odbojka",
+    "type": "SPORT",
+    "name": "Odbojka",
+    "aliases": [
+      "odbojka",
+      "odbojka",
+      "volleyball",
+      "odbojka betting",
+      "odbojka dikhao"
+    ],
+    "description": "Odbojka betting markets (16 events).",
+    "category": "Sports",
+    "parent_id": "page_sportsbook",
+    "route": "/oklade?sport=odbojka",
+    "keywords": [
+      "odbojka",
+      "betting",
+      "odds"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "sport_hokej",
+    "type": "SPORT",
+    "name": "Hokej na ledu",
+    "aliases": [
+      "hokej",
+      "hokej na ledu",
+      "hockey",
+      "ice hockey",
+      "nhl",
+      "hokej na ledu betting",
+      "hokej dikhao"
+    ],
+    "description": "Hokej na ledu betting markets (20 events).",
+    "category": "Sports",
+    "parent_id": "page_sportsbook",
+    "route": "/oklade?sport=hokej",
+    "keywords": [
+      "hokej",
+      "betting",
+      "odds"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "sport_stolni-tenis",
+    "type": "SPORT",
+    "name": "Stolni tenis",
+    "aliases": [
+      "stolni-tenis",
+      "stolni tenis",
+      "stolni tenis betting",
+      "stolni-tenis dikhao"
+    ],
+    "description": "Stolni tenis betting markets (7 events).",
+    "category": "Sports",
+    "parent_id": "page_sportsbook",
+    "route": "/oklade?sport=stolni-tenis",
+    "keywords": [
+      "stolni-tenis",
+      "betting",
+      "odds"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "sport_esport",
+    "type": "SPORT",
+    "name": "E-sport",
+    "aliases": [
+      "esport",
+      "e-sport",
+      "esports",
+      "e sport",
+      "gaming",
+      "cs2",
+      "lol",
+      "dota",
+      "e-sport betting",
+      "esport dikhao"
+    ],
+    "description": "E-sport betting markets (37 events).",
+    "category": "Sports",
+    "parent_id": "page_sportsbook",
+    "route": "/oklade?sport=esport",
+    "keywords": [
+      "esport",
+      "betting",
+      "odds"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "sport_boks",
+    "type": "SPORT",
+    "name": "Boks",
+    "aliases": [
+      "boks",
+      "boks",
+      "boxing",
+      "boks betting",
+      "boks dikhao"
+    ],
+    "description": "Boks betting markets (6 events).",
+    "category": "Sports",
+    "parent_id": "page_sportsbook",
+    "route": "/oklade?sport=boks",
+    "keywords": [
+      "boks",
+      "betting",
+      "odds"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "sport_mma",
+    "type": "SPORT",
+    "name": "MMA / UFC",
+    "aliases": [
+      "mma",
+      "mma / ufc",
+      "ufc",
+      "mixed martial arts",
+      "mma / ufc betting",
+      "mma dikhao"
+    ],
+    "description": "MMA / UFC betting markets (7 events).",
+    "category": "Sports",
+    "parent_id": "page_sportsbook",
+    "route": "/oklade?sport=mma",
+    "keywords": [
+      "mma",
+      "betting",
+      "odds"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "sport_formula-1",
+    "type": "SPORT",
+    "name": "Formula 1",
+    "aliases": [
+      "formula-1",
+      "formula 1",
+      "f1",
+      "formula one",
+      "racing",
+      "formula 1 betting",
+      "formula-1 dikhao"
+    ],
+    "description": "Formula 1 betting markets (3 events).",
+    "category": "Sports",
+    "parent_id": "page_sportsbook",
+    "route": "/oklade?sport=formula-1",
+    "keywords": [
+      "formula-1",
+      "betting",
+      "odds"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "sport_moto-gp",
+    "type": "SPORT",
+    "name": "Moto GP",
+    "aliases": [
+      "moto-gp",
+      "moto gp",
+      "moto gp betting",
+      "moto-gp dikhao"
+    ],
+    "description": "Moto GP betting markets (5 events).",
+    "category": "Sports",
+    "parent_id": "page_sportsbook",
+    "route": "/oklade?sport=moto-gp",
+    "keywords": [
+      "moto-gp",
+      "betting",
+      "odds"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "sport_pikado",
+    "type": "SPORT",
+    "name": "Pikado",
+    "aliases": [
+      "pikado",
+      "pikado",
+      "darts",
+      "pikado betting",
+      "pikado dikhao"
+    ],
+    "description": "Pikado betting markets (3 events).",
+    "category": "Sports",
+    "parent_id": "page_sportsbook",
+    "route": "/oklade?sport=pikado",
+    "keywords": [
+      "pikado",
+      "betting",
+      "odds"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "sport_snooker",
+    "type": "SPORT",
+    "name": "Snooker",
+    "aliases": [
+      "snooker",
+      "snooker",
+      "snooker",
+      "pool",
+      "snooker betting",
+      "snooker dikhao"
+    ],
+    "description": "Snooker betting markets (7 events).",
+    "category": "Sports",
+    "parent_id": "page_sportsbook",
+    "route": "/oklade?sport=snooker",
+    "keywords": [
+      "snooker",
+      "betting",
+      "odds"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "sport_golf",
+    "type": "SPORT",
+    "name": "Golf",
+    "aliases": [
+      "golf",
+      "golf",
+      "golf",
+      "golf betting",
+      "golf dikhao"
+    ],
+    "description": "Golf betting markets (4 events).",
+    "category": "Sports",
+    "parent_id": "page_sportsbook",
+    "route": "/oklade?sport=golf",
+    "keywords": [
+      "golf",
+      "betting",
+      "odds"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "sport_biciklizam",
+    "type": "SPORT",
+    "name": "Biciklizam",
+    "aliases": [
+      "biciklizam",
+      "biciklizam",
+      "cycling",
+      "biciklizam betting",
+      "biciklizam dikhao"
+    ],
+    "description": "Biciklizam betting markets (5 events).",
+    "category": "Sports",
+    "parent_id": "page_sportsbook",
+    "route": "/oklade?sport=biciklizam",
+    "keywords": [
+      "biciklizam",
+      "betting",
+      "odds"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "sport_ragbi",
+    "type": "SPORT",
+    "name": "Ragbi",
+    "aliases": [
+      "ragbi",
+      "ragbi",
+      "ragbi betting",
+      "ragbi dikhao"
+    ],
+    "description": "Ragbi betting markets (7 events).",
+    "category": "Sports",
+    "parent_id": "page_sportsbook",
+    "route": "/oklade?sport=ragbi",
+    "keywords": [
+      "ragbi",
+      "betting",
+      "odds"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "sport_am-nogomet",
+    "type": "SPORT",
+    "name": "Američki nogomet",
+    "aliases": [
+      "am-nogomet",
+      "američki nogomet",
+      "american football",
+      "nfl",
+      "američki nogomet betting",
+      "am-nogomet dikhao"
+    ],
+    "description": "Američki nogomet betting markets (12 events).",
+    "category": "Sports",
+    "parent_id": "page_sportsbook",
+    "route": "/oklade?sport=am-nogomet",
+    "keywords": [
+      "am-nogomet",
+      "betting",
+      "odds"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "sport_bejzbol",
+    "type": "SPORT",
+    "name": "Bejzbol",
+    "aliases": [
+      "bejzbol",
+      "bejzbol",
+      "baseball",
+      "mlb",
+      "bejzbol betting",
+      "bejzbol dikhao"
+    ],
+    "description": "Bejzbol betting markets (9 events).",
+    "category": "Sports",
+    "parent_id": "page_sportsbook",
+    "route": "/oklade?sport=bejzbol",
+    "keywords": [
+      "bejzbol",
+      "betting",
+      "odds"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "sport_vaterpolo",
+    "type": "SPORT",
+    "name": "Vaterpolo",
+    "aliases": [
+      "vaterpolo",
+      "vaterpolo",
+      "water polo",
+      "vaterpolo betting",
+      "vaterpolo dikhao"
+    ],
+    "description": "Vaterpolo betting markets (10 events).",
+    "category": "Sports",
+    "parent_id": "page_sportsbook",
+    "route": "/oklade?sport=vaterpolo",
+    "keywords": [
+      "vaterpolo",
+      "betting",
+      "odds"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "sport_atletika",
+    "type": "SPORT",
+    "name": "Atletika",
+    "aliases": [
+      "atletika",
+      "atletika",
+      "atletika betting",
+      "atletika dikhao"
+    ],
+    "description": "Atletika betting markets (5 events).",
+    "category": "Sports",
+    "parent_id": "page_sportsbook",
+    "route": "/oklade?sport=atletika",
+    "keywords": [
+      "atletika",
+      "betting",
+      "odds"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "sport_skijanje",
+    "type": "SPORT",
+    "name": "Skijanje",
+    "aliases": [
+      "skijanje",
+      "skijanje",
+      "skijanje betting",
+      "skijanje dikhao"
+    ],
+    "description": "Skijanje betting markets (5 events).",
+    "category": "Sports",
+    "parent_id": "page_sportsbook",
+    "route": "/oklade?sport=skijanje",
+    "keywords": [
+      "skijanje",
+      "betting",
+      "odds"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "sport_ski-skokovi",
+    "type": "SPORT",
+    "name": "Ski skokovi",
+    "aliases": [
+      "ski-skokovi",
+      "ski skokovi",
+      "ski skokovi betting",
+      "ski-skokovi dikhao"
+    ],
+    "description": "Ski skokovi betting markets (7 events).",
+    "category": "Sports",
+    "parent_id": "page_sportsbook",
+    "route": "/oklade?sport=ski-skokovi",
+    "keywords": [
+      "ski-skokovi",
+      "betting",
+      "odds"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "sport_biatlon",
+    "type": "SPORT",
+    "name": "Biatlon",
+    "aliases": [
+      "biatlon",
+      "biatlon",
+      "biatlon betting",
+      "biatlon dikhao"
+    ],
+    "description": "Biatlon betting markets (3 events).",
+    "category": "Sports",
+    "parent_id": "page_sportsbook",
+    "route": "/oklade?sport=biatlon",
+    "keywords": [
+      "biatlon",
+      "betting",
+      "odds"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "sport_sah",
+    "type": "SPORT",
+    "name": "Šah",
+    "aliases": [
+      "sah",
+      "šah",
+      "chess",
+      "šah betting",
+      "sah dikhao"
+    ],
+    "description": "Šah betting markets (9 events).",
+    "category": "Sports",
+    "parent_id": "page_sportsbook",
+    "route": "/oklade?sport=sah",
+    "keywords": [
+      "sah",
+      "betting",
+      "odds"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "sport_futsal",
+    "type": "SPORT",
+    "name": "Futsal",
+    "aliases": [
+      "futsal",
+      "futsal",
+      "futsal",
+      "futsal betting",
+      "futsal dikhao"
+    ],
+    "description": "Futsal betting markets (6 events).",
+    "category": "Sports",
+    "parent_id": "page_sportsbook",
+    "route": "/oklade?sport=futsal",
+    "keywords": [
+      "futsal",
+      "betting",
+      "odds"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "sport_badminton",
+    "type": "SPORT",
+    "name": "Badminton",
+    "aliases": [
+      "badminton",
+      "badminton",
+      "badminton",
+      "badminton betting",
+      "badminton dikhao"
+    ],
+    "description": "Badminton betting markets (4 events).",
+    "category": "Sports",
+    "parent_id": "page_sportsbook",
+    "route": "/oklade?sport=badminton",
+    "keywords": [
+      "badminton",
+      "betting",
+      "odds"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "sport_kuglanje",
+    "type": "SPORT",
+    "name": "Kuglanje",
+    "aliases": [
+      "kuglanje",
+      "kuglanje",
+      "kuglanje betting",
+      "kuglanje dikhao"
+    ],
+    "description": "Kuglanje betting markets (6 events).",
+    "category": "Sports",
+    "parent_id": "page_sportsbook",
+    "route": "/oklade?sport=kuglanje",
+    "keywords": [
+      "kuglanje",
+      "betting",
+      "odds"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "sport_konjicke-utrke",
+    "type": "SPORT",
+    "name": "Konjičke utrke",
+    "aliases": [
+      "konjicke-utrke",
+      "konjičke utrke",
+      "horse racing",
+      "horses",
+      "racing",
+      "ghoda race",
+      "konjičke utrke betting",
+      "konjicke-utrke dikhao"
+    ],
+    "description": "Konjičke utrke betting markets (6 events).",
+    "category": "Sports",
+    "parent_id": "page_sportsbook",
+    "route": "/oklade?sport=konjicke-utrke",
+    "keywords": [
+      "konjicke-utrke",
+      "betting",
+      "odds"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "sport_zabava",
+    "type": "SPORT",
+    "name": "Svijet zabave",
+    "aliases": [
+      "zabava",
+      "svijet zabave",
+      "svijet zabave betting",
+      "zabava dikhao"
+    ],
+    "description": "Svijet zabave betting markets (5 events).",
+    "category": "Sports",
+    "parent_id": "page_sportsbook",
+    "route": "/oklade?sport=zabava",
+    "keywords": [
+      "zabava",
+      "betting",
+      "odds"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "game_rulet-pro",
+    "type": "GAME",
+    "name": "Rulet Pro",
+    "aliases": [
+      "rulet pro",
+      "rulet-pro",
+      "roulette pro",
+      "rulet pro"
+    ],
+    "description": "Rulet Pro by PSK Studio. roulette game.",
+    "category": "Casino",
+    "parent_id": "page_casino",
+    "route": "/casino?game=rulet-pro",
+    "keywords": [
+      "roulette",
+      "psk studio"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "game_crash-royale",
+    "type": "GAME",
+    "name": "Crash Royale",
+    "aliases": [
+      "crash royale",
+      "crash-royale",
+      "crash",
+      "crash game",
+      "rocket game",
+      "crash classic"
+    ],
+    "description": "Crash Royale by PSK Studio. crash game.",
+    "category": "Casino",
+    "parent_id": "page_casino",
+    "route": "/casino?game=crash-royale",
+    "keywords": [
+      "crash",
+      "psk studio"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "game_europski-rulet",
+    "type": "GAME",
+    "name": "Europski rulet",
+    "aliases": [
+      "europski rulet",
+      "europski-rulet",
+      "roulette",
+      "rulet",
+      "roulete",
+      "european roulette",
+      "wheel game",
+      "chakka game"
+    ],
+    "description": "Europski rulet by PSK Studio. roulette game.",
+    "category": "Casino",
+    "parent_id": "page_casino",
+    "route": "/casino?game=europski-rulet",
+    "keywords": [
+      "roulette",
+      "psk studio"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "game_mine-hunter",
+    "type": "GAME",
+    "name": "Mine Hunter",
+    "aliases": [
+      "mine hunter",
+      "mine-hunter",
+      "mines",
+      "mine game",
+      "minesweeper"
+    ],
+    "description": "Mine Hunter by PSK Studio. mines game.",
+    "category": "Casino",
+    "parent_id": "page_casino",
+    "route": "/casino?game=mine-hunter",
+    "keywords": [
+      "mines",
+      "psk studio"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "game_kocka-duel",
+    "type": "GAME",
+    "name": "Kocka Duel",
+    "aliases": [
+      "kocka duel",
+      "kocka-duel",
+      "dice",
+      "dice game",
+      "pasa"
+    ],
+    "description": "Kocka Duel by PSK Studio. dice game.",
+    "category": "Casino",
+    "parent_id": "page_casino",
+    "route": "/casino?game=kocka-duel",
+    "keywords": [
+      "dice",
+      "psk studio"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "game_blackjack-classic",
+    "type": "GAME",
+    "name": "Blackjack Classic",
+    "aliases": [
+      "blackjack classic",
+      "blackjack-classic",
+      "blackjack",
+      "black jack",
+      "21",
+      "twenty one",
+      "blakjack",
+      "bj"
+    ],
+    "description": "Blackjack Classic by PSK Studio. blackjack game.",
+    "category": "Casino",
+    "parent_id": "page_casino",
+    "route": "/casino?game=blackjack-classic",
+    "keywords": [
+      "blackjack",
+      "psk studio"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "game_aviator-rush",
+    "type": "GAME",
+    "name": "Aviator Rush",
+    "aliases": [
+      "aviator rush",
+      "aviator-rush",
+      "aviator",
+      "plane game",
+      "plane wala game",
+      "aviater",
+      "avaitor",
+      "udne wala game",
+      "vimanam game",
+      "crash plane",
+      "the plane one"
+    ],
+    "description": "Aviator Rush by PSK Studio. crash game.",
+    "category": "Casino",
+    "parent_id": "page_casino",
+    "route": "/casino?game=aviator-rush",
+    "keywords": [
+      "crash",
+      "psk studio"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "game_sic-bo-live",
+    "type": "GAME",
+    "name": "Sic Bo Live",
+    "aliases": [
+      "sic bo live",
+      "sic-bo-live"
+    ],
+    "description": "Sic Bo Live by Evolution. dice game.",
+    "category": "Live Casino",
+    "parent_id": "page_live_casino",
+    "route": "/live-casino?game=sic-bo-live",
+    "keywords": [
+      "dice",
+      "evolution"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "game_mega-kotac-live",
+    "type": "GAME",
+    "name": "Mega Kotač Live",
+    "aliases": [
+      "mega kotač live",
+      "mega-kotac-live"
+    ],
+    "description": "Mega Kotač Live by Pragmatic Play. wheel game.",
+    "category": "Live Casino",
+    "parent_id": "page_live_casino",
+    "route": "/live-casino?game=mega-kotac-live",
+    "keywords": [
+      "wheel",
+      "pragmatic play"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "game_live-blackjack-a",
+    "type": "GAME",
+    "name": "Live Blackjack A",
+    "aliases": [
+      "live blackjack a",
+      "live-blackjack-a"
+    ],
+    "description": "Live Blackjack A by Evolution. blackjack game.",
+    "category": "Live Casino",
+    "parent_id": "page_live_casino",
+    "route": "/live-casino?game=live-blackjack-a",
+    "keywords": [
+      "blackjack",
+      "evolution"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "game_live-poker-hold-em",
+    "type": "GAME",
+    "name": "Live Poker Hold’em",
+    "aliases": [
+      "live poker hold’em",
+      "live-poker-hold-em"
+    ],
+    "description": "Live Poker Hold’em by Evolution. baccarat game.",
+    "category": "Live Casino",
+    "parent_id": "page_live_casino",
+    "route": "/live-casino?game=live-poker-hold-em",
+    "keywords": [
+      "baccarat",
+      "evolution"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "game_auto-rulet-speed",
+    "type": "GAME",
+    "name": "Auto Rulet Speed",
+    "aliases": [
+      "auto rulet speed",
+      "auto-rulet-speed"
+    ],
+    "description": "Auto Rulet Speed by Evolution. roulette game.",
+    "category": "Live Casino",
+    "parent_id": "page_live_casino",
+    "route": "/live-casino?game=auto-rulet-speed",
+    "keywords": [
+      "roulette",
+      "evolution"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "game_craps-live",
+    "type": "GAME",
+    "name": "Craps Live",
+    "aliases": [
+      "craps live",
+      "craps-live"
+    ],
+    "description": "Craps Live by Evolution. dice game.",
+    "category": "Live Casino",
+    "parent_id": "page_live_casino",
+    "route": "/live-casino?game=craps-live",
+    "keywords": [
+      "dice",
+      "evolution"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "game_kolo-srece",
+    "type": "GAME",
+    "name": "Kolo sreće",
+    "aliases": [
+      "kolo sreće",
+      "kolo-srece"
+    ],
+    "description": "Kolo sreće by Evolution. wheel game.",
+    "category": "Live Casino",
+    "parent_id": "page_live_casino",
+    "route": "/live-casino?game=kolo-srece",
+    "keywords": [
+      "wheel",
+      "evolution"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "game_live-blackjack-vip",
+    "type": "GAME",
+    "name": "Live Blackjack VIP",
+    "aliases": [
+      "live blackjack vip",
+      "live-blackjack-vip"
+    ],
+    "description": "Live Blackjack VIP by Playtech. blackjack game.",
+    "category": "Live Casino",
+    "parent_id": "page_live_casino",
+    "route": "/live-casino?game=live-blackjack-vip",
+    "keywords": [
+      "blackjack",
+      "playtech"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "game_live-rulet-hr",
+    "type": "GAME",
+    "name": "Live Rulet HR",
+    "aliases": [
+      "live rulet hr",
+      "live-rulet-hr"
+    ],
+    "description": "Live Rulet HR by Evolution. roulette game.",
+    "category": "Live Casino",
+    "parent_id": "page_live_casino",
+    "route": "/live-casino?game=live-rulet-hr",
+    "keywords": [
+      "roulette",
+      "evolution"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "game_live-baccarat",
+    "type": "GAME",
+    "name": "Live Baccarat",
+    "aliases": [
+      "live baccarat",
+      "live-baccarat"
+    ],
+    "description": "Live Baccarat by Evolution. baccarat game.",
+    "category": "Live Casino",
+    "parent_id": "page_live_casino",
+    "route": "/live-casino?game=live-baccarat",
+    "keywords": [
+      "baccarat",
+      "evolution"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "game_speed-baccarat",
+    "type": "GAME",
+    "name": "Speed Baccarat",
+    "aliases": [
+      "speed baccarat",
+      "speed-baccarat"
+    ],
+    "description": "Speed Baccarat by Playtech. baccarat game.",
+    "category": "Live Casino",
+    "parent_id": "page_live_casino",
+    "route": "/live-casino?game=speed-baccarat",
+    "keywords": [
+      "baccarat",
+      "playtech"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "game_dice-show-live",
+    "type": "GAME",
+    "name": "Dice Show Live",
+    "aliases": [
+      "dice show live",
+      "dice-show-live"
+    ],
+    "description": "Dice Show Live by Pragmatic Play. dice game.",
+    "category": "Live Casino",
+    "parent_id": "page_live_casino",
+    "route": "/live-casino?game=dice-show-live",
+    "keywords": [
+      "dice",
+      "pragmatic play"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "category_slots",
+    "type": "CATEGORY",
+    "name": "Slots",
+    "aliases": [
+      "slots",
+      "slot games",
+      "reels",
+      "slot machines",
+      "slots dikhao",
+      "slot wala game"
+    ],
+    "description": "Slots in the casino lobby.",
+    "category": "Casino",
+    "parent_id": "page_casino",
+    "route": "/casino?kategorija=slots",
+    "keywords": [
+      "slots",
+      "casino"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "category_jackpot",
+    "type": "CATEGORY",
+    "name": "Jackpot Games",
+    "aliases": [
+      "jackpot",
+      "jackpots",
+      "jackpot games"
+    ],
+    "description": "Jackpot Games in the casino lobby.",
+    "category": "Casino",
+    "parent_id": "page_casino",
+    "route": "/casino?kategorija=jackpot",
+    "keywords": [
+      "jackpot",
+      "casino"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "category_table",
+    "type": "CATEGORY",
+    "name": "Table Games",
+    "aliases": [
+      "table games",
+      "card games",
+      "tables"
+    ],
+    "description": "Table Games in the casino lobby.",
+    "category": "Casino",
+    "parent_id": "page_casino",
+    "route": "/casino?kategorija=table",
+    "keywords": [
+      "table",
+      "casino"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "category_new",
+    "type": "CATEGORY",
+    "name": "New Games",
+    "aliases": [
+      "new games",
+      "new",
+      "latest games",
+      "nove igre"
+    ],
+    "description": "New Games in the casino lobby.",
+    "category": "Casino",
+    "parent_id": "page_casino",
+    "route": "/casino?kategorija=new",
+    "keywords": [
+      "new",
+      "casino"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "category_popular",
+    "type": "CATEGORY",
+    "name": "Popular Games",
+    "aliases": [
+      "popular",
+      "popular games",
+      "top games"
+    ],
+    "description": "Popular Games in the casino lobby.",
+    "category": "Casino",
+    "parent_id": "page_casino",
+    "route": "/casino?kategorija=popular",
+    "keywords": [
+      "popular",
+      "casino"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "category_instant",
+    "type": "CATEGORY",
+    "name": "Instant Games",
+    "aliases": [
+      "instant games",
+      "instant",
+      "quick games"
+    ],
+    "description": "Instant Games in the casino lobby.",
+    "category": "Casino",
+    "parent_id": "page_casino",
+    "route": "/casino?kategorija=instant",
+    "keywords": [
+      "instant",
+      "casino"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "lottery_loto-7-39",
+    "type": "GAME",
+    "name": "Loto 7/39",
+    "aliases": [
+      "loto 7/39",
+      "loto-7-39",
+      "loto 7 39"
+    ],
+    "description": "Loto 7/39: pick 7 of 39.",
+    "category": "Lottery",
+    "parent_id": "page_loto",
+    "route": "/loto?igra=loto-7-39",
+    "keywords": [
+      "loto",
+      "lottery",
+      "numbers"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "lottery_loto-6-45",
+    "type": "GAME",
+    "name": "Loto 6/45",
+    "aliases": [
+      "loto 6/45",
+      "loto-6-45",
+      "loto 6 45"
+    ],
+    "description": "Loto 6/45: pick 6 of 45.",
+    "category": "Lottery",
+    "parent_id": "page_loto",
+    "route": "/loto?igra=loto-6-45",
+    "keywords": [
+      "loto",
+      "lottery",
+      "numbers"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "lottery_euro-jackpot",
+    "type": "GAME",
+    "name": "Euro Jackpot",
+    "aliases": [
+      "euro jackpot",
+      "euro-jackpot",
+      "euro jackpot"
+    ],
+    "description": "Euro Jackpot: pick 5 of 50.",
+    "category": "Lottery",
+    "parent_id": "page_loto",
+    "route": "/loto?igra=euro-jackpot",
+    "keywords": [
+      "loto",
+      "lottery",
+      "numbers"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "lottery_keno",
+    "type": "GAME",
+    "name": "Keno",
+    "aliases": [
+      "keno",
+      "keno",
+      "keno"
+    ],
+    "description": "Keno: pick 10 of 80.",
+    "category": "Lottery",
+    "parent_id": "page_loto",
+    "route": "/loto?igra=keno",
+    "keywords": [
+      "loto",
+      "lottery",
+      "numbers"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "lottery_bingo-90",
+    "type": "GAME",
+    "name": "Bingo 90",
+    "aliases": [
+      "bingo 90",
+      "bingo-90",
+      "bingo 90"
+    ],
+    "description": "Bingo 90: pick 6 of 90.",
+    "category": "Lottery",
+    "parent_id": "page_loto",
+    "route": "/loto?igra=bingo-90",
+    "keywords": [
+      "loto",
+      "lottery",
+      "numbers"
+    ]
+  },
+  {
+    "status": "active",
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "GENERATED_FROM_LIVE_SITE",
+    "id": "lottery_sretni-brojevi",
+    "type": "GAME",
+    "name": "Sretni brojevi",
+    "aliases": [
+      "sretni brojevi",
+      "sretni-brojevi",
+      "sretni brojevi"
+    ],
+    "description": "Sretni brojevi: pick 8 of 35.",
+    "category": "Lottery",
+    "parent_id": "page_loto",
+    "route": "/loto?igra=sretni-brojevi",
+    "keywords": [
+      "loto",
+      "lottery",
+      "numbers"
+    ]
+  }
+]

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="hr" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Virtualne igre | PSK.demo</title>
+<meta name="description" content="Demo virtualne igre: simulirani nogomet, utrke, tenis i košarka s kolima svakih nekoliko minuta.">
+<link rel="stylesheet" href="assets/css/main.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%230b4bd4'/><text x='16' y='22' font-size='13' font-family='sans-serif' font-weight='bold' fill='white' text-anchor='middle'>PSK</text></svg>">
+<script>window.PAGE = { nav: 'virtuals' };</script>
+</head>
+<body>
+
+<div class="page" style="max-width:1400px">
+  <div class="crumbs"><a href="index.html">Naslovna</a> › Virtualne igre</div>
+  <h1 class="page-title">🎮 Virtualne igre</h1>
+  <p class="page-lede">
+    Simulirana natjecanja koja se odvijaju neprekidno. Odaberi pobjednika, pokreni kolo
+    i prati ishod utrke generirane u pregledniku.
+  </p>
+
+  <div style="margin-top:24px" id="virtualHost"></div>
+
+  <section class="sec">
+    <div class="sec-hd"><h2>Raspored sljedećih kola</h2></div>
+    <div class="panel tbl-wrap">
+      <table class="tbl">
+        <thead><tr><th>Igra</th><th>Sljedeće kolo</th><th>Interval</th><th>Sudionika</th><th class="num">Status</th></tr></thead>
+        <tbody id="vrSched"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="sec prose">
+    <h2>Što su virtualne igre</h2>
+    <p>
+      Virtualne igre su simulacije sportskih događaja čiji ishod određuje generator slučajnih brojeva.
+      Ne prati se stvarno natjecanje — svako kolo je nezavisno, a rezultat prethodnog kola ne utječe
+      na sljedeće. Zbog kratkog ciklusa igre često imaju brži tempo od klasične kladionice.
+    </p>
+    <h3>Kako je ovo implementirano</h3>
+    <p>
+      Svaka igra generira polje sudionika s tečajevima, zatim pokreće animiranu simulaciju u kojoj
+      svaki sudionik napreduje nasumičnim korakom. Pobjednik je onaj s najvećim ukupnim napretkom.
+    </p>
+  </section>
+</div>
+
+<script src="assets/js/data.js"></script>
+<script src="assets/js/site.js"></script>
+<script src="assets/js/games.js"></script>
+<script src="assets/js/casino.js"></script>
+<script>
+(function () {
+  const P = window.PSK, D = window.PSK_DATA;
+  function draw() {
+    document.getElementById('vrSched').innerHTML = D.VIRTUALS.map((v, i) => {
+      const secs = 40 + ((Date.now() / 1000 | 0) * 7 + i * 23) % 200;
+      const m = String(Math.floor(secs / 60)).padStart(2, '0');
+      const s = String(secs % 60).padStart(2, '0');
+      return `<tr>
+        <td>${v.icon} ${P.esc(v.name)}</td>
+        <td style="font-weight:700;color:var(--accent);font-variant-numeric:tabular-nums">${m}:${s}</td>
+        <td>${P.esc(v.every)}</td>
+        <td>${6 + (i % 7)}</td>
+        <td class="num"><span style="color:var(--win)">otvoreno</span></td>
+      </tr>`;
+    }).join('');
+  }
+  draw();
+  setInterval(draw, 1000);
+})();
+</script>
+</body>
+</html>

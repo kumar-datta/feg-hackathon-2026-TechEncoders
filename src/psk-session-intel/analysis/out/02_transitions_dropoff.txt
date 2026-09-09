@@ -1,0 +1,196 @@
+C:\FEG\psk-session-intel\analysis\02_transitions_dropoff.py:10: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  step['next']=step['next'].fillna('EXIT')
+
+=== transition matrix SB iOS (row-normalised, top screens) ===
+next                      EXIT  betslip  homepage  liveDetail  liveEvents   menu  my_account  prematchDetail  prematchLeagues  prematchMatchesOverview  prematchSports  searchPrematch  ticketDetail  ticketHistory  webViewunknown
+screen                                                                                                                                                                                                                             
+liveDetail               0.008    0.104     0.039       0.000       0.425  0.001       0.003           0.001            0.001                    0.031           0.008           0.000         0.188          0.190           0.000
+ticketDetail             0.022    0.081     0.038       0.404       0.042  0.001       0.005           0.024            0.001                    0.002           0.006           0.000         0.000          0.375           0.000
+ticketHistory            0.020    0.005     0.049       0.035       0.074  0.001       0.010           0.002            0.002                    0.003           0.015           0.000         0.782          0.000           0.000
+liveEvents               0.018    0.036     0.045       0.713       0.000  0.001       0.009           0.005            0.007                    0.009           0.030           0.000         0.039          0.083           0.000
+prematchMatchesOverview  0.006    0.043     0.007       0.073       0.016  0.000       0.002           0.337            0.471                    0.000           0.027           0.001         0.004          0.014           0.000
+prematchLeagues          0.005    0.023     0.006       0.003       0.020  0.000       0.003           0.026            0.000                    0.823           0.076           0.002         0.003          0.010           0.000
+betslip                  0.008    0.000     0.035       0.363       0.074  0.000       0.018           0.133            0.026                    0.067           0.007           0.000         0.239          0.011           0.017
+prematchDetail           0.013    0.161     0.024       0.005       0.022  0.000       0.005           0.000            0.032                    0.598           0.032           0.005         0.060          0.041           0.000
+homepage                 0.039    0.024     0.000       0.034       0.207  0.004       0.083           0.011            0.008                    0.004           0.072           0.000         0.026          0.470           0.000
+prematchSports           0.011    0.018     0.018       0.023       0.075  0.001       0.007           0.001            0.771                    0.001           0.000           0.008         0.015          0.041           0.000
+my_account               0.043    0.021     0.047       0.045       0.067  0.003       0.000           0.019            0.010                    0.010           0.021           0.001         0.040          0.050           0.621
+webViewunknown           0.090    0.013     0.140       0.052       0.045  0.003       0.506           0.026            0.009                    0.016           0.018           0.000         0.044          0.034           0.000
+menu                     0.068    0.009     0.157       0.071       0.105  0.000       0.214           0.000            0.014                    0.000           0.020           0.006         0.214          0.094           0.000
+searchPrematch           0.004    0.000     0.019       0.064       0.038  0.008       0.000           0.464            0.136                    0.121           0.147           0.000         0.000          0.000           0.000
+
+--- exit screen share SB iOS ---
+screen
+ticketDetail               0.236
+ticketHistory              0.170
+liveEvents                 0.137
+homepage                   0.110
+liveDetail                 0.091
+webViewunknown             0.061
+my_account                 0.042
+prematchDetail             0.039
+prematchMatchesOverview    0.035
+betslip                    0.028
+
+=== transition matrix SB Android (row-normalised, top screens) ===
+next                 EXIT  account  accounts_web_view  betslip_add_bet  betslip_placed  betslip_placed_bet  competition_detail  liveDetail  liveEvents  prematchDetail  prematchLeagues  prematchSports  ticketDetail  ticketHistory  unnamed_screen
+screen                                                                                                                                                                                                                                              
+liveDetail          0.006    0.000              0.002            0.216           0.000               0.000               0.010       0.000       0.393           0.000            0.000           0.002         0.190          0.071           0.102
+unnamed_screen      0.064    0.009              0.068            0.060           0.091               0.001               0.021       0.113       0.149           0.020            0.021           0.037         0.122          0.201           0.000
+ticketDetail        0.036    0.000              0.003            0.016           0.000               0.000               0.001       0.301       0.033           0.014            0.001           0.005         0.000          0.419           0.158
+competition_detail  0.003    0.000              0.000            0.128           0.000               0.000               0.000       0.027       0.003           0.326            0.472           0.005         0.001          0.002           0.031
+liveEvents          0.019    0.000              0.002            0.029           0.000               0.000               0.002       0.712       0.000           0.001            0.003           0.014         0.019          0.041           0.149
+ticketHistory       0.036    0.000              0.003            0.000           0.000               0.000               0.002       0.049       0.056           0.001            0.002           0.013         0.681          0.000           0.150
+betslip_add_bet     0.003    0.000              0.003            0.000           0.184               0.001               0.239       0.018       0.124           0.051            0.097           0.005         0.030          0.016           0.185
+prematchLeagues     0.007    0.000              0.000            0.005           0.000               0.000               0.861       0.001       0.008           0.008            0.000           0.060         0.002          0.004           0.041
+prematchDetail      0.002    0.000              0.000            0.628           0.000               0.000               0.293       0.000       0.001           0.000            0.008           0.003         0.012          0.002           0.023
+betslip_placed      0.001    0.000              0.000            0.017           0.000               0.898               0.000       0.004       0.008           0.001            0.000           0.000         0.001          0.001           0.068
+betslip_placed_bet  0.047    0.000              0.009            0.163           0.011               0.000               0.015       0.031       0.148           0.003            0.015           0.012         0.086          0.206           0.219
+prematchSports      0.030    0.000              0.002            0.000           0.000               0.000               0.004       0.010       0.061           0.000            0.721           0.000         0.015          0.058           0.076
+accounts_web_view   0.035    0.582              0.000            0.000           0.000               0.000               0.000       0.001       0.003           0.000            0.000           0.002         0.001          0.006           0.357
+account             0.040    0.000              0.226            0.001           0.002               0.000               0.001       0.025       0.122           0.000            0.002           0.014         0.005          0.023           0.526
+
+--- exit screen share SB Android ---
+screen
+unnamed_screen        0.360
+ticketDetail          0.181
+ticketHistory         0.154
+liveEvents            0.083
+betslip_placed_bet    0.053
+liveDetail            0.035
+prematchLeagues       0.021
+accounts_web_view     0.020
+prematchSports        0.020
+account               0.016
+
+=== transition matrix Casino Android (row-normalised, top screens) ===
+next                            EXIT  az_games  bonus  casino.psk.hr/  casino_game_launch  lobby  login  my_games  search  shuffle  splash  ticketDetail  ticketHistory  unnamed_screen
+screen                                                                                                                                                                                 
+unnamed_screen                 0.144     0.009  0.002           0.000               0.011  0.177  0.015      0.37   0.268    0.000   0.002         0.000          0.000           0.000
+my_games                       0.064     0.000  0.000           0.000               0.000  0.000  0.000      0.00   0.001    0.000   0.001         0.001          0.000           0.930
+search                         0.117     0.000  0.000           0.000               0.000  0.001  0.003      0.00   0.000    0.004   0.030         0.000          0.000           0.844
+lobby                          0.085     0.001  0.000           0.001               0.000  0.000  0.001      0.00   0.039    0.000   0.000         0.000          0.000           0.874
+splash                         0.008     0.000  0.000           0.000               0.000  0.000  0.000      0.00   0.000    0.000   0.000         0.000          0.004           0.985
+login                          0.034     0.000  0.000           0.000               0.006  0.000  0.000      0.00   0.086    0.000   0.006         0.000          0.006           0.856
+casino_game_launch             0.023     0.000  0.000           0.000               0.000  0.000  0.000      0.00   0.000    0.000   0.000         0.000          0.000           0.977
+az_games                       0.053     0.000  0.000           0.000               0.000  0.000  0.000      0.00   0.000    0.000   0.011         0.000          0.000           0.936
+bonus                          0.091     0.000  0.000           0.000               0.000  0.000  0.000      0.00   0.000    0.000   0.000         0.000          0.000           0.909
+shuffle                        0.000     0.000  0.000           0.000               0.000  0.000  0.000      0.00   1.000    0.000   0.000         0.000          0.000           0.000
+ticketHistory                  0.000     0.000  0.000           0.000               0.000  0.000  0.000      0.00   0.000    0.000   0.000         0.000          0.000           1.000
+ticketDetail                   0.000     0.000  0.000           0.000               0.000  0.000  0.000      0.00   0.000    0.000   0.000         0.000          1.000           0.000
+casino.psk.hr/                 0.500     0.000  0.000           0.000               0.000  0.000  0.000      0.00   0.000    0.000   0.000         0.000          0.000           0.500
+www.psk.hr/my-account/deposit  0.000     0.000  0.000           0.000               0.000  0.000  0.000      0.00   0.000    0.000   0.000         0.000          0.000           1.000
+
+--- exit screen share Casino Android ---
+screen
+unnamed_screen        0.656
+search                0.154
+my_games              0.112
+lobby                 0.070
+login                 0.003
+az_games              0.002
+casino_game_launch    0.001
+splash                0.001
+bonus                 0.001
+casino.psk.hr/        0.000
+
+=== median dwell seconds per screen (apps, n>200) ===
+           platform                   screen  median  count
+10   Casino Android                 my_games   249.5   3796
+8    Casino Android                    lobby   172.6   1752
+12   Casino Android                   search   157.3   2698
+17   Casino Android           unnamed_screen    10.3   9067
+14   Casino Android                   splash     1.4    259
+44       SB Android                     menu   106.1    703
+21       SB Android        accounts_web_view    16.2   4187
+41       SB Android               liveEvents     6.7  32399
+40       SB Android               liveDetail     6.2  43550
+39       SB Android                 homepage     4.9   1103
+67       SB Android           unnamed_screen     4.1  40124
+62       SB Android             ticketDetail     4.1  37383
+45       SB Android           prematchDetail     3.8  15457
+27       SB Android       betslip_placed_bet     3.7   8245
+35       SB Android       competition_detail     3.2  33991
+63       SB Android            ticketHistory     2.7  31415
+60       SB Android                   ticket     2.6   2003
+25       SB Android          betslip_add_bet     2.4  29488
+48       SB Android           prematchSports     2.4   4820
+47       SB Android          prematchLeagues     2.2  23908
+20       SB Android                  account     1.2   2823
+26       SB Android           betslip_placed     0.0   9581
+104          SB iOS           webViewunknown    22.6   3800
+88           SB iOS                     menu     5.8    327
+87           SB iOS               liveEvents     5.7  45231
+95           SB iOS               searchLive     3.0    205
+96           SB iOS           searchPrematch     2.9    264
+94           SB iOS           searchHomepage     2.6    231
+97           SB iOS             ticketDetail     2.5  63684
+86           SB iOS               liveDetail     2.5  72641
+92           SB iOS  prematchMatchesOverview     2.3  37333
+85           SB iOS                 homepage     2.3  16792
+91           SB iOS          prematchLeagues     2.1  26153
+98           SB iOS            ticketHistory     2.1  52391
+90           SB iOS           prematchDetail     1.6  18580
+89           SB iOS               my_account     1.5   5822
+93           SB iOS           prematchSports     1.5   8424
+78           SB iOS                  betslip     1.3  20708
+
+=== A-B-A loops (top pairs, apps) ===
+platform                                                   
+SB iOS          liveDetail <-> liveEvents                      23297
+                liveEvents <-> liveDetail                      18941
+                ticketDetail <-> ticketHistory                 17629
+                ticketHistory <-> ticketDetail                 15544
+                prematchMatchesOverview <-> prematchLeagues    12979
+                ticketDetail <-> liveDetail                    11604
+                prematchLeagues <-> prematchMatchesOverview     8069
+                liveDetail <-> ticketDetail                     7810
+SB Android      competition_detail <-> prematchLeagues          3755
+SB iOS          prematchDetail <-> prematchMatchesOverview      3519
+                prematchMatchesOverview <-> prematchDetail      3403
+SB Android      ticketDetail <-> ticketHistory                  3381
+SB iOS          liveDetail <-> betslip                          3284
+Casino Android  my_games <-> unnamed_screen                     2680
+SB Android      ticketDetail <-> unnamed_screen                 2186
+
+=== search usage vs conversion (apps) ===
+                            sessions   conv
+platform       used_search                 
+Casino Android False            1570  0.619
+               True              756  0.981
+SB Android     False            7561  0.309
+               True               84  0.786
+SB iOS         False            5947  0.332
+               True              212  0.712
+
+=== ticket/account-only sessions (no market browsing) ===
+                share_ticket_only  conv_ticket_only
+platform                                           
+Casino Android              0.000               0.0
+SB Android                  0.006               0.0
+SB iOS                      0.253               0.0
+
+=== final-step conversion by dominant add-source (apps) ===
+                              sessions  placed_rate
+added_from                                         
+match_detail_odds                 2568        0.830
+live_page                         1284        0.878
+betslip_history                    577        0.676
+sports_page                        505        0.816
+match_page                         234        0.654
+afterbet                           225        0.809
+homepage_prematch_widget            66        0.621
+after_bet                           42        0.905
+sports_page_most_bet_matches        34        0.559
+
+=== placement status by platform ===
+status      ACCEPTED  CLOSED  FAILED  REJECTED  RESTRICTED
+platform                                                  
+GM              8042       0     149         2           2
+SB Android      8999     642       0       451           0
+SB iOS         10328       0       0       127           0
+web              593       0      15         0           0

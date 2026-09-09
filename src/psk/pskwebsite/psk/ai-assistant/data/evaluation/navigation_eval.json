@@ -1,0 +1,534 @@
+[
+  {
+    "query": "open aviator",
+    "expected_intent": "NAVIGATE",
+    "expected_entity": "game_aviator",
+    "expected_answer_source": "entity_registry",
+    "expected_action": "OPEN_GAME",
+    "should_navigate": true,
+    "difficulty": "easy"
+  },
+  {
+    "query": "take me to roulette",
+    "expected_intent": "NAVIGATE",
+    "expected_entity": "game_roulette",
+    "expected_answer_source": "entity_registry",
+    "expected_action": "OPEN_GAME",
+    "should_navigate": true,
+    "difficulty": "easy"
+  },
+  {
+    "query": "open blackjack",
+    "expected_intent": "NAVIGATE",
+    "expected_entity": "game_blackjack",
+    "expected_answer_source": "entity_registry",
+    "expected_action": "OPEN_GAME",
+    "should_navigate": true,
+    "difficulty": "easy"
+  },
+  {
+    "query": "show slots",
+    "expected_intent": "NAVIGATE",
+    "expected_entity": "category_slots",
+    "expected_answer_source": "entity_registry",
+    "expected_action": "OPEN_CATEGORY",
+    "should_navigate": true,
+    "difficulty": "easy"
+  },
+  {
+    "query": "open cricket",
+    "expected_intent": "NAVIGATE",
+    "expected_entity": "sport_cricket",
+    "expected_answer_source": "entity_registry",
+    "expected_action": "OPEN_SPORT",
+    "should_navigate": true,
+    "difficulty": "easy"
+  },
+  {
+    "query": "football page",
+    "expected_intent": "NAVIGATE",
+    "expected_entity": "sport_football",
+    "expected_answer_source": "entity_registry",
+    "expected_action": "OPEN_SPORT",
+    "should_navigate": true,
+    "difficulty": "easy"
+  },
+  {
+    "query": "open casino",
+    "expected_intent": "NAVIGATE",
+    "expected_entity": "category_casino",
+    "expected_answer_source": "entity_registry",
+    "expected_action": "OPEN_CATEGORY",
+    "should_navigate": true,
+    "difficulty": "easy"
+  },
+  {
+    "query": "live casino",
+    "expected_intent": "NAVIGATE",
+    "expected_entity": "category_live_casino",
+    "expected_answer_source": "entity_registry",
+    "expected_action": "OPEN_CATEGORY",
+    "should_navigate": true,
+    "difficulty": "easy"
+  },
+  {
+    "query": "bet history",
+    "expected_intent": "NAVIGATE",
+    "expected_entity": "page_bet_history",
+    "expected_answer_source": "entity_registry",
+    "expected_action": "OPEN_PAGE_BY_ID",
+    "should_navigate": true,
+    "difficulty": "easy"
+  },
+  {
+    "query": "my profile",
+    "expected_intent": "NAVIGATE",
+    "expected_entity": "page_profile",
+    "expected_answer_source": "entity_registry",
+    "expected_action": "OPEN_PAGE_BY_ID",
+    "should_navigate": true,
+    "difficulty": "easy"
+  },
+  {
+    "query": "promotions",
+    "expected_intent": "NAVIGATE",
+    "expected_entity": "page_promotions",
+    "expected_answer_source": "entity_registry",
+    "expected_action": "OPEN_PAGE_BY_ID",
+    "should_navigate": true,
+    "difficulty": "easy"
+  },
+  {
+    "query": "help center",
+    "expected_intent": "NAVIGATE",
+    "expected_entity": "page_help",
+    "expected_answer_source": "entity_registry",
+    "expected_action": "OPEN_PAGE_BY_ID",
+    "should_navigate": true,
+    "difficulty": "easy"
+  },
+  {
+    "query": "contact support",
+    "expected_intent": "NAVIGATE",
+    "expected_entity": "page_contact_support",
+    "expected_answer_source": "entity_registry",
+    "expected_action": "OPEN_PAGE_BY_ID",
+    "should_navigate": true,
+    "difficulty": "easy"
+  },
+  {
+    "query": "kyc page",
+    "expected_intent": "NAVIGATE",
+    "expected_entity": "page_kyc",
+    "expected_answer_source": "entity_registry",
+    "expected_action": "OPEN_PAGE_BY_ID",
+    "should_navigate": true,
+    "difficulty": "easy"
+  },
+  {
+    "query": "open poker",
+    "expected_intent": "NAVIGATE",
+    "expected_entity": "game_poker",
+    "expected_answer_source": "entity_registry",
+    "expected_action": "OPEN_GAME",
+    "should_navigate": true,
+    "difficulty": "easy"
+  },
+  {
+    "query": "tennis",
+    "expected_intent": "NAVIGATE",
+    "expected_entity": "sport_tennis",
+    "expected_answer_source": "entity_registry",
+    "expected_action": "OPEN_SPORT",
+    "should_navigate": true,
+    "difficulty": "easy"
+  },
+  {
+    "query": "horse racing",
+    "expected_intent": "NAVIGATE",
+    "expected_entity": "sport_horse_racing",
+    "expected_answer_source": "entity_registry",
+    "expected_action": "OPEN_SPORT",
+    "should_navigate": true,
+    "difficulty": "easy"
+  },
+  {
+    "query": "crash games",
+    "expected_intent": "NAVIGATE",
+    "expected_entity": "category_crash_games",
+    "expected_answer_source": "entity_registry",
+    "expected_action": "OPEN_CATEGORY",
+    "should_navigate": true,
+    "difficulty": "easy"
+  },
+  {
+    "query": "aviater",
+    "expected_intent": "NAVIGATE",
+    "expected_entity": "game_aviator",
+    "expected_answer_source": "entity_registry",
+    "expected_action": "OPEN_GAME",
+    "should_navigate": true,
+    "difficulty": "medium",
+    "note": "fuzzy/trigram match required"
+  },
+  {
+    "query": "avaitor game",
+    "expected_intent": "NAVIGATE",
+    "expected_entity": "game_aviator",
+    "expected_answer_source": "entity_registry",
+    "expected_action": "OPEN_GAME",
+    "should_navigate": true,
+    "difficulty": "medium",
+    "note": "fuzzy/trigram match required"
+  },
+  {
+    "query": "roulete",
+    "expected_intent": "NAVIGATE",
+    "expected_entity": "game_roulette",
+    "expected_answer_source": "entity_registry",
+    "expected_action": "OPEN_GAME",
+    "should_navigate": true,
+    "difficulty": "medium",
+    "note": "fuzzy/trigram match required"
+  },
+  {
+    "query": "blakjack",
+    "expected_intent": "NAVIGATE",
+    "expected_entity": "game_blackjack",
+    "expected_answer_source": "entity_registry",
+    "expected_action": "OPEN_GAME",
+    "should_navigate": true,
+    "difficulty": "medium",
+    "note": "fuzzy/trigram match required"
+  },
+  {
+    "query": "crickt betting",
+    "expected_intent": "NAVIGATE",
+    "expected_entity": "sport_cricket",
+    "expected_answer_source": "entity_registry",
+    "expected_action": "OPEN_SPORT",
+    "should_navigate": true,
+    "difficulty": "medium",
+    "note": "fuzzy/trigram match required"
+  },
+  {
+    "query": "withdrawl page",
+    "expected_intent": "NAVIGATE",
+    "expected_entity": "page_withdraw",
+    "expected_answer_source": "entity_registry",
+    "expected_action": "OPEN_PAGE_BY_ID",
+    "should_navigate": true,
+    "difficulty": "medium",
+    "note": "fuzzy/trigram match required"
+  },
+  {
+    "query": "depost",
+    "expected_intent": "NAVIGATE",
+    "expected_entity": "page_deposit",
+    "expected_answer_source": "entity_registry",
+    "expected_action": "OPEN_PAGE_BY_ID",
+    "should_navigate": true,
+    "difficulty": "medium",
+    "note": "fuzzy/trigram match required"
+  },
+  {
+    "query": "promotins",
+    "expected_intent": "NAVIGATE",
+    "expected_entity": "page_promotions",
+    "expected_answer_source": "entity_registry",
+    "expected_action": "OPEN_PAGE_BY_ID",
+    "should_navigate": true,
+    "difficulty": "medium",
+    "note": "fuzzy/trigram match required"
+  },
+  {
+    "query": "pokar table",
+    "expected_intent": "NAVIGATE",
+    "expected_entity": "game_poker",
+    "expected_answer_source": "entity_registry",
+    "expected_action": "OPEN_GAME",
+    "should_navigate": true,
+    "difficulty": "medium",
+    "note": "fuzzy/trigram match required"
+  },
+  {
+    "query": "bacarat",
+    "expected_intent": "NAVIGATE",
+    "expected_entity": "game_baccarat",
+    "expected_answer_source": "entity_registry",
+    "expected_action": "OPEN_GAME",
+    "should_navigate": true,
+    "difficulty": "medium",
+    "note": "fuzzy/trigram match required"
+  },
+  {
+    "query": "aviator kholo",
+    "expected_intent": "NAVIGATE",
+    "expected_entity": "game_aviator",
+    "expected_answer_source": "entity_registry",
+    "expected_action": "OPEN_GAME",
+    "should_navigate": true,
+    "difficulty": "hard",
+    "note": "language=hinglish; alias table must cover this"
+  },
+  {
+    "query": "plane wala game open karo",
+    "expected_intent": "NAVIGATE",
+    "expected_entity": "game_aviator",
+    "expected_answer_source": "entity_registry",
+    "expected_action": "OPEN_GAME",
+    "should_navigate": true,
+    "difficulty": "hard",
+    "note": "language=hinglish; alias table must cover this"
+  },
+  {
+    "query": "vimanam game open cheyyi",
+    "expected_intent": "NAVIGATE",
+    "expected_entity": "game_aviator",
+    "expected_answer_source": "entity_registry",
+    "expected_action": "OPEN_GAME",
+    "should_navigate": true,
+    "difficulty": "hard",
+    "note": "language=te_latin; alias table must cover this"
+  },
+  {
+    "query": "mera bet history dikhao",
+    "expected_intent": "NAVIGATE",
+    "expected_entity": "page_bet_history",
+    "expected_answer_source": "entity_registry",
+    "expected_action": "OPEN_PAGE_BY_ID",
+    "should_navigate": true,
+    "difficulty": "hard",
+    "note": "language=hinglish; alias table must cover this"
+  },
+  {
+    "query": "paisa nikalna hai",
+    "expected_intent": "NAVIGATE",
+    "expected_entity": "page_withdraw",
+    "expected_answer_source": "entity_registry",
+    "expected_action": "OPEN_PAGE_BY_ID",
+    "should_navigate": true,
+    "difficulty": "hard",
+    "note": "language=hinglish; alias table must cover this"
+  },
+  {
+    "query": "paise jama karne hai",
+    "expected_intent": "NAVIGATE",
+    "expected_entity": "page_deposit",
+    "expected_answer_source": "entity_registry",
+    "expected_action": "OPEN_PAGE_BY_ID",
+    "should_navigate": true,
+    "difficulty": "hard",
+    "note": "language=hi_latin; alias table must cover this"
+  },
+  {
+    "query": "dabbu teesukovali",
+    "expected_intent": "NAVIGATE",
+    "expected_entity": "page_withdraw",
+    "expected_answer_source": "entity_registry",
+    "expected_action": "OPEN_PAGE_BY_ID",
+    "should_navigate": true,
+    "difficulty": "hard",
+    "note": "language=te_latin; alias table must cover this"
+  },
+  {
+    "query": "cricket dikhao",
+    "expected_intent": "NAVIGATE",
+    "expected_entity": "sport_cricket",
+    "expected_answer_source": "entity_registry",
+    "expected_action": "OPEN_SPORT",
+    "should_navigate": true,
+    "difficulty": "hard",
+    "note": "language=hinglish; alias table must cover this"
+  },
+  {
+    "query": "kyc karna hai",
+    "expected_intent": "NAVIGATE",
+    "expected_entity": "page_kyc",
+    "expected_answer_source": "entity_registry",
+    "expected_action": "OPEN_PAGE_BY_ID",
+    "should_navigate": true,
+    "difficulty": "hard",
+    "note": "language=hinglish; alias table must cover this"
+  },
+  {
+    "query": "support se baat karao",
+    "expected_intent": "NAVIGATE",
+    "expected_entity": "page_contact_support",
+    "expected_answer_source": "entity_registry",
+    "expected_action": "OPEN_PAGE_BY_ID",
+    "should_navigate": true,
+    "difficulty": "hard",
+    "note": "language=hinglish; alias table must cover this"
+  },
+  {
+    "query": "sahayam kavali",
+    "expected_intent": "NAVIGATE",
+    "expected_entity": "page_contact_support",
+    "expected_answer_source": "entity_registry",
+    "expected_action": "OPEN_PAGE_BY_ID",
+    "should_navigate": true,
+    "difficulty": "hard",
+    "note": "language=te_latin; alias table must cover this"
+  },
+  {
+    "query": "offers dikhao",
+    "expected_intent": "NAVIGATE",
+    "expected_entity": "page_promotions",
+    "expected_answer_source": "entity_registry",
+    "expected_action": "OPEN_PAGE_BY_ID",
+    "should_navigate": true,
+    "difficulty": "hard",
+    "note": "language=hinglish; alias table must cover this"
+  },
+  {
+    "query": "open the game",
+    "expected_intent": "AMBIGUOUS",
+    "expected_entity": null,
+    "expected_answer_source": "clarification",
+    "expected_action": "ASK_CLARIFICATION",
+    "should_navigate": false,
+    "difficulty": "hard",
+    "note": "must ask rather than guess"
+  },
+  {
+    "query": "take me there",
+    "expected_intent": "AMBIGUOUS",
+    "expected_entity": null,
+    "expected_answer_source": "clarification",
+    "expected_action": "ASK_CLARIFICATION",
+    "should_navigate": false,
+    "difficulty": "hard",
+    "note": "must ask rather than guess"
+  },
+  {
+    "query": "show casino",
+    "expected_intent": "AMBIGUOUS",
+    "expected_entity": null,
+    "expected_answer_source": "clarification",
+    "expected_action": "ASK_CLARIFICATION",
+    "should_navigate": false,
+    "difficulty": "hard",
+    "note": "must ask rather than guess"
+  },
+  {
+    "query": "play the crash game",
+    "expected_intent": "AMBIGUOUS",
+    "expected_entity": null,
+    "expected_answer_source": "clarification",
+    "expected_action": "ASK_CLARIFICATION",
+    "should_navigate": false,
+    "difficulty": "hard",
+    "note": "must ask rather than guess"
+  },
+  {
+    "query": "money",
+    "expected_intent": "AMBIGUOUS",
+    "expected_entity": null,
+    "expected_answer_source": "clarification",
+    "expected_action": "ASK_CLARIFICATION",
+    "should_navigate": false,
+    "difficulty": "hard",
+    "note": "must ask rather than guess"
+  },
+  {
+    "query": "bonus",
+    "expected_intent": "AMBIGUOUS",
+    "expected_entity": null,
+    "expected_answer_source": "clarification",
+    "expected_action": "ASK_CLARIFICATION",
+    "should_navigate": false,
+    "difficulty": "hard",
+    "note": "must ask rather than guess"
+  },
+  {
+    "query": "history",
+    "expected_intent": "AMBIGUOUS",
+    "expected_entity": null,
+    "expected_answer_source": "clarification",
+    "expected_action": "ASK_CLARIFICATION",
+    "should_navigate": false,
+    "difficulty": "hard",
+    "note": "must ask rather than guess"
+  },
+  {
+    "query": "help",
+    "expected_intent": "AMBIGUOUS",
+    "expected_entity": null,
+    "expected_answer_source": "clarification",
+    "expected_action": "ASK_CLARIFICATION",
+    "should_navigate": false,
+    "difficulty": "hard",
+    "note": "must ask rather than guess"
+  },
+  {
+    "query": "cards",
+    "expected_intent": "AMBIGUOUS",
+    "expected_entity": null,
+    "expected_answer_source": "clarification",
+    "expected_action": "ASK_CLARIFICATION",
+    "should_navigate": false,
+    "difficulty": "hard",
+    "note": "must ask rather than guess"
+  },
+  {
+    "query": "open it",
+    "expected_intent": "AMBIGUOUS",
+    "expected_entity": null,
+    "expected_answer_source": "clarification",
+    "expected_action": "ASK_CLARIFICATION",
+    "should_navigate": false,
+    "difficulty": "hard",
+    "note": "must ask rather than guess"
+  },
+  {
+    "query": "that one",
+    "expected_intent": "AMBIGUOUS",
+    "expected_entity": null,
+    "expected_answer_source": "clarification",
+    "expected_action": "ASK_CLARIFICATION",
+    "should_navigate": false,
+    "difficulty": "hard",
+    "note": "must ask rather than guess"
+  },
+  {
+    "query": "limits",
+    "expected_intent": "AMBIGUOUS",
+    "expected_entity": null,
+    "expected_answer_source": "clarification",
+    "expected_action": "ASK_CLARIFICATION",
+    "should_navigate": false,
+    "difficulty": "hard",
+    "note": "must ask rather than guess"
+  },
+  {
+    "query": "my account",
+    "expected_intent": "AMBIGUOUS",
+    "expected_entity": null,
+    "expected_answer_source": "clarification",
+    "expected_action": "ASK_CLARIFICATION",
+    "should_navigate": false,
+    "difficulty": "hard",
+    "note": "must ask rather than guess"
+  },
+  {
+    "query": "sports",
+    "expected_intent": "AMBIGUOUS",
+    "expected_entity": null,
+    "expected_answer_source": "clarification",
+    "expected_action": "ASK_CLARIFICATION",
+    "should_navigate": false,
+    "difficulty": "hard",
+    "note": "must ask rather than guess"
+  },
+  {
+    "query": "kholo",
+    "expected_intent": "AMBIGUOUS",
+    "expected_entity": null,
+    "expected_answer_source": "clarification",
+    "expected_action": "ASK_CLARIFICATION",
+    "should_navigate": false,
+    "difficulty": "hard",
+    "note": "must ask rather than guess"
+  }
+]

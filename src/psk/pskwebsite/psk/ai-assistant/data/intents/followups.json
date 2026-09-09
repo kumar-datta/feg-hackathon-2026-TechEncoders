@@ -1,0 +1,1306 @@
+[
+  {
+    "turns": [
+      {
+        "role": "user",
+        "content": "How does Aviator work?"
+      },
+      {
+        "role": "assistant",
+        "content": "Explains the crash mechanic, grounded in game_knowledge.",
+        "focus_entity_id": "game_aviator"
+      },
+      {
+        "role": "user",
+        "content": "Take me there."
+      }
+    ],
+    "expected_resolution": {
+      "intent": "NAVIGATE",
+      "entity_id": "game_aviator",
+      "action": "OPEN_GAME",
+      "confidence": 0.94,
+      "resolved_from": "focus_stack[0]"
+    },
+    "note": "Classic pronoun resolution against the focus stack."
+  },
+  {
+    "turns": [
+      {
+        "role": "user",
+        "content": "What is a crash game?"
+      },
+      {
+        "role": "assistant",
+        "content": "Explains crash mechanics generally.",
+        "focus_entity_id": "category_crash_games"
+      },
+      {
+        "role": "user",
+        "content": "show me them"
+      }
+    ],
+    "expected_resolution": {
+      "intent": "NAVIGATE",
+      "entity_id": "category_crash_games",
+      "action": "OPEN_CATEGORY",
+      "confidence": 0.9,
+      "resolved_from": "focus_stack[0]"
+    },
+    "note": ""
+  },
+  {
+    "turns": [
+      {
+        "role": "user",
+        "content": "Tell me about roulette"
+      },
+      {
+        "role": "assistant",
+        "content": "Explains roulette rules.",
+        "focus_entity_id": "game_roulette"
+      },
+      {
+        "role": "user",
+        "content": "open it"
+      }
+    ],
+    "expected_resolution": {
+      "intent": "NAVIGATE",
+      "entity_id": "game_roulette",
+      "action": "OPEN_GAME",
+      "confidence": 0.93,
+      "resolved_from": "focus_stack[0]"
+    },
+    "note": ""
+  },
+  {
+    "turns": [
+      {
+        "role": "user",
+        "content": "how do i play blackjack"
+      },
+      {
+        "role": "assistant",
+        "content": "Explains blackjack.",
+        "focus_entity_id": "game_blackjack"
+      },
+      {
+        "role": "user",
+        "content": "play that one"
+      }
+    ],
+    "expected_resolution": {
+      "intent": "NAVIGATE",
+      "entity_id": "game_blackjack",
+      "action": "OPEN_GAME",
+      "confidence": 0.92,
+      "resolved_from": "focus_stack[0]"
+    },
+    "note": ""
+  },
+  {
+    "turns": [
+      {
+        "role": "user",
+        "content": "what documents do i need for kyc"
+      },
+      {
+        "role": "assistant",
+        "content": "Lists document categories, flags policy source.",
+        "focus_entity_id": "page_kyc"
+      },
+      {
+        "role": "user",
+        "content": "take me to that page"
+      }
+    ],
+    "expected_resolution": {
+      "intent": "NAVIGATE",
+      "entity_id": "page_kyc",
+      "action": "OPEN_KYC",
+      "confidence": 0.94,
+      "resolved_from": "focus_stack[0]"
+    },
+    "note": ""
+  },
+  {
+    "turns": [
+      {
+        "role": "user",
+        "content": "how long do withdrawals take"
+      },
+      {
+        "role": "assistant",
+        "content": "Explains it depends on the published policy; does not invent a number.",
+        "focus_entity_id": "page_withdraw"
+      },
+      {
+        "role": "user",
+        "content": "ok take me there"
+      }
+    ],
+    "expected_resolution": {
+      "intent": "WITHDRAW",
+      "entity_id": "page_withdraw",
+      "action": "OPEN_WITHDRAW",
+      "confidence": 0.93,
+      "requires_confirmation": true,
+      "resolved_from": "focus_stack[0]"
+    },
+    "note": "Financial destination — confirm even though the referent is clear."
+  },
+  {
+    "turns": [
+      {
+        "role": "user",
+        "content": "show me slots"
+      },
+      {
+        "role": "assistant",
+        "content": "Opens the slots category.",
+        "focus_entity_id": "category_slots"
+      },
+      {
+        "role": "user",
+        "content": "actually show crash instead"
+      }
+    ],
+    "expected_resolution": {
+      "intent": "NAVIGATE",
+      "entity_id": "category_crash_games",
+      "action": "OPEN_CATEGORY",
+      "confidence": 0.93,
+      "resolved_from": "new_entity_overrides_focus"
+    },
+    "note": "Topic change: the new entity replaces the focus, it does not merge with it."
+  },
+  {
+    "turns": [
+      {
+        "role": "user",
+        "content": "open cricket"
+      },
+      {
+        "role": "assistant",
+        "content": "Opens cricket.",
+        "focus_entity_id": "sport_cricket"
+      },
+      {
+        "role": "user",
+        "content": "and football?"
+      }
+    ],
+    "expected_resolution": {
+      "intent": "NAVIGATE",
+      "entity_id": "sport_football",
+      "action": "OPEN_SPORT",
+      "confidence": 0.91,
+      "resolved_from": "elliptical_new_entity"
+    },
+    "note": "Elliptical follow-up carrying the previous verb."
+  },
+  {
+    "turns": [
+      {
+        "role": "user",
+        "content": "what is wagering requirement"
+      },
+      {
+        "role": "assistant",
+        "content": "Explains wagering, flags terms as policy-dependent.",
+        "focus_entity_id": "page_bonuses"
+      },
+      {
+        "role": "user",
+        "content": "where do i see mine"
+      }
+    ],
+    "expected_resolution": {
+      "intent": "PROMOTION",
+      "entity_id": "page_bonuses",
+      "action": "OPEN_PROMOTIONS",
+      "confidence": 0.9,
+      "resolved_from": "focus_stack[0]"
+    },
+    "note": ""
+  },
+  {
+    "turns": [
+      {
+        "role": "user",
+        "content": "aviator kaise khelte hain"
+      },
+      {
+        "role": "assistant",
+        "content": "Explains Aviator in the user language register.",
+        "focus_entity_id": "game_aviator"
+      },
+      {
+        "role": "user",
+        "content": "wahan le chalo"
+      }
+    ],
+    "expected_resolution": {
+      "intent": "NAVIGATE",
+      "entity_id": "game_aviator",
+      "action": "OPEN_GAME",
+      "confidence": 0.92,
+      "resolved_from": "focus_stack[0]"
+    },
+    "note": "Hinglish follow-up: \"wahan le chalo\" = take me there."
+  },
+  {
+    "turns": [
+      {
+        "role": "user",
+        "content": "vimanam game ela aadali"
+      },
+      {
+        "role": "assistant",
+        "content": "Explains Aviator.",
+        "focus_entity_id": "game_aviator"
+      },
+      {
+        "role": "user",
+        "content": "akkada ki teesukellu"
+      }
+    ],
+    "expected_resolution": {
+      "intent": "NAVIGATE",
+      "entity_id": "game_aviator",
+      "action": "OPEN_GAME",
+      "confidence": 0.9,
+      "resolved_from": "focus_stack[0]"
+    },
+    "note": "Telugu follow-up: \"take me there\"."
+  },
+  {
+    "turns": [
+      {
+        "role": "user",
+        "content": "hi"
+      },
+      {
+        "role": "assistant",
+        "content": "Greets and offers options."
+      },
+      {
+        "role": "user",
+        "content": "take me there"
+      }
+    ],
+    "expected_resolution": {
+      "intent": "AMBIGUOUS",
+      "entity_id": null,
+      "action": "ASK_CLARIFICATION",
+      "clarification_question": "Where would you like to go?"
+    },
+    "note": "Empty focus stack — must ask, never guess."
+  },
+  {
+    "turns": [
+      {
+        "role": "user",
+        "content": "how does aviator work"
+      },
+      {
+        "role": "assistant",
+        "content": "Explains Aviator.",
+        "focus_entity_id": "game_aviator"
+      },
+      {
+        "role": "user",
+        "content": "what about roulette"
+      },
+      {
+        "role": "assistant",
+        "content": "Explains roulette.",
+        "focus_entity_id": "game_roulette"
+      },
+      {
+        "role": "user",
+        "content": "open it"
+      }
+    ],
+    "expected_resolution": {
+      "intent": "NAVIGATE",
+      "entity_id": "game_roulette",
+      "action": "OPEN_GAME",
+      "confidence": 0.92,
+      "resolved_from": "focus_stack[0]"
+    },
+    "note": "Most recent entity wins, not the first mentioned."
+  },
+  {
+    "turns": [
+      {
+        "role": "user",
+        "content": "i want to deposit"
+      },
+      {
+        "role": "assistant",
+        "content": "Confirms before navigating to a financial page.",
+        "focus_entity_id": "page_deposit"
+      },
+      {
+        "role": "user",
+        "content": "yes"
+      }
+    ],
+    "expected_resolution": {
+      "intent": "DEPOSIT",
+      "entity_id": "page_deposit",
+      "action": "OPEN_DEPOSIT",
+      "confidence": 0.97,
+      "resolved_from": "confirmation_accepted"
+    },
+    "note": ""
+  },
+  {
+    "turns": [
+      {
+        "role": "user",
+        "content": "i want to deposit"
+      },
+      {
+        "role": "assistant",
+        "content": "Confirms before navigating.",
+        "focus_entity_id": "page_deposit"
+      },
+      {
+        "role": "user",
+        "content": "no wait"
+      }
+    ],
+    "expected_resolution": {
+      "intent": "AMBIGUOUS",
+      "entity_id": null,
+      "action": "ASK_CLARIFICATION",
+      "clarification_question": "No problem — what would you like to do instead?"
+    },
+    "note": "Confirmation declined: cancel the pending action, do not proceed."
+  },
+  {
+    "turns": [
+      {
+        "role": "user",
+        "content": "show me the plane game"
+      },
+      {
+        "role": "assistant",
+        "content": "Asks: did you mean Aviator?",
+        "focus_entity_id": "game_aviator"
+      },
+      {
+        "role": "user",
+        "content": "yes that one"
+      }
+    ],
+    "expected_resolution": {
+      "intent": "NAVIGATE",
+      "entity_id": "game_aviator",
+      "action": "OPEN_GAME",
+      "confidence": 0.96,
+      "resolved_from": "clarification_accepted"
+    },
+    "note": ""
+  },
+  {
+    "turns": [
+      {
+        "role": "user",
+        "content": "open the game"
+      },
+      {
+        "role": "assistant",
+        "content": "Asks which game."
+      },
+      {
+        "role": "user",
+        "content": "aviator"
+      }
+    ],
+    "expected_resolution": {
+      "intent": "NAVIGATE",
+      "entity_id": "game_aviator",
+      "action": "OPEN_GAME",
+      "confidence": 0.97,
+      "resolved_from": "clarification_answered"
+    },
+    "note": ""
+  },
+  {
+    "turns": [
+      {
+        "role": "user",
+        "content": "my withdrawal is stuck"
+      },
+      {
+        "role": "assistant",
+        "content": "Explains common causes; does not state a processing time.",
+        "focus_entity_id": "page_withdraw"
+      },
+      {
+        "role": "user",
+        "content": "can you check it for me"
+      }
+    ],
+    "expected_resolution": {
+      "intent": "SUPPORT",
+      "entity_id": "page_contact_support",
+      "action": "OPEN_SUPPORT",
+      "confidence": 0.93,
+      "resolved_from": "requires_account_data"
+    },
+    "note": "Assistant cannot read account state — hand off rather than speculate."
+  },
+  {
+    "turns": [
+      {
+        "role": "user",
+        "content": "how much is in my wallet"
+      },
+      {
+        "role": "assistant",
+        "content": "States it cannot access balances and offers the wallet page.",
+        "focus_entity_id": "page_wallet"
+      },
+      {
+        "role": "user",
+        "content": "ok open it"
+      }
+    ],
+    "expected_resolution": {
+      "intent": "ACCOUNT",
+      "entity_id": "page_wallet",
+      "action": "OPEN_WALLET",
+      "confidence": 0.94,
+      "resolved_from": "focus_stack[0]"
+    },
+    "note": ""
+  },
+  {
+    "turns": [
+      {
+        "role": "user",
+        "content": "i keep losing money"
+      },
+      {
+        "role": "assistant",
+        "content": "Responds with responsible gaming support, does not suggest more play.",
+        "focus_entity_id": "page_responsible_gaming"
+      },
+      {
+        "role": "user",
+        "content": "show me that"
+      }
+    ],
+    "expected_resolution": {
+      "intent": "RESPONSIBLE_GAMING",
+      "entity_id": "page_responsible_gaming",
+      "action": "OPEN_RESPONSIBLE_GAMING",
+      "confidence": 0.96
+    },
+    "note": "Distress signal outranks every other intent, including navigation."
+  },
+  {
+    "turns": [
+      {
+        "role": "user",
+        "content": "what games do you have"
+      },
+      {
+        "role": "assistant",
+        "content": "Lists categories.",
+        "focus_entity_id": "category_games"
+      },
+      {
+        "role": "user",
+        "content": "the second one"
+      }
+    ],
+    "expected_resolution": {
+      "intent": "AMBIGUOUS",
+      "entity_id": null,
+      "action": "ASK_CLARIFICATION",
+      "clarification_question": "Which one did you mean? You can tell me the name."
+    },
+    "note": "Ordinal reference into a list the model may misindex — safer to ask."
+  },
+  {
+    "turns": [
+      {
+        "role": "user",
+        "content": "open aviator"
+      },
+      {
+        "role": "assistant",
+        "content": "Opens Aviator.",
+        "focus_entity_id": "game_aviator"
+      },
+      {
+        "role": "user",
+        "content": "how do i cash out here"
+      }
+    ],
+    "expected_resolution": {
+      "intent": "GAME_INFO",
+      "entity_id": "game_aviator",
+      "action": "ANSWER_FROM_RAG",
+      "confidence": 0.93,
+      "resolved_from": "focus_stack[0]"
+    },
+    "note": "\"here\" resolves to the currently open entity."
+  },
+  {
+    "turns": [
+      {
+        "role": "user",
+        "content": "show promotions"
+      },
+      {
+        "role": "assistant",
+        "content": "Opens promotions.",
+        "focus_entity_id": "page_promotions"
+      },
+      {
+        "role": "user",
+        "content": "am i eligible for any"
+      }
+    ],
+    "expected_resolution": {
+      "intent": "PROMOTION",
+      "entity_id": "page_bonuses",
+      "action": "ANSWER_FROM_RAG",
+      "confidence": 0.88,
+      "note": "Answer generically; per-account eligibility needs an API call."
+    },
+    "note": ""
+  },
+  {
+    "turns": [
+      {
+        "role": "user",
+        "content": "cricket"
+      },
+      {
+        "role": "assistant",
+        "content": "Asks whether markets or scores.",
+        "focus_entity_id": "sport_cricket"
+      },
+      {
+        "role": "user",
+        "content": "markets"
+      }
+    ],
+    "expected_resolution": {
+      "intent": "NAVIGATE",
+      "entity_id": "sport_cricket",
+      "action": "OPEN_SPORT",
+      "confidence": 0.95,
+      "resolved_from": "clarification_answered"
+    },
+    "note": ""
+  },
+  {
+    "turns": [
+      {
+        "role": "user",
+        "content": "set a deposit limit"
+      },
+      {
+        "role": "assistant",
+        "content": "Explains limits and opens responsible gaming.",
+        "focus_entity_id": "page_responsible_gaming"
+      },
+      {
+        "role": "user",
+        "content": "actually i want to deposit more"
+      }
+    ],
+    "expected_resolution": {
+      "intent": "DEPOSIT",
+      "entity_id": "page_deposit",
+      "action": "OPEN_DEPOSIT",
+      "confidence": 0.9,
+      "requires_confirmation": true,
+      "note": "Honour the request, but do not encourage it; keep the limit tool visible."
+    },
+    "note": "User reverses a protective action — comply without nudging either way."
+  },
+  {
+    "turns": [
+      {
+        "role": "user",
+        "content": "is there a mobile app"
+      },
+      {
+        "role": "assistant",
+        "content": "Explains availability is region-dependent; warns against unofficial downloads.",
+        "focus_entity_id": "page_help"
+      },
+      {
+        "role": "user",
+        "content": "open help"
+      }
+    ],
+    "expected_resolution": {
+      "intent": "NAVIGATE",
+      "entity_id": "page_help",
+      "action": "OPEN_HELP",
+      "confidence": 0.95,
+      "resolved_from": "explicit_entity"
+    },
+    "note": ""
+  },
+  {
+    "turns": [
+      {
+        "role": "user",
+        "content": "open blackjack"
+      },
+      {
+        "role": "assistant",
+        "content": "Opens Blackjack.",
+        "focus_entity_id": "game_blackjack"
+      },
+      {
+        "role": "user",
+        "content": "what are the rules again"
+      }
+    ],
+    "expected_resolution": {
+      "intent": "GAME_INFO",
+      "entity_id": "game_blackjack",
+      "action": "ANSWER_FROM_RAG",
+      "confidence": 0.94,
+      "resolved_from": "focus_stack[0]"
+    },
+    "note": "Informational follow-up on the currently open entity — answer, do not re-navigate."
+  },
+  {
+    "turns": [
+      {
+        "role": "user",
+        "content": "take me to slots"
+      },
+      {
+        "role": "assistant",
+        "content": "Opens slots.",
+        "focus_entity_id": "category_slots"
+      },
+      {
+        "role": "user",
+        "content": "which one should i pick"
+      }
+    ],
+    "expected_resolution": {
+      "intent": "AMBIGUOUS",
+      "entity_id": null,
+      "action": "ASK_CLARIFICATION",
+      "clarification_question": "I cannot recommend one game over another. Would you like to browse by theme or feature instead?"
+    },
+    "note": "Solicits a recommendation — decline, then offer a neutral way to browse."
+  },
+  {
+    "turns": [
+      {
+        "role": "user",
+        "content": "tell me about aviator"
+      },
+      {
+        "role": "assistant",
+        "content": "Explains Aviator.",
+        "focus_entity_id": "game_aviator"
+      },
+      {
+        "role": "user",
+        "content": "open it"
+      }
+    ],
+    "expected_resolution": {
+      "intent": "NAVIGATE",
+      "entity_id": "game_aviator",
+      "action": "OPEN_GAME",
+      "confidence": 0.93,
+      "resolved_from": "focus_stack[0]"
+    },
+    "note": ""
+  },
+  {
+    "turns": [
+      {
+        "role": "user",
+        "content": "tell me about roulette"
+      },
+      {
+        "role": "assistant",
+        "content": "Explains Roulette.",
+        "focus_entity_id": "game_roulette"
+      },
+      {
+        "role": "user",
+        "content": "open it"
+      }
+    ],
+    "expected_resolution": {
+      "intent": "NAVIGATE",
+      "entity_id": "game_roulette",
+      "action": "OPEN_GAME",
+      "confidence": 0.93,
+      "resolved_from": "focus_stack[0]"
+    },
+    "note": ""
+  },
+  {
+    "turns": [
+      {
+        "role": "user",
+        "content": "tell me about blackjack"
+      },
+      {
+        "role": "assistant",
+        "content": "Explains Blackjack.",
+        "focus_entity_id": "game_blackjack"
+      },
+      {
+        "role": "user",
+        "content": "open it"
+      }
+    ],
+    "expected_resolution": {
+      "intent": "NAVIGATE",
+      "entity_id": "game_blackjack",
+      "action": "OPEN_GAME",
+      "confidence": 0.93,
+      "resolved_from": "focus_stack[0]"
+    },
+    "note": ""
+  },
+  {
+    "turns": [
+      {
+        "role": "user",
+        "content": "tell me about aviator"
+      },
+      {
+        "role": "assistant",
+        "content": "Explains Aviator.",
+        "focus_entity_id": "game_aviator"
+      },
+      {
+        "role": "user",
+        "content": "show me that"
+      }
+    ],
+    "expected_resolution": {
+      "intent": "NAVIGATE",
+      "entity_id": "game_aviator",
+      "action": "OPEN_GAME",
+      "confidence": 0.92,
+      "resolved_from": "focus_stack[0]"
+    },
+    "note": ""
+  },
+  {
+    "turns": [
+      {
+        "role": "user",
+        "content": "tell me about roulette"
+      },
+      {
+        "role": "assistant",
+        "content": "Explains Roulette.",
+        "focus_entity_id": "game_roulette"
+      },
+      {
+        "role": "user",
+        "content": "show me that"
+      }
+    ],
+    "expected_resolution": {
+      "intent": "NAVIGATE",
+      "entity_id": "game_roulette",
+      "action": "OPEN_GAME",
+      "confidence": 0.92,
+      "resolved_from": "focus_stack[0]"
+    },
+    "note": ""
+  },
+  {
+    "turns": [
+      {
+        "role": "user",
+        "content": "tell me about blackjack"
+      },
+      {
+        "role": "assistant",
+        "content": "Explains Blackjack.",
+        "focus_entity_id": "game_blackjack"
+      },
+      {
+        "role": "user",
+        "content": "show me that"
+      }
+    ],
+    "expected_resolution": {
+      "intent": "NAVIGATE",
+      "entity_id": "game_blackjack",
+      "action": "OPEN_GAME",
+      "confidence": 0.92,
+      "resolved_from": "focus_stack[0]"
+    },
+    "note": ""
+  },
+  {
+    "turns": [
+      {
+        "role": "user",
+        "content": "tell me about aviator"
+      },
+      {
+        "role": "assistant",
+        "content": "Explains Aviator.",
+        "focus_entity_id": "game_aviator"
+      },
+      {
+        "role": "user",
+        "content": "go there"
+      }
+    ],
+    "expected_resolution": {
+      "intent": "NAVIGATE",
+      "entity_id": "game_aviator",
+      "action": "OPEN_GAME",
+      "confidence": 0.92,
+      "resolved_from": "focus_stack[0]"
+    },
+    "note": ""
+  },
+  {
+    "turns": [
+      {
+        "role": "user",
+        "content": "tell me about roulette"
+      },
+      {
+        "role": "assistant",
+        "content": "Explains Roulette.",
+        "focus_entity_id": "game_roulette"
+      },
+      {
+        "role": "user",
+        "content": "go there"
+      }
+    ],
+    "expected_resolution": {
+      "intent": "NAVIGATE",
+      "entity_id": "game_roulette",
+      "action": "OPEN_GAME",
+      "confidence": 0.92,
+      "resolved_from": "focus_stack[0]"
+    },
+    "note": ""
+  },
+  {
+    "turns": [
+      {
+        "role": "user",
+        "content": "tell me about blackjack"
+      },
+      {
+        "role": "assistant",
+        "content": "Explains Blackjack.",
+        "focus_entity_id": "game_blackjack"
+      },
+      {
+        "role": "user",
+        "content": "go there"
+      }
+    ],
+    "expected_resolution": {
+      "intent": "NAVIGATE",
+      "entity_id": "game_blackjack",
+      "action": "OPEN_GAME",
+      "confidence": 0.92,
+      "resolved_from": "focus_stack[0]"
+    },
+    "note": ""
+  },
+  {
+    "turns": [
+      {
+        "role": "user",
+        "content": "tell me about aviator"
+      },
+      {
+        "role": "assistant",
+        "content": "Explains Aviator.",
+        "focus_entity_id": "game_aviator"
+      },
+      {
+        "role": "user",
+        "content": "take me to it"
+      }
+    ],
+    "expected_resolution": {
+      "intent": "NAVIGATE",
+      "entity_id": "game_aviator",
+      "action": "OPEN_GAME",
+      "confidence": 0.93,
+      "resolved_from": "focus_stack[0]"
+    },
+    "note": ""
+  },
+  {
+    "turns": [
+      {
+        "role": "user",
+        "content": "tell me about roulette"
+      },
+      {
+        "role": "assistant",
+        "content": "Explains Roulette.",
+        "focus_entity_id": "game_roulette"
+      },
+      {
+        "role": "user",
+        "content": "take me to it"
+      }
+    ],
+    "expected_resolution": {
+      "intent": "NAVIGATE",
+      "entity_id": "game_roulette",
+      "action": "OPEN_GAME",
+      "confidence": 0.93,
+      "resolved_from": "focus_stack[0]"
+    },
+    "note": ""
+  },
+  {
+    "turns": [
+      {
+        "role": "user",
+        "content": "tell me about blackjack"
+      },
+      {
+        "role": "assistant",
+        "content": "Explains Blackjack.",
+        "focus_entity_id": "game_blackjack"
+      },
+      {
+        "role": "user",
+        "content": "take me to it"
+      }
+    ],
+    "expected_resolution": {
+      "intent": "NAVIGATE",
+      "entity_id": "game_blackjack",
+      "action": "OPEN_GAME",
+      "confidence": 0.93,
+      "resolved_from": "focus_stack[0]"
+    },
+    "note": ""
+  },
+  {
+    "turns": [
+      {
+        "role": "user",
+        "content": "tell me about aviator"
+      },
+      {
+        "role": "assistant",
+        "content": "Explains Aviator.",
+        "focus_entity_id": "game_aviator"
+      },
+      {
+        "role": "user",
+        "content": "launch that"
+      }
+    ],
+    "expected_resolution": {
+      "intent": "NAVIGATE",
+      "entity_id": "game_aviator",
+      "action": "OPEN_GAME",
+      "confidence": 0.91,
+      "resolved_from": "focus_stack[0]"
+    },
+    "note": ""
+  },
+  {
+    "turns": [
+      {
+        "role": "user",
+        "content": "tell me about roulette"
+      },
+      {
+        "role": "assistant",
+        "content": "Explains Roulette.",
+        "focus_entity_id": "game_roulette"
+      },
+      {
+        "role": "user",
+        "content": "launch that"
+      }
+    ],
+    "expected_resolution": {
+      "intent": "NAVIGATE",
+      "entity_id": "game_roulette",
+      "action": "OPEN_GAME",
+      "confidence": 0.91,
+      "resolved_from": "focus_stack[0]"
+    },
+    "note": ""
+  },
+  {
+    "turns": [
+      {
+        "role": "user",
+        "content": "tell me about blackjack"
+      },
+      {
+        "role": "assistant",
+        "content": "Explains Blackjack.",
+        "focus_entity_id": "game_blackjack"
+      },
+      {
+        "role": "user",
+        "content": "launch that"
+      }
+    ],
+    "expected_resolution": {
+      "intent": "NAVIGATE",
+      "entity_id": "game_blackjack",
+      "action": "OPEN_GAME",
+      "confidence": 0.91,
+      "resolved_from": "focus_stack[0]"
+    },
+    "note": ""
+  },
+  {
+    "turns": [
+      {
+        "role": "user",
+        "content": "tell me about aviator"
+      },
+      {
+        "role": "assistant",
+        "content": "Explains Aviator.",
+        "focus_entity_id": "game_aviator"
+      },
+      {
+        "role": "user",
+        "content": "that game"
+      }
+    ],
+    "expected_resolution": {
+      "intent": "NAVIGATE",
+      "entity_id": "game_aviator",
+      "action": "OPEN_GAME",
+      "confidence": 0.91,
+      "resolved_from": "focus_stack[0]"
+    },
+    "note": ""
+  },
+  {
+    "turns": [
+      {
+        "role": "user",
+        "content": "tell me about roulette"
+      },
+      {
+        "role": "assistant",
+        "content": "Explains Roulette.",
+        "focus_entity_id": "game_roulette"
+      },
+      {
+        "role": "user",
+        "content": "that game"
+      }
+    ],
+    "expected_resolution": {
+      "intent": "NAVIGATE",
+      "entity_id": "game_roulette",
+      "action": "OPEN_GAME",
+      "confidence": 0.91,
+      "resolved_from": "focus_stack[0]"
+    },
+    "note": ""
+  },
+  {
+    "turns": [
+      {
+        "role": "user",
+        "content": "tell me about blackjack"
+      },
+      {
+        "role": "assistant",
+        "content": "Explains Blackjack.",
+        "focus_entity_id": "game_blackjack"
+      },
+      {
+        "role": "user",
+        "content": "that game"
+      }
+    ],
+    "expected_resolution": {
+      "intent": "NAVIGATE",
+      "entity_id": "game_blackjack",
+      "action": "OPEN_GAME",
+      "confidence": 0.91,
+      "resolved_from": "focus_stack[0]"
+    },
+    "note": ""
+  },
+  {
+    "turns": [
+      {
+        "role": "user",
+        "content": "tell me about aviator"
+      },
+      {
+        "role": "assistant",
+        "content": "Explains Aviator.",
+        "focus_entity_id": "game_aviator"
+      },
+      {
+        "role": "user",
+        "content": "this one"
+      }
+    ],
+    "expected_resolution": {
+      "intent": "NAVIGATE",
+      "entity_id": "game_aviator",
+      "action": "OPEN_GAME",
+      "confidence": 0.9,
+      "resolved_from": "focus_stack[0]"
+    },
+    "note": ""
+  },
+  {
+    "turns": [
+      {
+        "role": "user",
+        "content": "tell me about roulette"
+      },
+      {
+        "role": "assistant",
+        "content": "Explains Roulette.",
+        "focus_entity_id": "game_roulette"
+      },
+      {
+        "role": "user",
+        "content": "this one"
+      }
+    ],
+    "expected_resolution": {
+      "intent": "NAVIGATE",
+      "entity_id": "game_roulette",
+      "action": "OPEN_GAME",
+      "confidence": 0.9,
+      "resolved_from": "focus_stack[0]"
+    },
+    "note": ""
+  },
+  {
+    "turns": [
+      {
+        "role": "user",
+        "content": "tell me about blackjack"
+      },
+      {
+        "role": "assistant",
+        "content": "Explains Blackjack.",
+        "focus_entity_id": "game_blackjack"
+      },
+      {
+        "role": "user",
+        "content": "this one"
+      }
+    ],
+    "expected_resolution": {
+      "intent": "NAVIGATE",
+      "entity_id": "game_blackjack",
+      "action": "OPEN_GAME",
+      "confidence": 0.9,
+      "resolved_from": "focus_stack[0]"
+    },
+    "note": ""
+  },
+  {
+    "turns": [
+      {
+        "role": "user",
+        "content": "tell me about aviator"
+      },
+      {
+        "role": "assistant",
+        "content": "Explains Aviator.",
+        "focus_entity_id": "game_aviator"
+      },
+      {
+        "role": "user",
+        "content": "open that game"
+      }
+    ],
+    "expected_resolution": {
+      "intent": "NAVIGATE",
+      "entity_id": "game_aviator",
+      "action": "OPEN_GAME",
+      "confidence": 0.92,
+      "resolved_from": "focus_stack[0]"
+    },
+    "note": ""
+  },
+  {
+    "turns": [
+      {
+        "role": "user",
+        "content": "tell me about roulette"
+      },
+      {
+        "role": "assistant",
+        "content": "Explains Roulette.",
+        "focus_entity_id": "game_roulette"
+      },
+      {
+        "role": "user",
+        "content": "open that game"
+      }
+    ],
+    "expected_resolution": {
+      "intent": "NAVIGATE",
+      "entity_id": "game_roulette",
+      "action": "OPEN_GAME",
+      "confidence": 0.92,
+      "resolved_from": "focus_stack[0]"
+    },
+    "note": ""
+  },
+  {
+    "turns": [
+      {
+        "role": "user",
+        "content": "tell me about blackjack"
+      },
+      {
+        "role": "assistant",
+        "content": "Explains Blackjack.",
+        "focus_entity_id": "game_blackjack"
+      },
+      {
+        "role": "user",
+        "content": "open that game"
+      }
+    ],
+    "expected_resolution": {
+      "intent": "NAVIGATE",
+      "entity_id": "game_blackjack",
+      "action": "OPEN_GAME",
+      "confidence": 0.92,
+      "resolved_from": "focus_stack[0]"
+    },
+    "note": ""
+  }
+]

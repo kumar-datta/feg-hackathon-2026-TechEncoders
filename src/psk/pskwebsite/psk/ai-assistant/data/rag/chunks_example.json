@@ -1,0 +1,130 @@
+[
+  {
+    "chunk_id": "doc_faq_withdrawal_002__c01",
+    "document_id": "doc_faq_withdrawal_002",
+    "title": "How long does a withdrawal take?",
+    "content": "Q: How long does a withdrawal take?\nA: Processing time depends on the operator review process and on your payment provider. The published timeframe is on the withdrawal page. The exact details are published on the official page for this topic.",
+    "category": "FAQ",
+    "source": "faq.json",
+    "metadata": {
+      "page": null,
+      "section": "qa_pair",
+      "language": "en",
+      "last_updated": "2026-01-01T00:00:00Z",
+      "chunk_strategy": "atomic_qa_pair",
+      "approx_tokens": 70
+    }
+  },
+  {
+    "chunk_id": "doc_game_aviator__c01",
+    "document_id": "doc_game_aviator",
+    "title": "Aviator — Overview",
+    "content": "Aviator is a crash-style game. Each round a multiplier starts at 1.00x and increases; at a randomly determined point the round ends. If you cash out before the round ends, your stake is multiplied by the value shown at that moment.",
+    "category": "GAME_KNOWLEDGE",
+    "source": "game_knowledge.json",
+    "metadata": {
+      "page": null,
+      "section": "description",
+      "language": "en",
+      "last_updated": "2026-01-01T00:00:00Z",
+      "chunk_strategy": "section_boundary",
+      "approx_tokens": 90
+    }
+  },
+  {
+    "chunk_id": "doc_game_aviator__c02",
+    "document_id": "doc_game_aviator",
+    "title": "Aviator — How to play",
+    "content": "1. Open the game and set your stake for the round. 2. Wait for the round to begin. 3. Press Cash Out at any point while the round is running to lock in the multiplier displayed at that instant. 4. If the round ends before you cash out, that round is lost.",
+    "category": "GAME_KNOWLEDGE",
+    "source": "game_knowledge.json",
+    "metadata": {
+      "page": null,
+      "section": "how_to_play",
+      "language": "en",
+      "last_updated": "2026-01-01T00:00:00Z",
+      "chunk_strategy": "section_boundary",
+      "approx_tokens": 95
+    }
+  },
+  {
+    "chunk_id": "doc_game_aviator__c03",
+    "document_id": "doc_game_aviator",
+    "title": "Aviator — Terminology",
+    "content": "Multiplier: the rising number a stake is multiplied by if you cash out. Cash Out: ending participation in the round to lock in the current multiplier. Auto Cash Out: an optional setting that cashes out at a chosen multiplier. Bust: the moment a round ends, after which cash-outs are not possible.",
+    "category": "GAME_KNOWLEDGE",
+    "source": "game_knowledge.json",
+    "metadata": {
+      "page": null,
+      "section": "terminology",
+      "language": "en",
+      "last_updated": "2026-01-01T00:00:00Z",
+      "chunk_strategy": "keep_glossary_intact",
+      "approx_tokens": 85
+    }
+  },
+  {
+    "chunk_id": "doc_policy_withdrawal_001__c01",
+    "document_id": "doc_policy_withdrawal_001",
+    "title": "Withdrawal Policy",
+    "content": "[REPLACE WITH ACTUAL COMPANY POLICY]",
+    "category": "POLICY",
+    "source": "policies.json",
+    "metadata": {
+      "page": null,
+      "section": "full",
+      "language": "en",
+      "last_updated": "2026-01-01T00:00:00Z",
+      "chunk_strategy": "clause_boundary_placeholder",
+      "approx_tokens": 10
+    }
+  },
+  {
+    "chunk_id": "doc_help_withdrawal_guide__c01",
+    "document_id": "doc_help_withdrawal_guide",
+    "title": "Withdrawal guide — Overview and prerequisites",
+    "content": "A withdrawal moves funds from your account balance to an external payment method. Requests generally pass through a review step before they are released. Before requesting a withdrawal, make sure identity verification is complete and that any active bonus conditions are resolved.",
+    "category": "HELP_ARTICLE",
+    "source": "help_articles.json",
+    "metadata": {
+      "page": null,
+      "section": "overview+before_you_start",
+      "language": "en",
+      "last_updated": "2026-01-01T00:00:00Z",
+      "chunk_strategy": "sliding_window_overlap_15pct",
+      "approx_tokens": 110
+    }
+  },
+  {
+    "chunk_id": "doc_help_withdrawal_guide__c02",
+    "document_id": "doc_help_withdrawal_guide",
+    "title": "Withdrawal guide — Requesting and statuses",
+    "content": "Before requesting, make sure verification is complete and bonus conditions resolved. Open the wallet, choose withdraw, select a method, enter an amount within the displayed limits and confirm. Pending means queued or under review. Processing means approved and sent to the provider. Completed means released. Rejected means not accepted.",
+    "category": "HELP_ARTICLE",
+    "source": "help_articles.json",
+    "metadata": {
+      "page": null,
+      "section": "how_to_request+status_meanings",
+      "language": "en",
+      "last_updated": "2026-01-01T00:00:00Z",
+      "chunk_strategy": "sliding_window_overlap_15pct",
+      "approx_tokens": 125
+    }
+  },
+  {
+    "chunk_id": "doc_entity_game_aviator__c01",
+    "document_id": "doc_entity_game_aviator",
+    "title": "Aviator (entity)",
+    "content": "Aviator is a crash game, also known as the plane game, the aeroplane game, or the flying game. It belongs to the crash games category.",
+    "category": "ENTITY_ALIAS",
+    "source": "entities.json",
+    "metadata": {
+      "page": null,
+      "section": "alias_sentence",
+      "language": "en",
+      "last_updated": "2026-01-01T00:00:00Z",
+      "chunk_strategy": "one_sentence_per_entity",
+      "approx_tokens": 35
+    }
+  }
+]

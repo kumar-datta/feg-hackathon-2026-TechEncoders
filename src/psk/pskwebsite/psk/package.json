@@ -1,0 +1,20 @@
+{
+  "name": "psk-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "MERN sportsbook & casino UI demo — educational project, no real money",
+  "scripts": {
+    "dev": "node tools/dev.mjs",
+    "install:all": "npm --prefix server install && npm --prefix client install",
+    "seed": "npm --prefix server run seed",
+    "seed:fresh": "npm --prefix server run seed:fresh",
+    "server": "npm --prefix server run dev",
+    "client": "npm --prefix client run dev",
+    "build": "npm --prefix client run build",
+    "videos": "python tools/make_demo_videos.py"
+  },
+  "workspaces": [],
+  "engines": {
+    "node": ">=18"
+  }
+}

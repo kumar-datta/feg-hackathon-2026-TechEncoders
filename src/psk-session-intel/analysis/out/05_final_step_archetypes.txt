@@ -1,0 +1,71 @@
+C:\FEG\psk-session-intel\analysis\05_final_step_archetypes.py:22: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  print(sess.groupby('hour').apply(lambda x:(x.n_placed==0).mean()).round(3).to_string())
+=== SB apps: sessions reaching final step: 5568  abandoned: 1064 (19.1%)
+adds per session  abandoned vs placed: 4.0 9.0  mean: 7.3 38.4
+seconds from last add to session end (abandoned) p25/50/75: [5.0, 43.0, 563.0]
+seconds first add -> first placement (placed) p25/50/75: [25.0, 97.0, 306.0]
+abandoned sessions: share reaching betslip screen: 0.514
+abandoned by platform:
+platform
+SB iOS        667
+SB Android    397
+abandoned by hour (share of final-step sessions abandoned):
+hour
+0     0.188
+1     0.196
+2     0.224
+3     0.158
+4     0.212
+5     0.229
+6     0.243
+7     0.219
+8     0.234
+9     0.217
+10    0.209
+11    0.246
+12    0.234
+13    0.166
+14    0.208
+15    0.203
+16    0.196
+17    0.152
+18    0.154
+19    0.163
+20    0.129
+21    0.174
+22    0.229
+23    0.183
+
+=== final-step conversion by entry type ===
+                              n  placed
+platform   entry                       
+SB Android history          228   0.807
+           live               3   1.000
+           prematch/other  2557   0.862
+SB iOS     history          618   0.693
+           live            1273   0.878
+           prematch/other   889   0.638
+
+=== deferred intent: after an abandoned final step ===
+next session within 60min: 0.401  next session places a bet: 0.387  both: 0.17
+
+=== placement acceptance by platform x betslip_type ===
+                         size   mean
+platform   betslip_type             
+SB Android AKO           4849  0.947
+           LEG_COMBI      307  0.977
+           SOLO          4939  0.831
+SB iOS     AKO           8032  0.986
+           LEG_COMBI       59  0.949
+           SOLO          2364  0.995
+
+=== session archetypes (KMeans k=7, apps) ===
+         sessions  share  conv  med_len_s  med_events   adds  placed  launch  final_conv  med_ttfa   ios  android  casino  share_ticket  share_live  share_prematch  share_account  share_search
+cluster                                                                                                                                                                                         
+0            3902   0.24  0.02      40.84         8.0   0.40    0.03    0.00        0.34    151.10  0.45     0.55    0.00          0.69        0.04            0.02           0.01          0.00
+3            3088   0.19  0.14       5.66         2.0   0.06    0.01    0.18        0.43     32.29  0.20     0.47    0.33          0.02        0.02            0.02           0.01          0.00
+5            2507   0.16  0.57     811.07        67.0   8.24    0.82    0.00        0.71    498.91  0.45     0.55    0.00          0.09        0.05            0.64           0.02          0.00
+6            2120   0.13  0.51    1081.14        28.0   2.11    0.72    0.00        0.80    198.60  0.53     0.47    0.00          0.14        0.54            0.03           0.03          0.00
+1            1882   0.12  1.00    6349.99       284.0  81.68    8.93    0.02        1.00    509.17  0.49     0.51    0.00          0.26        0.28            0.17           0.03          0.00
+2            1286   0.08  0.02     236.89         9.0   0.06    0.02    0.01        0.55    268.99  0.46     0.54    0.00          0.05        0.01            0.01           0.59          0.00
+4            1310   0.08  1.00    2088.82        20.5   0.01    0.00    7.33        0.67     38.86  0.00     0.00    1.00          0.00        0.00            0.00           0.00          0.27

@@ -1,0 +1,448 @@
+[
+  {
+    "page_id": "page_home",
+    "page_name": "Home",
+    "page_type": "LANDING",
+    "route": "/",
+    "parent_page": null,
+    "description": "Landing page with featured content, promotions and entry points to all products.",
+    "keywords": [
+      "home",
+      "landing",
+      "featured"
+    ],
+    "aliases": [
+      "home",
+      "homepage",
+      "main page"
+    ],
+    "available_actions": [
+      "OPEN_CATEGORY",
+      "OPEN_SPORT",
+      "OPEN_PROMOTIONS",
+      "OPEN_HELP"
+    ],
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "page_id": "page_games",
+    "page_name": "Games",
+    "page_type": "LISTING",
+    "route": "/games",
+    "parent_page": "page_home",
+    "description": "Browsable catalogue of all games with category filters and search.",
+    "keywords": [
+      "games",
+      "catalogue",
+      "browse"
+    ],
+    "aliases": [
+      "games",
+      "all games",
+      "game list"
+    ],
+    "available_actions": [
+      "OPEN_GAME",
+      "OPEN_CATEGORY"
+    ],
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "page_id": "page_game_detail",
+    "page_name": "Game Details",
+    "page_type": "DETAIL",
+    "route": "/games/{game_slug}",
+    "parent_page": "page_games",
+    "description": "Detail view for a single game, with description, rules summary and launch action.",
+    "keywords": [
+      "game",
+      "details",
+      "rules",
+      "play"
+    ],
+    "aliases": [
+      "game page",
+      "game details"
+    ],
+    "available_actions": [
+      "OPEN_GAME",
+      "OPEN_HELP",
+      "OPEN_RESPONSIBLE_GAMING"
+    ],
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "page_id": "page_casino",
+    "page_name": "Casino",
+    "page_type": "LISTING",
+    "route": "/casino",
+    "parent_page": "page_games",
+    "description": "Casino lobby with slots, table games and live dealer sections.",
+    "keywords": [
+      "casino",
+      "slots",
+      "tables"
+    ],
+    "aliases": [
+      "casino",
+      "casino lobby"
+    ],
+    "available_actions": [
+      "OPEN_GAME",
+      "OPEN_CATEGORY"
+    ],
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "page_id": "page_live_casino",
+    "page_name": "Live Casino",
+    "page_type": "LISTING",
+    "route": "/casino/live",
+    "parent_page": "page_casino",
+    "description": "Live dealer tables streamed in real time.",
+    "keywords": [
+      "live",
+      "dealer",
+      "tables"
+    ],
+    "aliases": [
+      "live casino",
+      "live games"
+    ],
+    "available_actions": [
+      "OPEN_GAME",
+      "OPEN_CATEGORY"
+    ],
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "page_id": "page_sports",
+    "page_name": "Sports",
+    "page_type": "LISTING",
+    "route": "/sports",
+    "parent_page": "page_home",
+    "description": "Sportsbook landing page listing sports and featured events.",
+    "keywords": [
+      "sports",
+      "betting",
+      "odds"
+    ],
+    "aliases": [
+      "sports",
+      "sportsbook"
+    ],
+    "available_actions": [
+      "OPEN_SPORT",
+      "OPEN_EVENT"
+    ],
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "page_id": "page_sports_event",
+    "page_name": "Sports Event",
+    "page_type": "DETAIL",
+    "route": "/sports/{sport}/{event_id}",
+    "parent_page": "page_sports",
+    "description": "Detail view for a single event with its available markets.",
+    "keywords": [
+      "event",
+      "match",
+      "markets",
+      "odds"
+    ],
+    "aliases": [
+      "match page",
+      "event page"
+    ],
+    "available_actions": [
+      "OPEN_EVENT",
+      "OPEN_BET_HISTORY"
+    ],
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "page_id": "page_wallet",
+    "page_name": "Wallet",
+    "page_type": "ACCOUNT",
+    "route": "/wallet",
+    "parent_page": "page_home",
+    "description": "Wallet overview with balance summary and links to deposit and withdraw.",
+    "keywords": [
+      "wallet",
+      "balance",
+      "funds"
+    ],
+    "aliases": [
+      "wallet",
+      "balance"
+    ],
+    "available_actions": [
+      "OPEN_DEPOSIT",
+      "OPEN_WITHDRAW",
+      "OPEN_WALLET"
+    ],
+    "requires_auth": true,
+    "requires_kyc": false,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "page_id": "page_deposit",
+    "page_name": "Deposit",
+    "page_type": "TRANSACTIONAL",
+    "route": "/wallet/deposit",
+    "parent_page": "page_wallet",
+    "description": "Page for adding funds, listing the available payment methods.",
+    "keywords": [
+      "deposit",
+      "add funds",
+      "payment"
+    ],
+    "aliases": [
+      "deposit",
+      "add money",
+      "top up"
+    ],
+    "available_actions": [
+      "OPEN_DEPOSIT",
+      "OPEN_HELP"
+    ],
+    "requires_auth": true,
+    "requires_kyc": false,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "page_id": "page_withdraw",
+    "page_name": "Withdraw",
+    "page_type": "TRANSACTIONAL",
+    "route": "/wallet/withdraw",
+    "parent_page": "page_wallet",
+    "description": "Page for requesting a withdrawal. May require completed verification.",
+    "keywords": [
+      "withdraw",
+      "payout",
+      "cashout"
+    ],
+    "aliases": [
+      "withdraw",
+      "cash out"
+    ],
+    "available_actions": [
+      "OPEN_WITHDRAW",
+      "OPEN_KYC",
+      "OPEN_HELP"
+    ],
+    "requires_auth": true,
+    "requires_kyc": true,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "page_id": "page_transactions",
+    "page_name": "Transactions",
+    "page_type": "ACCOUNT",
+    "route": "/wallet/transactions",
+    "parent_page": "page_wallet",
+    "description": "Chronological record of account transactions.",
+    "keywords": [
+      "transactions",
+      "history",
+      "statement"
+    ],
+    "aliases": [
+      "transactions",
+      "payment history"
+    ],
+    "available_actions": [
+      "OPEN_WALLET",
+      "OPEN_HELP"
+    ],
+    "requires_auth": true,
+    "requires_kyc": false,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "page_id": "page_bet_history",
+    "page_name": "Bet History",
+    "page_type": "ACCOUNT",
+    "route": "/account/bet-history",
+    "parent_page": "page_home",
+    "description": "List of placed bets with status, stake and settlement.",
+    "keywords": [
+      "bets",
+      "history",
+      "settled",
+      "pending"
+    ],
+    "aliases": [
+      "bet history",
+      "my bets"
+    ],
+    "available_actions": [
+      "OPEN_BET_HISTORY",
+      "OPEN_HELP"
+    ],
+    "requires_auth": true,
+    "requires_kyc": false,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "page_id": "page_profile",
+    "page_name": "Profile",
+    "page_type": "ACCOUNT",
+    "route": "/account/profile",
+    "parent_page": "page_home",
+    "description": "Profile details and account settings.",
+    "keywords": [
+      "profile",
+      "settings",
+      "account"
+    ],
+    "aliases": [
+      "profile",
+      "my account"
+    ],
+    "available_actions": [
+      "OPEN_PROFILE",
+      "OPEN_KYC",
+      "OPEN_RESPONSIBLE_GAMING"
+    ],
+    "requires_auth": true,
+    "requires_kyc": false,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "page_id": "page_kyc",
+    "page_name": "KYC",
+    "page_type": "ACCOUNT",
+    "route": "/account/kyc",
+    "parent_page": "page_profile",
+    "description": "Identity verification: document upload and verification status.",
+    "keywords": [
+      "kyc",
+      "verification",
+      "documents"
+    ],
+    "aliases": [
+      "kyc",
+      "verify account"
+    ],
+    "available_actions": [
+      "OPEN_KYC",
+      "OPEN_SUPPORT"
+    ],
+    "requires_auth": true,
+    "requires_kyc": false,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "page_id": "page_promotions",
+    "page_name": "Promotions",
+    "page_type": "INFORMATIONAL",
+    "route": "/promotions",
+    "parent_page": "page_home",
+    "description": "Current promotional campaigns and their terms.",
+    "keywords": [
+      "promotions",
+      "offers",
+      "bonus"
+    ],
+    "aliases": [
+      "promotions",
+      "offers"
+    ],
+    "available_actions": [
+      "OPEN_PROMOTIONS",
+      "OPEN_HELP"
+    ],
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "page_id": "page_help",
+    "page_name": "Help",
+    "page_type": "SUPPORT",
+    "route": "/help",
+    "parent_page": "page_home",
+    "description": "Help centre with articles and frequently asked questions.",
+    "keywords": [
+      "help",
+      "faq",
+      "articles"
+    ],
+    "aliases": [
+      "help",
+      "faq"
+    ],
+    "available_actions": [
+      "OPEN_HELP",
+      "OPEN_SUPPORT"
+    ],
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "page_id": "page_support",
+    "page_name": "Support",
+    "page_type": "SUPPORT",
+    "route": "/help/contact",
+    "parent_page": "page_help",
+    "description": "Contact channels for the customer support team.",
+    "keywords": [
+      "support",
+      "contact",
+      "chat",
+      "complaint"
+    ],
+    "aliases": [
+      "support",
+      "contact us"
+    ],
+    "available_actions": [
+      "OPEN_SUPPORT"
+    ],
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "EXAMPLE_DATA"
+  },
+  {
+    "page_id": "page_responsible_gaming",
+    "page_name": "Responsible Gaming",
+    "page_type": "INFORMATIONAL",
+    "route": "/responsible-gaming",
+    "parent_page": "page_home",
+    "description": "Responsible gaming tools and external support resources.",
+    "keywords": [
+      "responsible",
+      "limits",
+      "self-exclusion",
+      "help"
+    ],
+    "aliases": [
+      "responsible gaming",
+      "limits",
+      "self exclusion"
+    ],
+    "available_actions": [
+      "OPEN_RESPONSIBLE_GAMING",
+      "OPEN_SUPPORT"
+    ],
+    "requires_auth": false,
+    "requires_kyc": false,
+    "data_status": "EXAMPLE_DATA"
+  }
+]

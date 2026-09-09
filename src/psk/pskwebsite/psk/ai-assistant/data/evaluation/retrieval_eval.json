@@ -1,0 +1,450 @@
+[
+  {
+    "query": "how long do withdrawals take",
+    "expected_intent": "FAQ",
+    "expected_entity": null,
+    "expected_answer_source": "faq.json:WITHDRAWAL",
+    "expected_action": "ANSWER_FROM_RAG",
+    "should_navigate": false,
+    "difficulty": "easy"
+  },
+  {
+    "query": "why is my deposit pending",
+    "expected_intent": "FAQ",
+    "expected_entity": null,
+    "expected_answer_source": "faq.json:DEPOSIT",
+    "expected_action": "ANSWER_FROM_RAG",
+    "should_navigate": false,
+    "difficulty": "easy"
+  },
+  {
+    "query": "what documents do i need for kyc",
+    "expected_intent": "FAQ",
+    "expected_entity": null,
+    "expected_answer_source": "faq.json:KYC",
+    "expected_action": "ANSWER_FROM_RAG",
+    "should_navigate": false,
+    "difficulty": "easy"
+  },
+  {
+    "query": "how do i reset my password",
+    "expected_intent": "FAQ",
+    "expected_entity": null,
+    "expected_answer_source": "faq.json:ACCOUNT",
+    "expected_action": "ANSWER_FROM_RAG",
+    "should_navigate": false,
+    "difficulty": "easy"
+  },
+  {
+    "query": "what is a wagering requirement",
+    "expected_intent": "FAQ",
+    "expected_entity": null,
+    "expected_answer_source": "faq.json:PROMOTIONS",
+    "expected_action": "ANSWER_FROM_RAG",
+    "should_navigate": false,
+    "difficulty": "easy"
+  },
+  {
+    "query": "why was my bet rejected",
+    "expected_intent": "FAQ",
+    "expected_entity": null,
+    "expected_answer_source": "faq.json:BETTING",
+    "expected_action": "ANSWER_FROM_RAG",
+    "should_navigate": false,
+    "difficulty": "easy"
+  },
+  {
+    "query": "can i cancel a bet",
+    "expected_intent": "FAQ",
+    "expected_entity": null,
+    "expected_answer_source": "faq.json:BETTING",
+    "expected_action": "ANSWER_FROM_RAG",
+    "should_navigate": false,
+    "difficulty": "easy"
+  },
+  {
+    "query": "what payment methods are available",
+    "expected_intent": "FAQ",
+    "expected_entity": null,
+    "expected_answer_source": "faq.json:DEPOSIT",
+    "expected_action": "ANSWER_FROM_RAG",
+    "should_navigate": false,
+    "difficulty": "easy"
+  },
+  {
+    "query": "why is my account restricted",
+    "expected_intent": "FAQ",
+    "expected_entity": null,
+    "expected_answer_source": "faq.json:ACCOUNT",
+    "expected_action": "ANSWER_FROM_RAG",
+    "should_navigate": false,
+    "difficulty": "easy"
+  },
+  {
+    "query": "how do i contact support",
+    "expected_intent": "FAQ",
+    "expected_entity": null,
+    "expected_answer_source": "faq.json:SUPPORT",
+    "expected_action": "ANSWER_FROM_RAG",
+    "should_navigate": false,
+    "difficulty": "easy"
+  },
+  {
+    "query": "how do i set a deposit limit",
+    "expected_intent": "FAQ",
+    "expected_entity": null,
+    "expected_answer_source": "faq.json:RESPONSIBLE_GAMING",
+    "expected_action": "ANSWER_FROM_RAG",
+    "should_navigate": false,
+    "difficulty": "easy"
+  },
+  {
+    "query": "what is self exclusion",
+    "expected_intent": "FAQ",
+    "expected_entity": null,
+    "expected_answer_source": "faq.json:RESPONSIBLE_GAMING",
+    "expected_action": "ANSWER_FROM_RAG",
+    "should_navigate": false,
+    "difficulty": "easy"
+  },
+  {
+    "query": "my game froze what happens",
+    "expected_intent": "FAQ",
+    "expected_entity": null,
+    "expected_answer_source": "faq.json:GAMES",
+    "expected_action": "ANSWER_FROM_RAG",
+    "should_navigate": false,
+    "difficulty": "easy"
+  },
+  {
+    "query": "is there a demo mode",
+    "expected_intent": "FAQ",
+    "expected_entity": null,
+    "expected_answer_source": "faq.json:GAMES",
+    "expected_action": "ANSWER_FROM_RAG",
+    "should_navigate": false,
+    "difficulty": "easy"
+  },
+  {
+    "query": "how do i claim a bonus",
+    "expected_intent": "FAQ",
+    "expected_entity": null,
+    "expected_answer_source": "faq.json:PROMOTIONS",
+    "expected_action": "ANSWER_FROM_RAG",
+    "should_navigate": false,
+    "difficulty": "easy"
+  },
+  {
+    "query": "minimum deposit",
+    "expected_intent": "FAQ",
+    "expected_entity": null,
+    "expected_answer_source": "faq.json:DEPOSIT",
+    "expected_action": "ANSWER_FROM_RAG",
+    "should_navigate": false,
+    "difficulty": "easy"
+  },
+  {
+    "query": "withdrawal rejected why",
+    "expected_intent": "FAQ",
+    "expected_entity": null,
+    "expected_answer_source": "faq.json:WITHDRAWAL",
+    "expected_action": "ANSWER_FROM_RAG",
+    "should_navigate": false,
+    "difficulty": "easy"
+  },
+  {
+    "query": "how do i verify my account",
+    "expected_intent": "FAQ",
+    "expected_entity": null,
+    "expected_answer_source": "faq.json:KYC",
+    "expected_action": "ANSWER_FROM_RAG",
+    "should_navigate": false,
+    "difficulty": "easy"
+  },
+  {
+    "query": "app keeps crashing",
+    "expected_intent": "FAQ",
+    "expected_entity": null,
+    "expected_answer_source": "faq.json:TECHNICAL",
+    "expected_action": "ANSWER_FROM_RAG",
+    "should_navigate": false,
+    "difficulty": "easy"
+  },
+  {
+    "query": "how do i make a complaint",
+    "expected_intent": "FAQ",
+    "expected_entity": null,
+    "expected_answer_source": "faq.json:SUPPORT",
+    "expected_action": "ANSWER_FROM_RAG",
+    "should_navigate": false,
+    "difficulty": "easy"
+  },
+  {
+    "query": "how does aviator work",
+    "expected_intent": "GAME_INFO",
+    "expected_entity": "game_aviator",
+    "expected_answer_source": "game_knowledge.json",
+    "expected_action": "ANSWER_FROM_RAG",
+    "should_navigate": false,
+    "difficulty": "medium"
+  },
+  {
+    "query": "explain crash games",
+    "expected_intent": "GAME_INFO",
+    "expected_entity": "category_crash_games",
+    "expected_answer_source": "game_knowledge.json",
+    "expected_action": "ANSWER_FROM_RAG",
+    "should_navigate": false,
+    "difficulty": "medium"
+  },
+  {
+    "query": "what is cash out in aviator",
+    "expected_intent": "GAME_INFO",
+    "expected_entity": "game_aviator",
+    "expected_answer_source": "game_knowledge.json",
+    "expected_action": "ANSWER_FROM_RAG",
+    "should_navigate": false,
+    "difficulty": "medium"
+  },
+  {
+    "query": "blackjack rules",
+    "expected_intent": "GAME_INFO",
+    "expected_entity": "game_blackjack",
+    "expected_answer_source": "game_knowledge.json",
+    "expected_action": "ANSWER_FROM_RAG",
+    "should_navigate": false,
+    "difficulty": "medium"
+  },
+  {
+    "query": "what is a natural in baccarat",
+    "expected_intent": "GAME_INFO",
+    "expected_entity": "game_baccarat",
+    "expected_answer_source": "game_knowledge.json",
+    "expected_action": "ANSWER_FROM_RAG",
+    "should_navigate": false,
+    "difficulty": "medium"
+  },
+  {
+    "query": "difference between inside and outside bets",
+    "expected_intent": "GAME_INFO",
+    "expected_entity": "game_roulette",
+    "expected_answer_source": "game_knowledge.json",
+    "expected_action": "ANSWER_FROM_RAG",
+    "should_navigate": false,
+    "difficulty": "medium"
+  },
+  {
+    "query": "what does rtp mean",
+    "expected_intent": "GAME_INFO",
+    "expected_entity": "category_slots",
+    "expected_answer_source": "game_knowledge.json",
+    "expected_action": "ANSWER_FROM_RAG",
+    "should_navigate": false,
+    "difficulty": "medium"
+  },
+  {
+    "query": "what is volatility",
+    "expected_intent": "GAME_INFO",
+    "expected_entity": "category_slots",
+    "expected_answer_source": "game_knowledge.json",
+    "expected_action": "ANSWER_FROM_RAG",
+    "should_navigate": false,
+    "difficulty": "medium"
+  },
+  {
+    "query": "poker hand rankings where",
+    "expected_intent": "GAME_INFO",
+    "expected_entity": "game_poker",
+    "expected_answer_source": "game_knowledge.json",
+    "expected_action": "ANSWER_FROM_RAG",
+    "should_navigate": false,
+    "difficulty": "medium"
+  },
+  {
+    "query": "what is a payline",
+    "expected_intent": "GAME_INFO",
+    "expected_entity": "category_slots",
+    "expected_answer_source": "game_knowledge.json",
+    "expected_action": "ANSWER_FROM_RAG",
+    "should_navigate": false,
+    "difficulty": "medium"
+  },
+  {
+    "query": "aviator kaise khelte hain",
+    "expected_intent": "GAME_INFO",
+    "expected_entity": "game_aviator",
+    "expected_answer_source": "game_knowledge.json",
+    "expected_action": "ANSWER_FROM_RAG",
+    "should_navigate": false,
+    "difficulty": "medium"
+  },
+  {
+    "query": "how do slots decide results",
+    "expected_intent": "GAME_INFO",
+    "expected_entity": "category_slots",
+    "expected_answer_source": "game_knowledge.json",
+    "expected_action": "ANSWER_FROM_RAG",
+    "should_navigate": false,
+    "difficulty": "medium"
+  },
+  {
+    "query": "i sent money but it never showed up",
+    "expected_intent": "FAQ",
+    "expected_entity": null,
+    "expected_answer_source": "faq.json:DEPOSIT",
+    "expected_action": "ANSWER_FROM_RAG",
+    "should_navigate": false,
+    "difficulty": "hard",
+    "note": "paraphrase, no keyword overlap"
+  },
+  {
+    "query": "they are asking me for my passport why",
+    "expected_intent": "FAQ",
+    "expected_entity": null,
+    "expected_answer_source": "faq.json:KYC",
+    "expected_action": "ANSWER_FROM_RAG",
+    "should_navigate": false,
+    "difficulty": "hard",
+    "note": "paraphrase, no keyword overlap"
+  },
+  {
+    "query": "my cash is stuck and i cant get it out",
+    "expected_intent": "FAQ",
+    "expected_entity": null,
+    "expected_answer_source": "faq.json:WITHDRAWAL",
+    "expected_action": "ANSWER_FROM_RAG",
+    "should_navigate": false,
+    "difficulty": "hard",
+    "note": "paraphrase, no keyword overlap"
+  },
+  {
+    "query": "the site ate my bet",
+    "expected_intent": "FAQ",
+    "expected_entity": null,
+    "expected_answer_source": "faq.json:BETTING",
+    "expected_action": "ANSWER_FROM_RAG",
+    "should_navigate": false,
+    "difficulty": "hard",
+    "note": "paraphrase, no keyword overlap"
+  },
+  {
+    "query": "i cant get into my account",
+    "expected_intent": "FAQ",
+    "expected_entity": null,
+    "expected_answer_source": "faq.json:ACCOUNT",
+    "expected_action": "ANSWER_FROM_RAG",
+    "should_navigate": false,
+    "difficulty": "hard",
+    "note": "paraphrase, no keyword overlap"
+  },
+  {
+    "query": "what happens to my bet if the match is called off",
+    "expected_intent": "FAQ",
+    "expected_entity": null,
+    "expected_answer_source": "faq.json:BETTING",
+    "expected_action": "ANSWER_FROM_RAG",
+    "should_navigate": false,
+    "difficulty": "hard",
+    "note": "paraphrase, no keyword overlap"
+  },
+  {
+    "query": "the plane crashed before i pressed the button",
+    "expected_intent": "FAQ",
+    "expected_entity": null,
+    "expected_answer_source": "game_knowledge.json",
+    "expected_action": "ANSWER_FROM_RAG",
+    "should_navigate": false,
+    "difficulty": "hard",
+    "note": "paraphrase, no keyword overlap"
+  },
+  {
+    "query": "do i need to finish the bonus before taking money out",
+    "expected_intent": "FAQ",
+    "expected_entity": null,
+    "expected_answer_source": "faq.json:PROMOTIONS",
+    "expected_action": "ANSWER_FROM_RAG",
+    "should_navigate": false,
+    "difficulty": "hard",
+    "note": "paraphrase, no keyword overlap"
+  },
+  {
+    "query": "is there a way to stop myself playing",
+    "expected_intent": "FAQ",
+    "expected_entity": null,
+    "expected_answer_source": "faq.json:RESPONSIBLE_GAMING",
+    "expected_action": "ANSWER_FROM_RAG",
+    "should_navigate": false,
+    "difficulty": "hard",
+    "note": "paraphrase, no keyword overlap"
+  },
+  {
+    "query": "i want to know how much i lost this month",
+    "expected_intent": "FAQ",
+    "expected_entity": null,
+    "expected_answer_source": "api:account",
+    "expected_action": "ANSWER_FROM_RAG",
+    "should_navigate": false,
+    "difficulty": "hard",
+    "note": "paraphrase, no keyword overlap"
+  },
+  {
+    "query": "what is my balance",
+    "expected_intent": "ACCOUNT",
+    "expected_entity": null,
+    "expected_answer_source": "api:account_service",
+    "expected_action": "CALL_ACCOUNT_API",
+    "should_navigate": false,
+    "difficulty": "hard",
+    "note": "must never be answered from RAG"
+  },
+  {
+    "query": "how much did i win yesterday",
+    "expected_intent": "ACCOUNT",
+    "expected_entity": null,
+    "expected_answer_source": "api:account_service",
+    "expected_action": "CALL_ACCOUNT_API",
+    "should_navigate": false,
+    "difficulty": "hard",
+    "note": "must never be answered from RAG"
+  },
+  {
+    "query": "show me my last deposit amount",
+    "expected_intent": "ACCOUNT",
+    "expected_entity": null,
+    "expected_answer_source": "api:account_service",
+    "expected_action": "CALL_ACCOUNT_API",
+    "should_navigate": false,
+    "difficulty": "hard",
+    "note": "must never be answered from RAG"
+  },
+  {
+    "query": "is my kyc approved",
+    "expected_intent": "ACCOUNT",
+    "expected_entity": null,
+    "expected_answer_source": "api:account_service",
+    "expected_action": "CALL_ACCOUNT_API",
+    "should_navigate": false,
+    "difficulty": "hard",
+    "note": "must never be answered from RAG"
+  },
+  {
+    "query": "did my withdrawal go through",
+    "expected_intent": "ACCOUNT",
+    "expected_entity": null,
+    "expected_answer_source": "api:account_service",
+    "expected_action": "CALL_ACCOUNT_API",
+    "should_navigate": false,
+    "difficulty": "hard",
+    "note": "must never be answered from RAG"
+  },
+  {
+    "query": "how many bets do i have open",
+    "expected_intent": "ACCOUNT",
+    "expected_entity": null,
+    "expected_answer_source": "api:account_service",
+    "expected_action": "CALL_ACCOUNT_API",
+    "should_navigate": false,
+    "difficulty": "hard",
+    "note": "must never be answered from RAG"
+  }
+]
