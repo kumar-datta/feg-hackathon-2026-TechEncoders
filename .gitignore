@@ -1,0 +1,45 @@
+# Secrets - never commit
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+secrets/
+credentials*.json
+
+# Data - never commit real customer or player data
+data/raw/
+*.csv
+*.xlsx
+*.xls
+
+# Node
+node_modules/
+dist/
+build/
+.next/
+npm-debug.log*
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+ios/Pods/
+android/.gradle/
+android/local.properties
+
+# IDE and OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
